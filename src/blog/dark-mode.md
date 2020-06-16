@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post.njk
 title:  Supporting dark mode on the web
 date:   2019-11-17
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post.njk
 title: "Friendly UIs: Let users copy with a click"
 date: 2019-07-28
 ---

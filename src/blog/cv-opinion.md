@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post.njk
 title:  Iʼve reviewed lots of CVs recently. Hereʼs how to improve yours
 date:   2019-08-12
 ---
