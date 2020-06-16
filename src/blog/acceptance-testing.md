@@ -32,12 +32,12 @@ features/
 ```
 
 First of all, let’s be secure and not push secrets to GitHub, even if it’s a private repo. Let’s keep them local or on the CI. For this, we have a `.secrets` file that will hold our secrets. (Replace with your own – btw these creds are fake.)
-```sh
+```shell
 export TEST_USER=kitten@cats-net.com
 export TEST_PW=CorrectHorseBatteryStaple
 ```
 Let’s put this file in our `.gitignore`, to avoid pushing it accidentally.
-```sh
+```shell
 # .gitignore
 
 .secrets

@@ -36,7 +36,7 @@ That’s my kind of workflow! ⚡️
 
 #### This is what happens in a bit more detail:
 
-```sh
+```shell
 $ gh pr list
 
 Pull requests for some-org/some-repo
@@ -49,7 +49,7 @@ Pull requests for some-org/some-repo
 
 Now comes the best part: `checkout` switches to the PR’s branch based on PR number.
 
-```sh
+```shell
 $ gh pr checkout 123
 
 Switched to branch feat/cool-feature
@@ -57,14 +57,14 @@ Your branch is up-to-date with origin/feat/cool-feature.
 ```
 
 I can also open the PR on github.com right from the terminal (it opens the browser automatically):
-```sh
+```shell
 $ gh pr view 123
 
 Opening https://github.com/some-org/some-repo/pull/123 in your browser.
 ```
 
 ## Opening pull requests: `gh pr create`
-```sh
+```shell
 $ gh pr create
 
 Creating pull request for feat/cool-feature into master in some-org/some-repo
@@ -73,7 +73,7 @@ Creating pull request for feat/cool-feature into master in some-org/some-repo
 
 After filling title and body (the latter using your system editor[^2]), it will give you the option to preview, submit or cancle the pull request. Depending on the task, I usually preview and request reviews, but sometimes just submit.
 
-```sh
+```shell
 $ gh pr create
 
 Creating pull request for feat/cool-feature into master in some-org/some-repo
@@ -91,7 +91,7 @@ You can also open a [draft pull request](https://github.blog/2019-02-14-introduc
 
 You can check the overall PR status of a branch with `gh pr status`. This is not an overview though; it is branch-specific. So for the following output, you have to be on the same branch as the PR:
 
-```sh
+```shell
 $ gh pr status
 
 Current branch

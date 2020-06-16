@@ -16,7 +16,7 @@ We should also test the package locally while developing and before publishing i
 
 To link the package:
 
-```sh
+```shell
 cd path/to/package-name
 yarn link
 cd path/to/test-project
@@ -29,7 +29,7 @@ Thatʼs it, now we can develop away.
 
 For the sake of performance and compatibility, we should minify and compile our code to be ES5-compatible. The easiest way to do it is using [Babel](https://babeljs.io/).
 
-```sh
+```shell
 yarn add --dev @babel/cli @babel/core @babel/preset-env babel-preset-minify
 ```
 
@@ -43,7 +43,7 @@ Letʼs not forget to point our package entry to this `dist` folder (it can be ca
 
 First, we have to register on npm. At least I have to, because this is my first package published there. This is conveniently done from the command line with `npm adduser`, which asks for a username, password and public email. Then a simple email verification, and the magic command:
 
-```sh
+```shell
 npm publish
 ```
 

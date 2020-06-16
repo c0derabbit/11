@@ -13,7 +13,7 @@ With that out of the way, let’s jump right in.
 
 ## CRA 2.0+ (most probably this is what you’ll need)
 
-```sh
+```shell
 yarn add antd
 yarn add @craco/craco craco-antd babel-plugin-import less less-loader
 ```
@@ -58,7 +58,7 @@ Craco will pick up a theme from `antd.customize.less`.[^1]
 
 ### Live style reload
 Themes will not reload real-time by default. However, this is easy to solve with **nodemon**.
-```sh
+```shell
 yarn add -D nodemon
 ```
 
@@ -70,7 +70,7 @@ Update `package.json`:
 
 ## CRA Pre-2.0 (if your project is older)
 
-```sh
+```shell
 yarn add antd
 yarn add babel-plugin-import customize-cra less less-loader react-app-rewired
 ```

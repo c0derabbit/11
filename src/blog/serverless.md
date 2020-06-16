@@ -11,19 +11,19 @@ I’m back to building a weather app, this time not in Flask, but React. I wante
 Constantly running a server just to proxy a single API call would be an overkill — [Serverless](https://serverless.com/) on [AWS Lambda](https://aws.amazon.com/lambda/) is just the perfect way to solve this[^2]. Of course, serverless is only as serverless as the cloud is not physical. It still runs on a server, but it’s someone else’s (in this case, AWS).
 
 First, we’ll have to install serverless:
-```sh
+```shell
 yarn global add serverless
 ```
 
 Then create our service:
-```sh
+```shell
 sls create --template aws-nodejs --path weather-service
 cd weather-service
 ```
 
 By the way, `sls` is a shorthand for `serverless`. Wherever you see `serverless` in the docs, you can use `sls` instead.
 The [quick start guide](https://serverless.com/framework/docs/providers/aws/guide/quick-start/) suggests to deploy now, but we can skip this until we are ready, and test our proxy locally. Let’s see what we have so far:
-```sh
+```shell
 sls invoke local -f hello
 ```
 
