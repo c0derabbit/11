@@ -1,4 +1,10 @@
 module.exports = function(config) {
+  config.addPassthroughCopy({ public: './' })
+
+  config.setBrowserSyncConfig({
+    files: ['dist/**/*'],
+  })
+
   config.addCollection('postsHu', collectionApi =>
     collectionApi.getFilteredByGlob('src/blog/hu/*.md')
   )
@@ -7,7 +13,7 @@ module.exports = function(config) {
   )
 
   return {
-    templateFormats: ['md', 'css', 'jpg', 'png'],
+    templateFormats: ['md', 'jpg', 'png', 'gif'],
     dir: {
       input: 'src',
       output: 'dist',
