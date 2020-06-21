@@ -1,0 +1,37 @@
+:root {
+  @apply text-black tracking-wide;
+  font-size: calc(17px + (20 - 17) * ((100vw - 600px) / (1600 - 600)));
+}
+
+h1 {
+  @apply text-3xl font-bold leading-tight;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply my-5;
+}
+
+p {
+  @apply my-4;
+}
+
+article img {
+  @apply my-6;
+
+  @screen md {
+    @apply my-8;
+  }
+
+  @screen lg {
+    @apply my-12;
+  }
+
+  @screen xl {
+    @apply my-16;
+  }
+}

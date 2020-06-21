@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="/main.bundle.css" />
   </head>
   <body>
-    {% block body %}
-      {{ content | safe }}
-    {% endblock %}
+    <main class="container mx-auto max-w-3xl">
+      {% block main %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
   </body>
 </html>

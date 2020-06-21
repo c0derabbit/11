@@ -1,11 +1,13 @@
 {% extends './layout.njk' %}
 
-{% block body %}
+{% block main %}
   <a href="/{{lang}}">
     {% block back %}
       Back
     {% endblock %}
   </a>
-  <h1>{{ title }}</h1>
-  {{ content | safe }}
+  <article>
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+  </article>
 {% endblock %}
