@@ -1,4 +1,4 @@
 {
-  "layout": "post_hu.njk",
+  "layout": "post.11ty.js",
   "permalink": "/hu/{{page.fileSlug}}/index.html"
 }
