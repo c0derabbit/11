@@ -1,0 +1,4 @@
+{
+  "layout": "post_en.njk",
+  "permalink": "/en/{{page.fileSlug}}/index.html"
+}
