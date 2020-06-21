@@ -13,7 +13,7 @@ Despite the not so great weather, we went hiking in the Epping Forest last Sunda
 We were cold, we were jumping over streams, we got lost in a camping, and we were stomping in mud. We are looking forward to going back there!
 
 This building is a pub in Theydon Bois: 
-[[wide]]
+
 ![The Bull, Theydon Bois](../../img/the_bull_theydon_bois.jpg)
 
 And we went through these cute gates:  
