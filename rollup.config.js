@@ -5,7 +5,7 @@ import svg from 'rollup-plugin-svg'
 import replace from '@rollup/plugin-replace'
 import { terser } from 'rollup-plugin-terser'
 
-const dev = process.env.NODE_ENV !== 'production'
+const dev = process.env.NODE_ENV === 'dev'
 
 export default {
   input: 'src/main.js',
