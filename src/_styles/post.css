@@ -1,0 +1,15 @@
+article img {
+  @apply my-6;
+
+  @screen md {
+    @apply my-10;
+  }
+
+  @screen lg {
+    @apply my-12;
+  }
+
+  @screen xl {
+    @apply my-16;
+  }
+}

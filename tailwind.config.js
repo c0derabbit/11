@@ -1,4 +1,4 @@
-const { fontFamily } = require('tailwindcss/defaultTheme')
+const { colors, fontFamily, screens } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: [
@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
+      ...colors,
       black: '#333',
     },
     container: {
@@ -29,7 +30,11 @@ module.exports = {
     lineHeight: {
       tight: 1.15,
     },
+    maxWidth: {
+      '2xl': '44rem',
+    },
     screens: {
+      ...screens,
       xl: {
         min: '1440px',
       },

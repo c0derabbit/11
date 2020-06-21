@@ -1,6 +1,8 @@
 /* purgecss start ignore */
 @import 'tailwindcss/base';
 @import './_styles/base.css';
+@import './_styles/feed.css';
+@import './_styles/post.css';
 /* purgecss end ignore */
 
 /* Components */

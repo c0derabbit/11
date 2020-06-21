@@ -19,19 +19,3 @@ h6 {
 p {
   @apply my-4;
 }
-
-article img {
-  @apply my-6;
-
-  @screen md {
-    @apply my-8;
-  }
-
-  @screen lg {
-    @apply my-12;
-  }
-
-  @screen xl {
-    @apply my-16;
-  }
-}
