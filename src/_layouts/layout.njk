@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/main.bundle.css" />
   </head>
   <body>
-    {{ content | safe }}
+    {% block body %}
+      {{ content | safe }}
+    {% endblock %}
   </body>
 </html>

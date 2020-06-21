@@ -1,10 +1,9 @@
 ---
-layout: layout.njk
 lang: hu
 ---
 
-<a href="/hu">Vissza</a>
+{% extends './post.njk' %}
 
-<h1>{{ title }}</h1>
-
-{{ content | safe }}
+{% block back %}
+  Vissza
+{% endblock %}

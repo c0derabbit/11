@@ -1,20 +1,11 @@
----
-lang: en
----
+{% extends './layout.njk' %}
 
-<!doctype html>
-<html lang="{{ lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/assets/prism.css">
-    <link rel="stylesheet" href="/assets/main.css">
-  </head>
-  <body>
-    <a href="/{{ lang }}">Back</a>
-
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
-  </body>
-</html>
+{% block body %}
+  <a href="/{{lang}}">
+    {% block back %}
+      Back
+    {% endblock %}
+  </a>
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+{% endblock %}
