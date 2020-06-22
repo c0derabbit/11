@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: base.11ty.js
 ---
 
 # hello world
