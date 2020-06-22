@@ -18,13 +18,23 @@ exports.data = {
 }
 
 exports.render = ({ lang, collections }) => {
-  const t = str => i18n(lang)[str];
-  const { postsHu, postsEn } = collections;
-  const posts = lang === 'hu' ? postsHu : postsEn;
+  const t = str => i18n(lang)[str]
+  const { postsHu, postsEn } = collections
+  const posts = lang === 'hu' ? postsHu : postsEn
+  const postsReversed = [...posts].reverse()
 
   return `
-    <div>
-      ${posts.map(({ data }) => data.title)}
-    </div>
+    <ul>
+      ${postsReversed.map(({ data: { title, page: { date, url }, content }}) => `
+        <li class="mb-8">
+          <a href="${url}">
+            <time class="italic text-sm text-gray-600">
+              ${dayjs(date).format(t('dateFormat'))}
+            </time>
+            <h2 class="my-1 text-xl font-bold">${title}</h2>
+          </a>
+        </li>
+      `).join('')}
+    </ul>
   `
 }

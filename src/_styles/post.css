@@ -3,6 +3,14 @@ article {
     @apply text-green-700 underline;
   }
 
+  ul {
+    @apply list-disc pl-4;
+  }
+
+  li {
+    @apply my-2;
+  }
+
   img {
     @apply my-6;
 

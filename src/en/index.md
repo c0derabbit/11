@@ -1,10 +1,4 @@
 ---
-layout: base.11ty.js
+layout: feed.11ty.js
+lang: en
 ---
-
-# hello world
-
-{%- assign posts = collections.postsEn | reverse -%}
-{% for post in posts %}
-- [{{ post.data.title }}]({{ post.url }})
-{% endfor %}
