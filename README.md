@@ -1,3 +1,3 @@
-hi, i’m just playing around with 11ty.
+11ty-based blog with js templates, tailwindcss & rollup
 
 `yarn` to install dependencies, `yarn start` to run locally
