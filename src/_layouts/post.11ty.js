@@ -3,9 +3,11 @@ const dayjs = require('dayjs')
 const locales = {
   hu: {
     back: 'Vissza',
+    dateFormat: 'YYYY.MM.DD',
   },
   en: {
     back: 'Back',
+    dateFormat: 'MMMM D, YYYY',
   },
 }
 
@@ -20,8 +22,10 @@ exports.render = ({ title, page, content, lang }) => {
 
   return `
     <a href="/${lang}">${t('back')}</a>
-    <h1>${title}</h1>
-    <time>${dayjs(page.date).format()}</time>
-    ${content}
+    <article>
+      <h1>${title}</h1>
+      <time>${dayjs(page.date).format(t('dateFormat'))}</time>
+      ${content}
+    </article>
   `
 }

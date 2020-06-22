@@ -1,5 +1,5 @@
 :root {
-  @apply text-black tracking-wide;
+  @apply antialiased text-black tracking-wide;
   font-size: calc(17px + (20 - 17) * ((100vw - 600px) / (1600 - 600)));
 }
 
