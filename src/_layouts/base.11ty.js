@@ -7,6 +7,7 @@ module.exports = function ({
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar']
     : ['/en', 'English']
+  const description = `A pair of coders going places. Think Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.`
 
   return `
     <!doctype html>
@@ -14,6 +15,7 @@ module.exports = function ({
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta description="${description}">
         <title>${title}</title>
         <link rel="stylesheet" href="/main.bundle.css" />
         ${canonicalUrl
