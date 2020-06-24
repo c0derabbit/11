@@ -57,7 +57,7 @@ exports.render = ({ lang, collections }) => {
       ${postsReversed.map(({ data: { title, page: { date, url }, content, description }}) => `
         <li class="mb-8">
           <a href="${url}">
-            <time class="italic text-sm text-gray-600">
+            <time class="italic text-sm text-gray-700">
               ${dayjs(date).format(t('dateFormat'))}
             </time>
             <h2 class="my-1 text-xl font-bold">${title}</h2>
