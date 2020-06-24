@@ -33,6 +33,12 @@ module.exports = function ({
         <main class="container mx-auto my-6 max-w-2xl">
           ${content}
         </main>
+        <script type="text/javascript">
+          (function() {
+            if (typeof localStorage !== 'undefined' && typeof window !== 'undefined')
+              localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2))
+          })()
+        </script>
       </body>
     </html>
   `

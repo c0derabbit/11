@@ -43,6 +43,16 @@ exports.render = ({ lang, collections }) => {
   const postsReversed = [...posts].reverse()
 
   return `
+    <script type="text/javascript">
+      (function() {
+        if (typeof window !== 'undefined' && window.location.pathname === '/') {
+          var lang = localStorage.getItem('nf-lang')
+          if (!lang || lang !== 'hu') lang = 'en'
+
+          window.location.replace('/' + lang + '/')
+        }
+      })()
+    </script>
     <ul class="feed">
       ${postsReversed.map(({ data: { title, page: { date, url }, content, description }}) => `
         <li class="mb-8">
