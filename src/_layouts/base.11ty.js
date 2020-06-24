@@ -1,4 +1,9 @@
-module.exports = ({ lang = 'en', title = 'Hello, world!', content }) => {
+module.exports = function ({
+  lang = 'en',
+  title = 'Hello, world!',
+  content,
+  canonicalUrl,
+}) {
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar']
     : ['/en', 'English']
@@ -11,6 +16,10 @@ module.exports = ({ lang = 'en', title = 'Hello, world!', content }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>${title}</title>
         <link rel="stylesheet" href="/main.bundle.css" />
+        ${canonicalUrl
+          ? `<link rel="canonical" href="${this.baseUrl()}${canonicalUrl}" />`
+          : ''
+        }
       </head>
       <body>
         <header>

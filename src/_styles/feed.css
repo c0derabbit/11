@@ -1,0 +1,7 @@
+.feed {
+  li {
+    p {
+      @apply my-2;
+    }
+  }
+}

@@ -12,6 +12,8 @@ module.exports = function(config) {
     collectionApi.getFilteredByGlob('src/blog/en/*.md')
   )
 
+  config.addShortcode('baseUrl', () => 'https://nagyfalat.com')
+
   return {
     templateFormats: ['md', 'jpg', 'png', 'gif'],
     dir: {

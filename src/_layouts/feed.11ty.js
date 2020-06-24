@@ -16,15 +16,20 @@ const i18n = lang => locales[lang] || locales['en']
 const excerpt = content => {
   const images = /<img[^>]+>/g
   const videos = /<video[^>]+>[^<]+<\/video>/g
-  const first20words = content
+  const formatting = /<\/?(strong|em)>/g
+  const firstParagraphEnd = /<\/p>/
+
+  const firstParagraph = content
+    .split(firstParagraphEnd)
+    [0]
     .replace(images, '')
     .replace(videos, '')
+    .replace(formatting, '')
     .split(' ').slice(0, 20).join(' ')
 
-  if (/[\w,]$/.test(first20words))
-    return first20words + '…'
+  const ellipsis = /[\w,]$/.test(firstParagraph) ? '…' : ''
 
-  return first20words
+  return firstParagraph + ellipsis + '</p>'
 }
 
 exports.data = {
@@ -38,7 +43,7 @@ exports.render = ({ lang, collections }) => {
   const postsReversed = [...posts].reverse()
 
   return `
-    <ul>
+    <ul class="feed">
       ${postsReversed.map(({ data: { title, page: { date, url }, content, description }}) => `
         <li class="mb-8">
           <a href="${url}">
@@ -46,7 +51,10 @@ exports.render = ({ lang, collections }) => {
               ${dayjs(date).format(t('dateFormat'))}
             </time>
             <h2 class="my-1 text-xl font-bold">${title}</h2>
-            ${description || excerpt(content)}
+            ${description
+              ? `<p>${description}</p>`
+              : excerpt(content)
+            }
           </a>
         </li>
       `).join('')}
