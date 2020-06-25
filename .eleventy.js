@@ -19,7 +19,7 @@ module.exports = function(config) {
     dir: {
       input: 'src',
       output: 'dist',
-      layouts: '_layouts',
+      layouts: 'app/layouts',
     }
   }
 }

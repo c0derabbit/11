@@ -1,43 +1,12 @@
 const dayjs = require('dayjs')
-
-const locales = {
-  hu: {
-    back: 'Vissza',
-    dateFormat: 'YYYY.MM.DD',
-  },
-  en: {
-    back: 'Back',
-    dateFormat: 'MMMM D, YYYY',
-  },
-}
-
-const i18n = lang => locales[lang] || locales['en']
-
-const excerpt = content => {
-  const images = /<img[^>]+>/g
-  const videos = /<video[^>]+>[^<]+<\/video>/g
-  const formatting = /<\/?(strong|em)>/g
-  const firstParagraphEnd = /<\/p>/
-
-  const firstParagraph = content
-    .split(firstParagraphEnd)
-    [0]
-    .replace(images, '')
-    .replace(videos, '')
-    .replace(formatting, '')
-    .split(' ').slice(0, 20).join(' ')
-
-  const ellipsis = /[\w,]$/.test(firstParagraph) ? '…' : ''
-
-  return firstParagraph + ellipsis + '</p>'
-}
+const { excerpt, i18n } = require('../helpers')
 
 exports.data = {
-  layout: 'base.11ty.js',
+  layout: 'base.11ty.js'
 }
 
 exports.render = ({ lang, collections }) => {
-  const t = str => i18n(lang)[str]
+  const t = i18n(lang)
   const { postsHu, postsEn } = collections
   const posts = lang === 'hu' ? postsHu : postsEn
   const postsReversed = [...posts].reverse()
@@ -54,7 +23,7 @@ exports.render = ({ lang, collections }) => {
       })()
     </script>
     <ul class="feed">
-      ${postsReversed.map(({ data: { title, page: { date, url }, content, description }}) => `
+      ${postsReversed.map(({ data: { title, page: { date, url }, content, description } }) => `
         <li class="mb-8">
           <a href="${url}">
             <time class="italic text-sm text-gray-700">

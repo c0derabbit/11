@@ -1,24 +1,12 @@
 const dayjs = require('dayjs')
-
-const locales = {
-  hu: {
-    back: 'Vissza',
-    dateFormat: 'YYYY.MM.DD',
-  },
-  en: {
-    back: 'Back',
-    dateFormat: 'MMMM D, YYYY',
-  },
-}
-
-const i18n = lang => locales[lang] || locales['en']
+const { i18n } = require('../helpers')
 
 exports.data = {
-  layout: 'base.11ty.js',
+  layout: 'base.11ty.js'
 }
 
 exports.render = ({ title, page, content, lang }) => {
-  const t = str => i18n(lang)[str];
+  const t = i18n(lang)
 
   return `
     <a href="/${lang}">${t('back')}</a>

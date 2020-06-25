@@ -13,24 +13,24 @@ export default {
     sourcemap: false,
     format: 'iife',
     name: 'main',
-    file: 'dist/main.bundle.js',
+    file: 'dist/main.bundle.js'
   },
   plugins: [
     replace({
-      DEV_MODE: dev,
+      DEV_MODE: dev
     }),
     svg(),
     postcss({
       extract: true,
-      minimize: !dev,
+      minimize: !dev
     }),
     resolve({
-      browser: true,
+      browser: true
     }),
     commonjs(),
-    !dev && terser(),
+    !dev && terser()
   ],
   watch: {
-    clearScreen: false,
-  },
+    clearScreen: false
+  }
 }
