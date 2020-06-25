@@ -16,6 +16,11 @@ module.exports = function ({
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="${description}">
+        <meta name="theme-color" content="#fafafa">
+        <meta property="og:image" content="/favicon.png">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" href="/favicon.png">
+        <link rel="manifest" href="/nf.webmanifest">
         <title>${title}</title>
         <link rel="stylesheet" href="/main.bundle.css" />
         ${canonicalUrl
@@ -37,6 +42,9 @@ module.exports = function ({
         </main>
         <script type="text/javascript">
           (function() {
+            if('serviceWorker' in navigator)
+              navigator.serviceWorker.register('/service-worker.js');
+
             if (typeof localStorage !== 'undefined' && typeof window !== 'undefined')
               localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2))
           })()

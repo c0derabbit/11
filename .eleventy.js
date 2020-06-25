@@ -1,3 +1,5 @@
+require('./src/app/sw')()
+
 module.exports = function(config) {
   config.addPassthroughCopy({ public: './' })
 

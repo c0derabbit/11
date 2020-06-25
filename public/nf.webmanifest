@@ -1,0 +1,21 @@
+{
+  "name": "Nagyfalat – A travel log",
+  "short_name": "Nagyfalat",
+  "description": "A pair of coders going places. Think Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "theme_color": "#fafafa",
+  "background_color": "#fafafa"
+}
