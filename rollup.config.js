@@ -4,6 +4,7 @@ import resolve from '@rollup/plugin-node-resolve'
 import svg from 'rollup-plugin-svg'
 import replace from '@rollup/plugin-replace'
 import { terser } from 'rollup-plugin-terser'
+const { generateSW } = require('rollup-plugin-workbox')
 
 const dev = process.env.NODE_ENV === 'dev'
 
@@ -27,8 +28,12 @@ export default {
     resolve({
       browser: true
     }),
+    generateSW({
+      globDirectory: 'dist/',
+      swDest: 'dist/sw.js',
+    }),
     commonjs(),
-    !dev && terser()
+    !dev && terser(),
   ],
   watch: {
     clearScreen: false

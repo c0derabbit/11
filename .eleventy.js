@@ -1,5 +1,3 @@
-const { generateSW } = require('workbox-build')
-
 module.exports = function(config) {
   config.addPassthroughCopy({ public: './' })
 
