@@ -37,5 +37,10 @@
   "dependencies": {
     "dayjs": "^1.8.28",
     "tailwindcss": "^1.4.6"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
   }
 }
