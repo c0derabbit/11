@@ -1,6 +1,6 @@
 module.exports = content => {
   const images = /<img[^>]+>/g
-  const videos = /<video[^>]+>[^<]+<\/video>/g
+  const videos = /<video[^>]+>([^<]+)?<\/video>/g
   const formatting = /<\/?(strong|em)>/g
   const firstParagraphEnd = /<\/p>/
 
