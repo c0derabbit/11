@@ -42,8 +42,10 @@ module.exports = function ({
         </main>
         <script type="text/javascript">
           (function() {
+          /*
             if('serviceWorker' in navigator)
               navigator.serviceWorker.register('/sw.js');
+              */
 
             if (typeof localStorage !== 'undefined' && typeof window !== 'undefined')
               localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2))
