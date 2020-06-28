@@ -1,10 +1,14 @@
 const dict = {
   hu: {
     back: 'Vissza',
+    next: 'Következő',
+    previous: 'Előző',
     dateFormat: 'YYYY.MM.DD'
   },
   en: {
     back: 'Back',
+    next: 'Next',
+    previous: 'Previous',
     dateFormat: 'MMMM D, YYYY'
   }
 }
