@@ -5,9 +5,9 @@ exports.data = {
   layout: 'base.11ty.js',
 }
 
-exports.render = ({ lang, pagination = { items: [] } }) => {
+exports.render = ({ lang, pagination }) => {
   const t = i18n(lang)
-  const { items, pageLinks, previousPageHref, nextPageHref } = pagination;
+  const { items = [], hrefs = [], previousPageHref, nextPageHref, pageNumber } = pagination || {};
 
   return `
     <script type="text/javascript">
@@ -36,7 +36,14 @@ exports.render = ({ lang, pagination = { items: [] } }) => {
         </li>
       `).join('')}
     </ul>
-    <a href="${previousPageHref}">${t('previous')}</a>
-    <a href="${nextPageHref}">${t('next')}</a>
+    <div class="text-center">
+      ${previousPageHref ? `<a href="${previousPageHref}" class="mr-3">${t('previous')}</a>` : ''}
+      ${hrefs.map((link, idx) => `
+        <a href="${link}" class="mx-2${pageNumber === idx ? ' font-bold' : ''}">
+          ${idx + 1}
+        </a>
+      `).join('')}
+      ${nextPageHref ? `<a href="${nextPageHref}" class="ml-3">${t('next')}</a>` : ''}
+    </div>
   `
 }
