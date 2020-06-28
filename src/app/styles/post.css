@@ -12,6 +12,7 @@ article {
   }
 
   img {
+    min-height: 200px;
     @apply my-6;
 
     @screen md {
