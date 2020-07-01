@@ -8,7 +8,12 @@ exports.data = {
 exports.render = ({ title, page, content, lang }) => {
   const t = i18n(lang)
 
-  const lazy = content => content.replace(/<img src/g, '<img data-src')
+  const lazy = content => {
+    const [first, ...rest] = content.split('<img')
+    const replaced = rest && rest.join('<img').replace(/<img src/g, '<img data-src')
+
+    return [first, '<img', replaced].join('')
+  }
 
   return `
     <a href="/${lang}">${t('back')}</a>
@@ -23,20 +28,20 @@ exports.render = ({ title, page, content, lang }) => {
 
         if ('IntersectionObserver' in window) {
           var observer = new IntersectionObserver(lazyload, {})
-          for (var i = 0; i < images.length; i++) {
+          for (var i = 1; i < images.length; i++) {
             var image = images[i]
             image.setAttribute('style', 'opacity: 0; transition: opacity .5s ease')
             observer.observe(image)
           }
         } else {
-          for (var i = 0; i < images.length; i++) {
+          for (var i = 1; i < images.length; i++) {
             var image = images[i]
             image.setAttribute('src', image.dataset.src)
           }
         }
 
         function lazyload(entries, observer) {
-          for (var i = 0; i < entries.length; i++) {
+          for (var i = 1; i < entries.length; i++) {
             var entry = entries[i]
             if (entry.isIntersecting) {
               var target = entry.target
