@@ -8,12 +8,7 @@ exports.data = {
 exports.render = ({ title, page, content, lang }) => {
   const t = i18n(lang)
 
-  const lazy = content => {
-    const [first, ...rest] = content.split('<img')
-    const replaced = rest && rest.join('<img').replace(/<img src/g, '<img data-src')
-
-    return [first, '<img', replaced].join('')
-  }
+  const lazy = content => content.replace(/(?<=<img[\s\S]+)(<img src)/g, '<img data-src')
 
   return `
     <a href="/${lang}">${t('back')}</a>
