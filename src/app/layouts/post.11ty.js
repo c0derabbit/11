@@ -36,7 +36,7 @@ exports.render = ({ title, page, content, lang }) => {
         }
 
         function lazyload(entries, observer) {
-          for (var i = 1; i < entries.length; i++) {
+          for (var i = 0; i < entries.length; i++) {
             var entry = entries[i]
             if (entry.isIntersecting) {
               var target = entry.target
