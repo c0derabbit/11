@@ -12,7 +12,7 @@ article {
   }
 
   img {
-    min-height: 200px;
+    min-height: clamp(20vh, 200px, 400px);
     @apply my-6;
 
     @screen md {
