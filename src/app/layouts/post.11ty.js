@@ -23,9 +23,11 @@ exports.render = ({ title, page, content, lang }) => {
 
         if ('IntersectionObserver' in window) {
           var observer = new IntersectionObserver(lazyload, {})
+          images[0].classList.add('fade-in')
           for (var i = 1; i < images.length; i++) {
             var image = images[i]
-            image.setAttribute('style', 'opacity: 0; transition: opacity .5s ease')
+            image.style.opacity = 0
+            image.style.animation = 'none'
             observer.observe(image)
           }
         } else {
