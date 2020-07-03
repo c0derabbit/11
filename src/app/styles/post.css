@@ -12,9 +12,8 @@ article {
   }
 
   img {
-    min-height: clamp(20vh, 350px, 468px);
+    opacity: 0;
     transition: opacity .5s ease;
-    animation: fade-in .5s ease .5s;
     @apply my-6;
 
     @screen md {
@@ -29,9 +28,4 @@ article {
       @apply my-16;
     }
   }
-}
-
-@keyframes fade-in {
-  from { opacity: 0 }
-  to { opacity: 1 }
 }
