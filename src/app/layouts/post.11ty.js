@@ -25,7 +25,7 @@ exports.render = ({ title, page, content, lang }) => {
         var images = Array.from(document.querySelectorAll('img'))
 
         if ('IntersectionObserver' in window) {
-          var observer = new IntersectionObserver(lazyload, {})
+          var observer = new IntersectionObserver(lazyload, { rootMargin: '100px'})
           images[0].style.opacity = 1
           for (var i = 1; i < images.length; i++) {
             observer.observe(images[i])
@@ -50,6 +50,7 @@ exports.render = ({ title, page, content, lang }) => {
               loader.onload = function() {
                 target.setAttribute('src', src)
                 target.style.opacity = 1
+                observer.unobserve(target)
               }
               loader.src = src
             }
