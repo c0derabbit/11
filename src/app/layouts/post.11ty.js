@@ -9,8 +9,15 @@ exports.render = ({ title, page, content, lang }) => {
   const t = i18n(lang)
 
   const lazy = content => content.replace(
-    /(?<=<img[\s\S]+)(<img src)/g,
-    `<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src`
+    /(?<=<img[\s\S]+)(<img src=)(\S+)/g,
+    (_, __, url) =>
+      `<noscript>
+         <img src="${url}" alt="My cat" />
+       </noscript>
+       <img
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
+        data-src=${url} `
+    }
   )
 
   return `
