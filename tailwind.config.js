@@ -10,7 +10,7 @@ module.exports = {
     extend: {},
     colors: {
       ...colors,
-      black: '#333'
+      black: '#111'
     },
     container: {
       padding: {

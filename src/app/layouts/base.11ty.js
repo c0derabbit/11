@@ -37,7 +37,7 @@ module.exports = function ({
             ${langSwitchLabel}
           </a>
         </header>
-        <main class="container mx-auto my-6 max-w-2xl">
+        <main class="container mx-auto my-6 pb-6 max-w-2xl">
           ${content}
         </main>
         <script type="text/javascript">
