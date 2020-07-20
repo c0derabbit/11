@@ -8,7 +8,7 @@ cover: atami.jpg
 
 A tenger mellett fekvő Atamiban el lettünk kényeztetve. Onsen-ben háromszor is fürödtünk, előtte rituális, kötelező alapos tisztálkodásban vettünk részt. A fürdők naturisták és nem koedukáltak, vizük melegebb, mint az otthoniaké — nagyon jó buli.
 
-![](../../img/0418-1.jpg)
+![](../../img/0418-1.jpg){.p-10 .bg-blue-100}
 ![](../../img/0418-2.jpg)
 
 Mint [Konrád és Ringelhuth bácsi csütörtökönként](http://www.mek.iif.hu/porta/szint/human/szepirod/kulfoldi/kastner/majus35/majus35.htm), mindenféle zagyvaságot ettünk össze. Például:
@@ -18,5 +18,7 @@ Mint [Konrád és Ringelhuth bácsi csütörtökönként](http://www.mek.iif.hu/
 - átlátszó angolna-lárvát (Eszter ebben a pillanatban tudta meg, hogy angolnát evett)
 - rengeteg nyers halat.
 
+[
 ![](../../img/0418-3.jpg)
 ![](../../img/0418-4.jpg)
+]{.flex .gap-6}

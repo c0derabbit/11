@@ -9,7 +9,7 @@ exports.render = ({ title, page, content, lang }) => {
   const t = i18n(lang)
 
   const lazy = content => content.replace(
-    /(?<=<img[\s\S]+)(<img src=)(\S+)/g,
+    /(<img src=)(\S+)/g,
     (_, __, url) =>
       `<noscript>
          <img src="${url}" alt="My cat" />

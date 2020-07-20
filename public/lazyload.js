@@ -3,12 +3,11 @@
 
   if ('IntersectionObserver' in window) {
     var observer = new IntersectionObserver(lazyload, { rootMargin: '100px' })
-    images[0].style.opacity = 1
-    for (var i = 1; i < images.length; i++) {
+    for (var i = 0; i < images.length; i++) {
       observer.observe(images[i])
     }
   } else {
-    for (var i = 1; i < images.length; i++) {
+    for (var i = 0; i < images.length; i++) {
       var image = images[i]
       image.setAttribute('src', image.dataset.src)
       image.style.opacity = 1
@@ -19,7 +18,7 @@
     for (var i = 0; i < entries.length; i++) {
       var entry = entries[i]
 
-      if (entry.isIntersecting) loadImage(entry)
+      if (i < 2 || entry.isIntersecting) loadImage(entry)
     }
   }
 
