@@ -33,12 +33,6 @@ module.exports = {
     maxWidth: {
       '2xl': '44rem'
     },
-    screens: {
-      ...screens,
-      xl: {
-        min: '1440px'
-      }
-    }
   },
   variants: {},
   plugins: []

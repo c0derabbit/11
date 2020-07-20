@@ -15,8 +15,10 @@ Vadonathasznált
 Bicaj szelíd vadonban,  
 Boldog bringázás.  
 
+[
 ![](../../img/little_glenshee_1.jpg)
 ![](../../img/little_glenshee_3.jpg)
 ![](../../img/little_glenshee_2.jpg)
 ![](../../img/little_glenshee_4.jpg)
 ![](../../img/little_glenshee_5.jpg)
+]{.grid .grid-cols-2 .gap-4}
