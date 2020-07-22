@@ -14,19 +14,6 @@ article {
   img {
     opacity: 0;
     transition: opacity .5s ease;
-    @apply my-6 mx-auto;
-
-    @screen md {
-      @apply my-10;
-    }
-
-    @screen lg {
-      @apply my-12;
-    }
-
-    @screen xl {
-      @apply my-16;
-    }
   }
 
   .flex,

@@ -5,4 +5,8 @@
 @import './app/styles/base.css';
 @import './app/styles/feed.css';
 @import './app/styles/post.css';
+
+.w-half {
+  @apply w-1/2;
+}
 /* purgecss end ignore */
