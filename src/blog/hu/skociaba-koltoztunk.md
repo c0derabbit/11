@@ -1,6 +1,7 @@
 ---
 title: Skóciába költöztünk!
 location: ''
+className: mx-auto max-w-lg
 country: Skócia
 date: 2020-02-29
 ---

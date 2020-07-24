@@ -6,7 +6,16 @@
 @import './app/styles/feed.css';
 @import './app/styles/post.css';
 
-.w-half {
-  @apply w-1/2;
+body {
+  overflow-x: hidden;
 }
+
+.right-edge {
+  @apply w-8/12 float-right -mr-48 mt-20 ml-10;
+}
+
+.with-bg {
+  @apply w-1/2 p-10 relative -right-20;
+}
+
 /* purgecss end ignore */

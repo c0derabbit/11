@@ -4,11 +4,11 @@ article {
   }
 
   ul {
-    @apply list-disc pl-4;
+    @apply list-disc pl-6;
   }
 
   li {
-    @apply my-2;
+    @apply my-1;
   }
 
   img {

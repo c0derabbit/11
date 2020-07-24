@@ -1,4 +1,9 @@
-const { colors, fontFamily, screens } = require('tailwindcss/defaultTheme')
+const {
+  colors,
+  fontFamily,
+  inset,
+  screens,
+} = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: [
@@ -23,6 +28,12 @@ module.exports = {
     fontFamily: {
       ...fontFamily,
       sans: ['Helvetica Neue', 'Helvetica', ...fontFamily.sans]
+    },
+    inset: {
+      ...inset,
+      '-16': '-4rem',
+      '-20': '-5rem',
+      '-32': '-8rem',
     },
     letterSpacing: {
       wide: '.008em'
