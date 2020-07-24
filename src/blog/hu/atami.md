@@ -8,8 +8,9 @@ cover: atami.jpg
 
 ![](../../img/0418-1.jpg){.right-edge}
 
-A tenger mellett fekvő Atamiban el lettünk kényeztetve. Onsen-ben háromszor is fürödtünk, előtte rituális, kötelező alapos tisztálkodásban vettünk részt. A fürdők naturisták és nem koedukáltak, vizük melegebb, mint az otthoniaké — nagyon jó buli.
-{.clearfix .text-xl .text-green-900 .font-serif}
+A tenger mellett fekvő Atamiban el lettünk kényeztetve. Onsen-ben háromszor is fürödtünk, előtte rituális, kötelező alapos tisztálkodásban vettünk részt. A fürdők naturisták és nem koedukáltak, vizük melegebb, mint az otthoniaké — nagyon jó buli. ![](../../img/onsen.png){.decoration}
+{.clearfix .relative .text-xl .text-green-900 .font-serif}
+
 
 ![](../../img/0418-2.jpg){.with-bg .bg-blue-100 .-top-32 .-mb-16}
 

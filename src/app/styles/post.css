@@ -22,4 +22,12 @@ article {
       @apply m-0;
     }
   }
+
+  .decoration {
+    position: absolute;
+    max-width: 160px !important;
+    transform: rotate(5deg);
+    left: -2rem;
+    margin-top: 2rem;
+  }
 }
