@@ -41,13 +41,13 @@ module.exports = function({
             ${langSwitchLabel}
           </a>
         </header>
-        <nav class="lg-up absolute text-right text-sm text-gray-600">
+        <nav class="lg-up absolute text-right text-sm text-gray-400 hover:text-gray-600 transition duration-500">
           <ul>
             ${(countries[lang] || []).map(country => `
               <strong>${safe(country)}</strong>
               ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
                 <li>
-                  <a href="${post.url}">
+                  <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
                     ${post.data.title}
                   </a>
                 </li>
