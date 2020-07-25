@@ -1,13 +1,16 @@
-module.exports = function ({
+module.exports = function({
   lang = 'en',
   title = 'Hello, world!',
   content,
-  canonicalUrl
+  canonicalUrl,
+  collections,
 }) {
+  const posts = collections[lang]
+  const countries = require('../helpers/countries')
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar']
     : ['/en', 'English']
-  const description = 'A pair of coders going places. Think Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
+  const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
 
   return `
     <!doctype html>
@@ -37,9 +40,25 @@ module.exports = function ({
             ${langSwitchLabel}
           </a>
         </header>
-        <main class="container mx-auto my-6 pb-6">
-          ${content}
-        </main>
+        <div class="flex gap-6 justify-center">
+          <nav class="text-right text-sm text-gray-600">
+            <ul>
+              ${countries[lang]?.map(country => `
+                <strong>${country || (lang === 'hu' ? 'világ' : 'world')}</strong>
+                ${collections[`${lang}_${country}`]?.map(post => `
+                  <li>
+                    <a href="${post.url}">
+                      ${post.data.title}
+                    </a>
+                  </li>
+                `).join('') || '<li>–</li>'}
+              `).join('') || ''}
+            </ul>
+          </nav>
+          <main class="container max-w-2xl my-6 pb-6">
+            ${content}
+          </main>
+        </div>
         <script type="text/javascript">
           (function() {
             if('serviceWorker' in navigator)

@@ -5,9 +5,9 @@ exports.data = {
   layout: 'base.11ty.js',
 }
 
-exports.render = ({ lang, pagination }) => {
+exports.render = ({ lang, pagination = {} }) => {
   const t = i18n(lang)
-  const { items = [], hrefs = [], previousPageHref, nextPageHref, pageNumber } = pagination || {};
+  const { items = [], hrefs = [], previousPageHref, nextPageHref, pageNumber } = pagination;
 
   return `
     <script type="text/javascript">
