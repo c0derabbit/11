@@ -43,16 +43,16 @@ module.exports = function({
         <div class="flex gap-6 justify-center">
           <nav class="text-right text-sm text-gray-600">
             <ul>
-              ${countries[lang]?.map(country => `
+              ${(countries[lang] || []).map(country => `
                 <strong>${country || (lang === 'hu' ? 'világ' : 'world')}</strong>
-                ${collections[`${lang}_${country}`]?.map(post => `
+                ${(collections[`${lang}_${country}`] || []).map(post => `
                   <li>
                     <a href="${post.url}">
                       ${post.data.title}
                     </a>
                   </li>
-                `).join('') || '<li>–</li>'}
-              `).join('') || ''}
+                `).join('') || '<br />'}
+              `).join('')}
             </ul>
           </nav>
           <main class="container max-w-2xl my-6 pb-6">
