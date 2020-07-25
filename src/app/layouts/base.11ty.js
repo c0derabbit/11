@@ -41,23 +41,25 @@ module.exports = function({
             ${langSwitchLabel}
           </a>
         </header>
-        <nav class="lg-up absolute text-right text-sm text-gray-400 hover:text-gray-600 transition duration-500">
-          <ul>
-            ${(countries[lang] || []).map(country => `
-              <strong>${safe(country)}</strong>
-              ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
-                <li>
-                  <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
-                    ${post.data.title}
-                  </a>
-                </li>
-              `).join('') || '<br />'}
-            `).join('')}
-          </ul>
-        </nav>
-        <main class="mx-auto max-w-xl mb-6">
-          ${content}
-        </main>
+        <div class="max-w-6xl mx-auto">
+          <nav class="nav lg-up absolute text-right text-sm text-gray-400 hover:text-gray-600 transition duration-500">
+            <ul>
+              ${(countries[lang] || []).map(country => `
+                <strong>${safe(country)}</strong>
+                ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
+                  <li>
+                    <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
+                      ${post.data.title}
+                    </a>
+                  </li>
+                `).join('') || '<br />'}
+              `).join('')}
+            </ul>
+          </nav>
+          <main class="mx-auto max-w-xl mb-6">
+            ${content}
+          </main>
+        </div>
         <script type="text/javascript">
           (function() {
             if('serviceWorker' in navigator)

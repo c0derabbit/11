@@ -27,3 +27,11 @@ h3 {
 p {
   @apply my-4;
 }
+
+.nav {
+  max-width: 10rem;
+
+  @screen xl {
+    max-width: 15rem;
+  }
+}
