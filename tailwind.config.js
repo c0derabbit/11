@@ -41,9 +41,6 @@ module.exports = {
     lineHeight: {
       tight: 1.15
     },
-    maxWidth: {
-      '2xl': '44rem'
-    },
   },
   variants: {},
   plugins: []

@@ -10,6 +10,22 @@ body {
   overflow-x: hidden;
 }
 
+.md-up {
+  @apply hidden;
+
+  @screen md {
+    @apply block;
+  }
+}
+
+.lg-up {
+  @apply hidden;
+
+  @screen lg {
+    @apply block;
+  }
+}
+
 .right-edge {
   @apply w-8/12 float-right -mr-48 mt-20 ml-10;
 }

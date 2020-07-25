@@ -11,6 +11,7 @@ module.exports = function({
     ? ['/hu', 'magyar']
     : ['/en', 'English']
   const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
+  const safe = country => country || (lang === 'hu' ? 'világ' : 'world')
 
   return `
     <!doctype html>
@@ -40,25 +41,23 @@ module.exports = function({
             ${langSwitchLabel}
           </a>
         </header>
-        <div class="flex gap-6 justify-center">
-          <nav class="text-right text-sm text-gray-600">
-            <ul>
-              ${(countries[lang] || []).map(country => `
-                <strong>${country || (lang === 'hu' ? 'világ' : 'world')}</strong>
-                ${(collections[`${lang}_${country}`] || []).map(post => `
-                  <li>
-                    <a href="${post.url}">
-                      ${post.data.title}
-                    </a>
-                  </li>
-                `).join('') || '<br />'}
-              `).join('')}
-            </ul>
-          </nav>
-          <main class="container max-w-2xl my-6 pb-6">
-            ${content}
-          </main>
-        </div>
+        <nav class="lg-up absolute text-right text-sm text-gray-600">
+          <ul>
+            ${(countries[lang] || []).map(country => `
+              <strong>${safe(country)}</strong>
+              ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
+                <li>
+                  <a href="${post.url}">
+                    ${post.data.title}
+                  </a>
+                </li>
+              `).join('') || '<br />'}
+            `).join('')}
+          </ul>
+        </nav>
+        <main class="mx-auto max-w-xl mb-6">
+          ${content}
+        </main>
         <script type="text/javascript">
           (function() {
             if('serviceWorker' in navigator)

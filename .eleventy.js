@@ -17,6 +17,16 @@ module.exports = function(config) {
         .filter(post => post.data.country === country))
   })
 
+  countries.en.forEach(country => {
+    config.addCollection(`en_${country || 'world'}`, api =>
+      api
+        .getFilteredByGlob('src/blog/en/*.md')
+        .filter(post => !!country
+          ? post.data.country === country
+          : !post.data.country
+        ))
+  })
+
   config.addShortcode('baseUrl', () => 'https://nagyfalat.com')
 
   const markdownIt = require('markdown-it')
