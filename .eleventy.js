@@ -14,7 +14,12 @@ module.exports = function(config) {
     config.addCollection(`hu_${country || 'világ'}`, api =>
       api
         .getFilteredByGlob('src/blog/hu/*.md')
-        .filter(post => post.data.country === country))
+        .filter(post => !!country
+          ? post.data.country === country
+          : !post.data.country
+        )
+        .reverse()
+    )
   })
 
   countries.en.forEach(country => {
@@ -24,7 +29,9 @@ module.exports = function(config) {
         .filter(post => !!country
           ? post.data.country === country
           : !post.data.country
-        ))
+        )
+        .reverse()
+    )
   })
 
   config.addShortcode('baseUrl', () => 'https://nagyfalat.com')
