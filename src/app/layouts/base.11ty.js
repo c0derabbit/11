@@ -41,8 +41,8 @@ module.exports = function({
             ${langSwitchLabel}
           </a>
         </header>
-        <div class="max-w-6xl mx-auto">
-          <nav class="nav lg-up absolute text-right text-sm text-gray-400 hover:text-gray-600 transition duration-500">
+        <div class="max-w-3xl mx-auto p-4 flex gap-12">
+          <nav class="nav lg-up text-right text-sm text-gray-600">
             <ul>
               ${(countries[lang] || []).map(country => `
                 <strong>${safe(country)}</strong>
@@ -56,7 +56,7 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="mx-auto max-w-xl mb-6">
+          <main class="md:w-2/3">
             ${content}
           </main>
         </div>
