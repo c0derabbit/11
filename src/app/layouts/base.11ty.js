@@ -46,14 +46,18 @@ module.exports = function({
           <nav class="hidden md:block text-right text-sm text-gray-600">
             <ul>
               ${(countries[lang] || []).map(country => `
-                <strong>${safe(country)}</strong>
-                ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
-                  <li>
-                    <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
-                      ${post.data.title}
-                    </a>
-                  </li>
-                `).join('') || '<br />'}
+                <strong class="block mt-2 cursor-pointer" onclick="setCountry('${safe(country)}')">
+                  ${safe(country)}
+                </strong>
+                <div id="${safe(country)}" class="post-list">
+                  ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
+                    <li>
+                      <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
+                        ${post.data.title}
+                      </a>
+                    </li>
+                  `).join('') || '<br />'}
+                </div>
               `).join('')}
             </ul>
           </nav>
@@ -67,8 +71,30 @@ module.exports = function({
               navigator.serviceWorker.register('/sw.js');
 
             if (typeof localStorage !== 'undefined' && typeof window !== 'undefined')
-              localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2))
+              localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2));
+
+            var lists = Array.from(document.getElementsByClassName('post-list'));
+            var open = localStorage.getItem('open-country');
+            for (var i = 0; i < lists.length; i++) {
+              if (lists[i].id !== open) lists[i].classList.add('hidden');
+            }
           })()
+
+          function setCountry(country) {
+            var open = localStorage.getItem('open-country');
+            if (open) {
+              var openList = document.getElementById(open);
+              openList.classList.add('hidden');
+
+              if (open === country) {
+                localStorage.removeItem('open-country');
+                return;
+              }
+            }
+            localStorage.setItem('open-country', country);
+            var list = document.getElementById(country);
+            list.classList.remove('hidden');
+          }
         </script>
       </body>
     </html>
