@@ -2,6 +2,7 @@ const {
   colors,
   fontFamily,
   inset,
+  lineHeight,
   screens,
 } = require('tailwindcss/defaultTheme')
 
@@ -43,6 +44,7 @@ module.exports = {
       wide: '.008em'
     },
     lineHeight: {
+      ...lineHeight,
       tight: 1.15
     },
   },

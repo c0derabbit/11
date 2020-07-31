@@ -49,7 +49,7 @@ module.exports = function({
                 <strong class="block mt-2 cursor-pointer" onclick="setCountry('${safe(country)}')">
                   ${safe(country)}
                 </strong>
-                <div id="${safe(country)}" class="post-list">
+                <div id="${safe(country)}" class="post-list leading-snug">
                   ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
                     <li>
                       <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
