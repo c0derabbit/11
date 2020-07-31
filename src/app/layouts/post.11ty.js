@@ -32,6 +32,21 @@ exports.render = ({ title, page, content, lang, className = '', location }) => {
         ${lazy(content)}
       </div>
     </article>
+
+    <div id="modal" class="hidden fixed inset-0 p-32" onclick="hideModal">
+      <img id="modal-img" />
+    </div>
+
     <script src="/lazyload.js"></script>
+
+    <script>
+      function hideModal() {
+        var modal = document.getElementById('modal')
+        modal.classList.add('hidden')
+
+        var modalImg = document.getElementById('modal-img')
+        modalImg.src = ''
+      }
+    </script>
   `
 }

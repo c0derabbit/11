@@ -84,7 +84,7 @@ module.exports = function({
             var open = localStorage.getItem('open-country');
             if (open) {
               var openList = document.getElementById(open);
-              openList.classList.add('hidden');
+              if (openList) openList.classList.add('hidden');
 
               if (open === country) {
                 localStorage.removeItem('open-country');

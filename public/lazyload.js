@@ -34,4 +34,16 @@
     }
     loader.src = src
   }
+
+  for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener('click', showImage)
+  }
+
+  function showImage(e) {
+    var src = e.target.dataset.src
+    var modal = document.getElementById('modal')
+    var modalImg = document.getElementById('modal-img')
+    modalImg.src = src
+    modal.classList.remove('hidden')
+  }
 })()
