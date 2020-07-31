@@ -5,7 +5,7 @@ exports.data = {
   layout: 'base.11ty.js'
 }
 
-exports.render = ({ title, page, content, lang, className = '' }) => {
+exports.render = ({ title, page, content, lang, className = '', location }) => {
   const t = i18n(lang)
 
   const lazy = content => content.replace(
@@ -20,15 +20,15 @@ exports.render = ({ title, page, content, lang, className = '' }) => {
   )
 
   return `
-    <a href="/${lang}">${t('back')}</a>
     <article class="${className}">
-      <header class="text-center">
-        <h1 class="tracking-widest">${title}</h1>
+      <header>
+        <h1 class="tracking-widest mt-0">${title}</h1>
         <time class="text-gray-600 font-mono text-sm">
+          ${location ? location + ', ' : ''}
           ${dayjs(page.date).format(t('dateFormat'))}
         </time>
       </header>
-      <div class="mt-10">
+      <div class="mt-6">
         ${lazy(content)}
       </div>
     </article>

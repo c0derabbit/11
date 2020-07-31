@@ -12,7 +12,11 @@ module.exports = {
     './src/**/*.njk'
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        content: 'minmax(200px, 300px) minmax(620px, 1fr)',
+      },
+    },
     colors: {
       ...colors,
       black: '#111'

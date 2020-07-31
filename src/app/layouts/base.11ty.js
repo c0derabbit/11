@@ -33,7 +33,8 @@ module.exports = function({
         }
       </head>
       <body>
-        <header>
+        <header class="text-center">
+          🐼
           <a
             href="${langSwitchUrl}"
             class="absolute top-0 right-0 p-4 text-sm font-semibold"
@@ -41,8 +42,8 @@ module.exports = function({
             ${langSwitchLabel}
           </a>
         </header>
-        <div class="max-w-3xl mx-auto p-4 flex gap-12">
-          <nav class="nav lg-up text-right text-sm text-gray-600">
+        <div class="max-w-5xl mx-auto p-4 grid gap-12 grid-cols-1 md:grid-cols-content">
+          <nav class="hidden md:block text-right text-sm text-gray-600">
             <ul>
               ${(countries[lang] || []).map(country => `
                 <strong>${safe(country)}</strong>
@@ -56,7 +57,7 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="md:w-2/3">
+          <main class="md:pr-32">
             ${content}
           </main>
         </div>

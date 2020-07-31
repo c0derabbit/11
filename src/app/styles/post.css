@@ -19,6 +19,7 @@ article {
   img {
     opacity: 0;
     transition: opacity .5s ease;
+    @apply my-3;
   }
 
   .flex,

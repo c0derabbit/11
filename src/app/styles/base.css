@@ -1,6 +1,6 @@
 :root {
   @apply antialiased text-black tracking-wide;
-  font-size: calc(17px + (19 - 17) * ((100vw - 600px) / (1600 - 600)));
+  font-size: calc(16px + (18 - 16) * ((100vw - 600px) / (1600 - 600)));
 }
 
 h1,
@@ -13,25 +13,17 @@ h6 {
 }
 
 h1 {
-  @apply text-3xl;
-}
-
-h2 {
   @apply text-2xl;
 }
 
-h3 {
+h2 {
   @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
 }
 
 p {
   @apply my-4;
-}
-
-.nav {
-  max-width: 10rem;
-
-  @screen xl {
-    max-width: 15rem;
-  }
 }
