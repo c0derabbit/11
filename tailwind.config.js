@@ -1,9 +1,9 @@
 const {
+  borderWidth,
   colors,
   fontFamily,
   inset,
   lineHeight,
-  screens,
 } = require('tailwindcss/defaultTheme')
 
 module.exports = {
@@ -17,6 +17,10 @@ module.exports = {
       gridTemplateColumns: {
         content: 'minmax(200px, 300px) minmax(620px, 1fr)',
       },
+    },
+    borderWidth: {
+      ...borderWidth,
+      '40': '40px',
     },
     colors: {
       ...colors,

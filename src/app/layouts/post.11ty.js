@@ -33,19 +33,27 @@ exports.render = ({ title, page, content, lang, className = '', location }) => {
       </div>
     </article>
 
-    <div id="modal" class="hidden fixed inset-0 p-32" onclick="hideModal">
-      <img id="modal-img" />
+    <div
+      id="modal"
+      class="hidden fixed inset-0 p-10 flex justify-center bg-white bg-opacity-75"
+      onclick="hideModal()"
+    >
+      <img
+        id="modal-img"
+        class="max-h-full border-white border-40 shadow-lg"
+      />
     </div>
 
     <script src="/lazyload.js"></script>
 
     <script>
-      function hideModal() {
-        var modal = document.getElementById('modal')
-        modal.classList.add('hidden')
+      var modal = document.getElementById('modal')
+      var modalImg = document.getElementById('modal-img')
 
-        var modalImg = document.getElementById('modal-img')
+      function hideModal() {
+        modal.classList.add('hidden')
         modalImg.src = ''
+        document.body.classList.remove('overflow-hidden')
       }
     </script>
   `

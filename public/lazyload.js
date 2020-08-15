@@ -36,7 +36,9 @@
   }
 
   for (var i = 0; i < images.length; i++) {
-    images[i].addEventListener('click', showImage)
+    var img = images[i]
+    if (img.id !== 'modal-img')
+      img.addEventListener('click', showImage)
   }
 
   function showImage(e) {
@@ -45,5 +47,6 @@
     var modalImg = document.getElementById('modal-img')
     modalImg.src = src
     modal.classList.remove('hidden')
+    document.body.classList.add('overflow-hidden')
   }
 })()
