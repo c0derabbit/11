@@ -22,6 +22,20 @@ article {
     @apply my-3;
   }
 
+  p img {
+    width: calc(50% - 10px);
+    display: inline-flex;
+
+    &:nth-of-type(2n + 1) {
+      margin-right: 15px;
+    }
+
+    &:first-of-type:last-of-type {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+
   .flex,
   .grid {
     img {
