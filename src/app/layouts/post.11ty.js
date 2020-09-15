@@ -35,12 +35,12 @@ exports.render = ({ title, page, content, lang, className = '', location }) => {
 
     <div
       id="modal"
-      class="hidden fixed inset-0 p-10 flex justify-center bg-white bg-opacity-75"
+      class="hidden fixed inset-0 p-10 flex justify-center items-center bg-white bg-opacity-75"
       onclick="hideModal()"
     >
       <img
         id="modal-img"
-        class="max-h-full border-white border-40 shadow-lg"
+        class="max-h-full border-white border-8 md:border-40 shadow-lg"
       />
     </div>
 
