@@ -34,7 +34,7 @@ module.exports = function({
       </head>
       <body>
         <header class="text-center">
-          🐼
+          <img src="/panda.png" class="my-2 mx-auto" />
           <a
             href="${langSwitchUrl}"
             class="absolute top-0 right-0 p-4 text-sm font-semibold"

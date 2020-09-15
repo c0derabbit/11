@@ -23,11 +23,11 @@ article {
   }
 
   p img {
-    width: calc(50% - 10px);
-    display: inline-flex;
+    width: calc(50% - .9rem);
+    display: inline-block;
 
     &:nth-of-type(2n + 1) {
-      margin-right: 15px;
+      @apply mr-4;
     }
 
     &:first-of-type:last-of-type {
