@@ -10,7 +10,9 @@ Well… itʼs not _really_ new. [William the Conqueror](https://www.britannica.c
 
 ![](../../img/nf.jpg)
 
-The horses are used to humans, but keep their distance. They are [New For![](../../img/nf2.jpg)
+The horses are used to humans, but keep their distance. They are [New Forest ponies by breed](http://www.new-forest-national-park.com/new-forest-pony.html), and have their respective owners, but are free to roam most of the year.
+
+![](../../img/nf2.jpg)
 
 The area has various camp sites, which was a good thing, given wild camping is illegal in England (as opposed to Scotland, where we [took advantage](/en/cairngorms).)
 

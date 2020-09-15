@@ -44,7 +44,10 @@ module.exports = function(config) {
     linkify: true,
     typographer: true,
   }
-  const markdownLib = markdownIt(options).use(markdownItAttrs).use(markdownItSpan)
+  const markdownLib = markdownIt(options)
+    .use(markdownItAttrs)
+    .use(markdownItSpan)
+    .use(require('markdown-it-footnote'))
   config.setLibrary('md', markdownLib)
 
   return {
