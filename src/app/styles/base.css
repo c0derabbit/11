@@ -1,6 +1,6 @@
 :root {
   @apply antialiased text-black tracking-wide;
-  font-size: calc(16px + (18 - 16) * ((100vw - 600px) / (1600 - 600)));
+  font-size: calc(15.5px + (17 - 15.5) * ((100vw - 600px) / (1600 - 600)));
 }
 
 h1,
