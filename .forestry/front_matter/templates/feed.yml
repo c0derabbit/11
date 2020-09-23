@@ -1,0 +1,26 @@
+---
+label: feed
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: lang
+  label: lang
+- type: field_group
+  name: pagination
+  label: pagination
+  fields:
+  - type: text
+    name: data
+    label: data
+  - type: number
+    name: size
+    label: size
+  - type: boolean
+    name: reverse
+    label: reverse
+- type: text
+  name: permalink
+  label: permalink
