@@ -9,4 +9,5 @@ fields:
   name: lang
   label: lang
 pages:
+- src/en/about.md
 - src/hu/rolunk.md
