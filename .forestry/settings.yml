@@ -5,10 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
-  label: everything
+  path: src
+  label: pages
   create: all
   match: "**/*"
+  exclude: "**/blog/**/*"
 - type: directory
   path: src/blog
   label: blog
