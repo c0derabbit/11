@@ -18,4 +18,5 @@ fields:
   name: description
   label: description
 pages:
+- src/blog/en/loch-ericht-a-cycling-expedition.md
 - src/blog/hu/shanghai-hangulatjelentes.md
