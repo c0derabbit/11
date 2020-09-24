@@ -1,13 +1,13 @@
 ---
 title: Beinn Dearg — harmadik nekifutásra
-date: 2019-03-08T18:37:00.000Z
+date: 2020-03-08T18:37:00Z
 country: Skócia
 location: Blair Atholl
-description: Ropog a hó a talpunk alatt. Álomszerű, tejfehér ködbe veszik a táj.
-  Végre egy bakancs, ami vízálló.
-cover: /img/beinn_dearg.jpg
----
+description: Ropog a hó a talpunk alatt. Álomszerű, tejfehér ködbe veszik a táj. Végre
+  egy bakancs, ami vízálló.
+cover: "/img/beinn_dearg.jpg"
 
+---
 Ropog a hó a talpunk alatt.  
 Álomszerű, tejfehér ködbe veszik a táj.  
 Végre egy bakancs, ami vízálló.

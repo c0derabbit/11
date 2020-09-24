@@ -7,4 +7,7 @@ lang: hu
 
 🦥
 
-Icons made by [Freepik](http://www.freepik.com/) from [Flaticon](https://www.flaticon.com/).
+2016-ban négy hónapot töltöttünk Ázsiában, ez a blog jórészt arról szól. Meg amit azóta írtunk.
+
+Köszi a figyelmet,   
+Samu és Eszter

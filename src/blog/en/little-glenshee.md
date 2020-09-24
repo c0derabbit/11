@@ -1,19 +1,19 @@
 ---
 title: Little Glenshee on two wheels
-date: 2020-03-25T00:00:00.000Z
+date: 2020-03-25T00:00:00.000+00:00
 country: Scotland
 location: Little Glenshee
-description: <p>New used mountain bikes,<br />A day in gentle wilderness,<br
-  />Just happy cycling.</p>
-cover: ../../img/little_glenshee_5.jpg
----
+description: "<p>New used mountain bikes,<br />A day in gentle wilderness,<br />Just
+  happy cycling.</p>"
+cover: "../../img/little_glenshee_5.jpg"
 
-<video src="/video/mtb_little_glenshee.mp4" poster="/video/mtb_little_glenshee.png" autoplay loop>
+---
+<video src="/img/mtb_little_glenshee.mp4" poster="/img/mtb_little_glenshee.png" autoplay loop>
 </video>
 
 New used mountain bikes,  
 A day in gentle wilderness,  
-Just happy cycling.  
+Just happy cycling.
 
 ![](../../img/little_glenshee_1.jpg)
 ![](../../img/little_glenshee_3.jpg)

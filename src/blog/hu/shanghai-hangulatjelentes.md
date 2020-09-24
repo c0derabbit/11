@@ -3,8 +3,10 @@ title: Shanghai, hangulatjelentés
 location: Shanghai
 date: 2016-02-19
 cover: sh-hangulat.jpg
----
+country: Kína
+description: ''
 
+---
 Kialudtuk magunkat, hangulatjelentés! Ma hajnali és délután 3-kor is felkeltünk (utóbbi végülis otthoni reggel 8), bejelentkeztünk a rendőrségen, hogy itt tartózkodunk, aztán ettünk nyársra tűzött kandírozott epret.
 
 ![Shanghai esti fényei](../../img/sh-hangulat.jpg)
@@ -18,4 +20,3 @@ A lakásban körülszaglászva azt tapasztaltuk, hogy számos használati tárgy
 A kaja brutálisan jó és olcsó, az adagok hatalmasak, Eszter simán jól lakik úgy, hogy nem látszik meg a tányéron, hogy hozzá nyúlt.
 
 ![Samu levest kanalaz](../../img/0219baoloop.gif)
-
