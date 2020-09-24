@@ -24,7 +24,7 @@ After climbing hill Inari (packed with tourists), we descended into a peaceful s
 
 The following morning we took a second ascent to Inari, this time it was practically deserted due to the wee hours. Some old japanese gentlemen were praying and climbing to the top to give their respects to the God of Foxes. 
 
-![](../../img/0420-7.jpg)  
+![](../../img/0420-7.jpg)
 ![](../../img/0420-6.jpg)
 
 Feeding in Kyoto was exquisite. On our first day we found a curry restaurant, with indian music playing from the stereo and a gentle, soft-spoken waiter who served us with great care, like it was only us who mattered in the world. We ate a good soup, fresh salad, naan and chicken tikka with several kinds of curry (mutton, shrimp, keema, dal...). We drank cold lassi to contrast the spicy food. We ate sitting on the floor, on pillows, legs crossed. It was so good we came back here once more during our stay.
