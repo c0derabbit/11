@@ -13,11 +13,6 @@ module.exports = {
     './src/**/*.njk'
   ],
   theme: {
-    extend: {
-      gridTemplateColumns: {
-        content: 'minmax(200px, 300px) minmax(620px, 1fr)',
-      },
-    },
     borderWidth: {
       ...borderWidth,
       '40': '40px',
@@ -31,12 +26,13 @@ module.exports = {
         default: '1rem',
         sm: '2rem',
         lg: '4rem',
-        xl: '5rem'
+        xl: '5rem',
       }
     },
     fontFamily: {
       ...fontFamily,
-      sans: ['Helvetica Neue', 'Helvetica', ...fontFamily.sans]
+      sans: ['"Helvetica Neue"', 'Helvetica', ...fontFamily.sans],
+      serif: ['"IBM Plex Serif"', ...fontFamily.serif],
     },
     inset: {
       ...inset,

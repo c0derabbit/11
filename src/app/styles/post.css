@@ -22,32 +22,31 @@ article {
     @apply my-3;
   }
 
-  p img {
-    width: calc(50% - .9rem);
-    display: inline-block;
+  p {
+    img {
+      width: calc(50% - .144em);
+      display: inline-block;
 
-    &:nth-of-type(2n + 1) {
-      @apply mr-4;
+      &:nth-of-type(2n) {
+        padding-left: calc(1em - .144em);
+      }
 
-      &:last-of-type {
-        margin-right: 0;
-        width: 100%;
+      &:nth-of-type(2n + 1) {
+        padding-right: calc(1em - .144em);
+
+        &:last-of-type {
+          width: 100%;
+          @apply p-0;
+        }
       }
     }
   }
 
-  .flex,
-  .grid {
-    img {
-      @apply m-0;
+  @media (min-width: 768px) {
+    video {
+      max-width: calc(100% + 4rem);
+      width: calc(100% + 4rem);
+      @apply -ml-8 mb-8;
     }
-  }
-
-  .decoration {
-    position: absolute;
-    max-width: 160px !important;
-    transform: rotate(5deg);
-    left: -2rem;
-    margin-top: 2rem;
   }
 }

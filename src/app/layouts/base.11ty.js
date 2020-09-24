@@ -42,16 +42,16 @@ module.exports = function({
             ${langSwitchLabel}
           </a>
         </header>
-        <div class="max-w-5xl mx-auto p-4 grid gap-12 grid-cols-1 md:grid-cols-content">
-          <nav class="hidden md:block text-right text-sm text-gray-600">
-            <ul>
+        <div class="max-w-6xl mx-auto p-4 grid gap-8 grid-cols-1 md:grid-cols-12">
+          <nav class="hidden md:block text-sm text-gray-600 md:col-span-2">
+            <ul class="sticky italic" style="top: 25vh">
               ${(countries[lang] || []).map(country => `
-                <strong class="block mt-2 cursor-pointer" onclick="setCountry('${safe(country)}')">
+                <strong class="block mt-1 cursor-pointer" onclick="setCountry('${safe(country)}')">
                   ${safe(country)}
                 </strong>
-                <div id="${safe(country)}" class="post-list leading-snug">
+                <div id="${safe(country)}" class="post-list leading-tight pl-4">
                   ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
-                    <li>
+                    <li class="mb-1">
                       <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
                         ${post.data.title}
                       </a>
@@ -61,7 +61,7 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="md:pr-32">
+          <main class="md:col-start-4 md:col-span-6">
             ${content}
           </main>
         </div>
