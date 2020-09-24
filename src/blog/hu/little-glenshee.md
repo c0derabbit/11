@@ -7,7 +7,7 @@ cover: little_glenshee.jpg
 description: "<p>Vadonathasznált<br />Bicaj szelíd vadonban,<br />Boldog bringázás.</p>"
 
 ---
-<video src="/video/mtb_little_glenshee.mp4" poster="/video/mtb_little_glenshee.png" autoplay loop>
+<video src="/img/mtb_little_glenshee.mp4" poster="/img/mtb_little_glenshee.png" autoplay loop>
 </video>
 
 Vadonathasznált  
