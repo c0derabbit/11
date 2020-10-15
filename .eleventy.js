@@ -51,7 +51,7 @@ module.exports = function(config) {
   config.setLibrary('md', markdownLib)
 
   return {
-    templateFormats: ['md', 'jpg', 'png', 'gif', 'mp4'],
+    templateFormats: ['md', 'jpg', 'jpeg', 'png', 'gif', 'mp4'],
     dir: {
       input: 'src',
       output: 'dist',
