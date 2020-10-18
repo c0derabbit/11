@@ -16,8 +16,8 @@ Unlike Maurice Wilson, we are aware of our limits, so our goal was much more mod
 
 We wanted to hike the vast plateau in the hearth of the Cairngorms, a rocky tundra that towers above a massive valley, Lairig Ghru. Extremely exposed to bad weather and traversing fields of boulders, the terrain is very arduous to walk on.
 
-![](/img/lg4.jpg)  
-![](/img/lg6.jpg)  
+![](/img/lg4.jpg)
+![](/img/lg6.jpg)
 
 We were prepared for the worst and planned our route carefully, including a series of designated waypoints with respective turn-back times. We packed our stuff and off we went.
 
@@ -26,7 +26,7 @@ We were prepared for the worst and planned our route carefully, including a seri
 We could hardly believe how lucky we got: the weather, although misty, was extremely benign. The path was physically very demanding, but there was no difficulty in navigation and our clothes remained fairly dry.  
 Up on the plateau, the summits raised above the clouds. It felt magical to see such a harsh place wrapped in a peaceful blanket of white fluff.
 
-![](/img/lg7.jpg)  
+![](/img/lg7.jpg)
 ![](/img/lg8.jpg)
 
 We were also glad to see some snow: the snow patches in the vast corries of the area are known to be the ones which persist for the [longest time anywhere in the UK](https://en.wikipedia.org/wiki/Snow_patches_in_Scotland), oftentimes from one winter to the next.
@@ -35,7 +35,7 @@ We were also glad to see some snow: the snow patches in the vast corries of the 
 
 We summited **Braeriach (1296m)**, **Cairn Toul (1291m)** and **Sgor an Lochain Uaine (1258m)** — the third, fourth and fifth highest points in the UK, respectively.
 
-![](/img/lg2.jpg)  
+![](/img/lg2.jpg)
 ![](/img/lg3.jpg)
 
 The peak called Devil’s Point was a smaller challenge by comparison — but the name is worth mentioning. The Gaelic name, _Bod an Deamhain_, apparently means the _Penis of the Demon_, but when Queen Victoria visited the area, the local guide, to avoid embarrassment, used this euphemistic name for the peak — so it stuck.
