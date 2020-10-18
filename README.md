@@ -4,7 +4,7 @@
 
 ## Adding new blog posts
 
-- Go to nagyfalat.com/admin/
+- Go to [nagyfalat.com/admin/](https://nagyfalat.com/admin/)
 - Sign in
 
 ### To upload photos
