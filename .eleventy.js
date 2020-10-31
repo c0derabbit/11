@@ -50,8 +50,11 @@ module.exports = function(config) {
     .use(require('markdown-it-footnote'))
   config.setLibrary('md', markdownLib)
 
+  const pluginRss = require('@11ty/eleventy-plugin-rss')
+  config.addPlugin(pluginRss)
+
   return {
-    templateFormats: ['md', 'jpg', 'jpeg', 'png', 'gif', 'mp4'],
+    templateFormats: ['md', 'jpg', 'jpeg', 'png', 'gif', 'mp4', 'njk'],
     dir: {
       input: 'src',
       output: 'dist',
