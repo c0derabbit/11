@@ -2,11 +2,11 @@
 location: Aviemore
 country: Scotland
 title: Lairig Ghru
-date: 2020-10-17T23:00:00Z
+date: 2020-10-17T23:00:00.000+00:00
 description: ''
 
 ---
-_“Off again, gorgeous day”_ wrote the barking mad [Maurice Wilson](https://en.wikipedia.org/wiki/Maurice_Wilson) in his diary in 1934 before he set off from his tent somewhere near the North Col on Mount Everest. This was his last entry in his notebook, and an expedition the following year found his body in his tent, died of starvation or exhaustion.
+_“Off again, gorgeous day”_ wrote the barking mad [Maurice Wilson](https://en.wikipedia.org/wiki/Maurice_Wilson) in his diary in 1934, before he set off from his tent somewhere near the North Col on Mount Everest. This was his last entry in his notebook, and an expedition the following year found his body in his tent, died of starvation or exhaustion.
 
 Being a total nutcase, he deeply believed that the world’s problems could be solved by fasting and faith in God. But he seems to have been a courageous, adventurous and, in a way, an inspiring fellow. He wanted to do a solo flight to Mount Everest, crash-land the plane on a slope of the mountain, and be the first man to ever climb it. The fact that he didn’t know how to fly a plane, and that he didn’t have any mountaineering experience whatsoever did not bother him the least bit.
 
