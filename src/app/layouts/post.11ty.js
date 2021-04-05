@@ -5,8 +5,13 @@ exports.data = {
   layout: 'base.11ty.js'
 }
 
-exports.render = ({ title, page, content, lang, className = '', location }) => {
+exports.render = ({ title, page, content, lang, className = '', location, collections }) => {
   const t = i18n(lang)
+  const collection = collections[lang]
+  const idx = collection.indexOf(collection.find(post => post.fileSlug === page.fileSlug))
+  const prev = idx === 0 ? null : idx - 1
+  const next = idx === collections.length - 1 ? null : idx + 1
+  console.log(prev, next, idx)
 
   const lazy = content => content.replace(
     /(<img src=)(\S+)/g,
