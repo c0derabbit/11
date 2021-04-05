@@ -5,3 +5,4 @@ tags
 tags.*
 .DS_Store
 yarn-error.log
+src/styles.css
