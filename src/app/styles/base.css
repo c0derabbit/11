@@ -27,3 +27,23 @@ h3 {
 p {
   @apply my-4;
 }
+
+@media (max-width: 767px) {
+  .left-nav {
+    position: absolute;
+    transform: translateX(-250px);
+    transition: transform .3s ease;
+
+    + * {
+      transition: transform .3s ease;
+    }
+
+    &.open {
+      transform: none;
+
+      + * {
+        transform: translateX(250px);
+      }
+    }
+  }
+}

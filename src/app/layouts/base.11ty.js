@@ -5,7 +5,6 @@ module.exports = function({
   canonicalUrl,
   collections,
 }) {
-  const posts = collections[lang]
   const countries = require('../helpers/countries')
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar']
@@ -33,7 +32,7 @@ module.exports = function({
         }
       </head>
       <body>
-        <header class="text-center">
+        <header class="text-center relative">
           <img src="/panda.png" class="my-2 mx-auto" />
           <a
             href="${langSwitchUrl}"
@@ -41,9 +40,16 @@ module.exports = function({
           >
             ${langSwitchLabel}
           </a>
+          <button
+            class="absolute top-0 left-0 p-4 md:hidden"
+            onclick="toggleMenu()"
+          >
+            <img src="/close.svg" alt="" class="menu-icon hidden" />
+            <img src="/menu.svg" alt="" class="menu-icon" />
+          </button>
         </header>
         <div class="max-w-6xl mx-auto p-4 grid gap-8 grid-cols-1 md:grid-cols-12">
-          <nav class="hidden md:block text-sm text-gray-600 md:col-span-2">
+          <nav id="menu" class="left-nav text-sm text-gray-600 md:col-span-2">
             <ul class="sticky italic" style="top: 25vh">
               ${(countries[lang] || []).map(country => `
                 <strong class="block mt-1 cursor-pointer" onclick="setCountry('${safe(country)}')">
@@ -109,6 +115,22 @@ module.exports = function({
             localStorage.setItem('open-country', country);
             var list = document.getElementById(country);
             list.classList.remove('hidden');
+          }
+
+          var menu = document.getElementById('menu');
+
+          function toggleMenu() {
+            var icons = document.getElementsByClassName('menu-icon');
+
+            if (menu.classList.contains('open')) {
+              menu.classList.remove('open');
+              icons[0].classList.add('hidden');
+              icons[1].classList.remove('hidden');
+            } else {
+              menu.classList.add('open');
+              icons[0].classList.remove('hidden');
+              icons[1].classList.add('hidden');
+            }
           }
         </script>
       </body>
