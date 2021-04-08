@@ -9,9 +9,8 @@ exports.render = ({ title, page, content, lang, className = '', location, collec
   const t = i18n(lang)
   const collection = collections[lang]
   const idx = collection.indexOf(collection.find(post => post.fileSlug === page.fileSlug))
-  const prev = idx === 0 ? null : idx - 1
-  const next = idx === collections.length - 1 ? null : idx + 1
-  console.log(prev, next, idx)
+  const prev = idx === 0 ? null : collection[idx - 1]
+  const next = idx === collections.length - 1 ? null : collection[idx + 1]
 
   const lazy = content => content.replace(
     /(<img src=)(\S+)/g,
@@ -23,6 +22,12 @@ exports.render = ({ title, page, content, lang, className = '', location, collec
         src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
         data-src=${url} `
   )
+
+  const prevNextLink = post => `
+    <a href="${post.url}" class="underline">
+      ${post.data.title}
+    </a>
+  `
 
   return `
     <article class="${className}">
@@ -38,9 +43,20 @@ exports.render = ({ title, page, content, lang, className = '', location, collec
       </div>
     </article>
 
+    <footer class="mt-8 py-8 flex justify-between">
+      <div>
+        <small>${t('previous')}</small><br />
+        ${prev ? prevNextLink(prev) : ''}
+      </div>
+      <div class="text-right">
+        <small>${t('next')}</small><br />
+        ${next ? prevNextLink(next) : ''}
+      </div>
+    </footer>
+
     <div
       id="modal"
-      class="hidden fixed inset-0 md:p-10 flex justify-center items-center bg-white bg-opacity-75"
+      class="hidden fixed inset-0 md:p-6 flex justify-center items-center bg-white bg-opacity-75"
     >
       <img
         id="modal-img"

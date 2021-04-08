@@ -36,7 +36,7 @@ module.exports = function({
           <img src="/panda.png" class="my-2 mx-auto" />
           <a
             href="${langSwitchUrl}"
-            class="absolute top-0 right-0 p-4 text-sm font-semibold"
+            class="absolute top-0 right-0 p-4 text-xs font-medium"
           >
             ${langSwitchLabel}
           </a>
@@ -49,12 +49,12 @@ module.exports = function({
           </button>
         </header>
         <div class="max-w-6xl mx-auto p-4 grid gap-8 grid-cols-1 md:grid-cols-12">
-          <nav id="menu" class="left-nav text-sm text-gray-600 md:col-span-2">
+          <nav id="menu" class="left-nav text-xs text-gray-600 md:col-span-2">
             <ul class="sticky italic" style="top: 25vh">
               ${(countries[lang] || []).map(country => `
-                <strong class="block mt-1 cursor-pointer" onclick="setCountry('${safe(country)}')">
+                <span class="font-medium block mt-1 cursor-pointer" onclick="setCountry('${safe(country)}')">
                   ${safe(country)}
-                </strong>
+                </span>
                 <div id="${safe(country)}" class="post-list leading-tight pl-4">
                   ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
                     <li class="mb-1">

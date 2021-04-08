@@ -1,11 +1,6 @@
 article {
   a {
-    @apply text-green-700 underline transition duration-300;
-
-    &:hover,
-    &:focus {
-      @apply text-green-900;
-    }
+    @apply underline;
   }
 
   ul {
