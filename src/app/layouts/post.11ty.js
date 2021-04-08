@@ -45,12 +45,20 @@ exports.render = ({ title, page, content, lang, className = '', location, collec
 
     <footer class="mt-8 py-8 flex justify-between">
       <div>
-        <small>${t('previous')}</small><br />
-        ${prev ? prevNextLink(prev) : ''}
+        ${prev
+          ? `
+            <small>${t('previous')}</small><br />
+            ${prevNextLink(prev)}
+          ` : ''
+        }
       </div>
       <div class="text-right">
-        <small>${t('next')}</small><br />
-        ${next ? prevNextLink(next) : ''}
+        ${next
+          ? `
+            <small>${t('next')}</small><br />
+            ${prevNextLink(next)}
+          ` : ''
+        }
       </div>
     </footer>
 
