@@ -1,5 +1,5 @@
 :root {
-  @apply text-black;
+  @apply antialiased text-black;
   font-size: calc(17px + (19 - 17) * ((100vw - 600px) / (1600 - 600)));
 }
 
@@ -9,11 +9,11 @@ h3,
 h4,
 h5,
 h6 {
-  @apply mt-8 mb-3 font-bold leading-tight;
+  @apply mt-8 mb-3 font-semibold leading-tight;
 }
 
 h1 {
-  @apply text-2xl;
+  @apply text-3xl;
 }
 
 h2 {

@@ -31,7 +31,6 @@ module.exports = {
     },
     fontFamily: {
       ...fontFamily,
-      sans: ['"Helvetica Neue"', 'Helvetica', ...fontFamily.sans],
       serif: ['"IBM Plex Serif"', ...fontFamily.serif],
     },
     inset: {

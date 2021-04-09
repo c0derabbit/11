@@ -32,8 +32,10 @@ module.exports = function({
         }
       </head>
       <body>
-        <header class="text-center relative">
-          <img src="/panda.png" class="my-2 mx-auto" />
+        <header class="text-center">
+          <a href="/">
+            <img src="/panda.png" class="mx-auto md:fixed top-0 md:left-0 md:m-3 w-16" />
+          </a>
           <a
             href="${langSwitchUrl}"
             class="absolute top-0 right-0 p-4 text-xs font-medium"
@@ -48,8 +50,8 @@ module.exports = function({
             <img src="/menu.svg" alt="" class="menu-icon" />
           </button>
         </header>
-        <div class="max-w-6xl mx-auto p-4 grid gap-8 grid-cols-1 md:grid-cols-12">
-          <nav id="menu" class="left-nav text-xs text-gray-600 md:col-span-2">
+        <div class="max-w-6xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
+          <nav id="menu" class="left-nav text-xs md:col-span-2">
             <ul class="sticky italic" style="top: 25vh">
               ${(countries[lang] || []).map(country => `
                 <span class="font-medium block mt-1 cursor-pointer" onclick="setCountry('${safe(country)}')">
@@ -58,7 +60,7 @@ module.exports = function({
                 <div id="${safe(country)}" class="post-list leading-tight pl-4">
                   ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
                     <li class="mb-1">
-                      <a class="hover:text-gray-900 transition duration-300" href="${post.url}">
+                      <a class="hover:underline" href="${post.url}">
                         ${post.data.title}
                       </a>
                     </li>
@@ -67,7 +69,7 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="md:col-start-4 md:col-span-6">
+          <main class="min-h-screen md:col-start-4 md:col-span-6">
             ${content}
           </main>
         </div>

@@ -32,8 +32,8 @@ exports.render = ({ title, page, content, lang, className = '', location, collec
   return `
     <article class="${className}">
       <header class="text-center">
-        <h1 class="mt-0 font-serif text-gray-900">${title}</h1>
-        <time class="text-gray-600 font-mono text-sm">
+        <h1 class="mt-2">${title}</h1>
+        <time class="font-mono text-xs tracking-wide">
           ${location ? location + ', ' : ''}
           ${dayjs(page.date).format(t('dateFormat'))}
         </time>

@@ -24,7 +24,7 @@ exports.render = ({ lang, pagination = {} }) => {
       ${items.map(({ data: { title, page: { date, url }, description }, templateContent }) => `
         <li class="mb-8">
           <a href="${url}">
-            <time class="italic text-sm text-gray-700">
+            <time class="text-xs font-mono tracking-wide">
               ${dayjs(date).format(t('dateFormat'))}
             </time>
             <h2 class="my-1 text-xl font-bold">${title}</h2>
