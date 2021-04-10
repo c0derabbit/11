@@ -5,7 +5,7 @@ exports.data = {
   layout: 'base.11ty.js'
 }
 
-exports.render = ({ title, page, content, lang, className = '', location, collections }) => {
+exports.render = ({ title, page, content, lang, className = '', supportedOrg, supportedOrgLink, supportedOrgDescription, donation, location, collections }) => {
   const t = i18n(lang)
   const collection = collections[lang]
   const idx = collection.indexOf(collection.find(post => post.fileSlug === page.fileSlug))
@@ -39,16 +39,18 @@ exports.render = ({ title, page, content, lang, className = '', location, collec
         </time>
       </header>
       <div class="mt-6">
-        <div class="text-sm border-4 px-2 py-2 mb-6 relative">
-          <strong>${t('supportedOrg')}:</strong> <a href="https://www.scottishmountainrescue.org/" target="_blank" rel="noopener noreferrer">Scottish Mountain Rescue</a><br />
-          <strong>${t('donation')}:</strong> £100<br />
-          <span class="block mt-2">
-            A skót hegyimentők több, mint 850 önkéntessel, 24 órán át rendelkezésre állnak, hogy segítsenek bajba jutott túrázóknak és hegymászóknak. Ha a skót hegyekbe készülsz, <a href="https://www.scottishmountainrescue.org/mountain-safety-advice/" target="_blank" rel="noopener noreferrer">olvasd el a tanácsaikat</a>. Vészhelyzet esetén hívd a 999-es számot, kérd a rendőrséget, majd a Mountain Rescue-t.
-          </span>
-          <sup class="absolute top-0 right-0 px-1 py-2">
-            <a href="/${lang}/${t('responsibilitySlug')}">${t('whatsThis')}</a>
-          </sup>
-        </div>
+        ${supportedOrg ? `
+          <div class="text-sm border-4 px-2 py-2 mb-6 relative">
+            <strong>${t('supportedOrg')}:</strong> <a href="${supportedOrgLink}" target="_blank" rel="noopener noreferrer">${supportedOrg}</a><br />
+            <strong>${t('donation')}:</strong> ${donation}<br />
+            <span class="block mt-2">
+              ${supportedOrgDescription}
+            </span>
+            <sup class="absolute top-0 right-0 px-1 py-2">
+              <a href="/${lang}/${t('responsibilitySlug')}">${t('whatsThis')}</a>
+            </sup>
+          </div>
+        ` : ''}
         ${lazy(content)}
       </div>
     </article>
