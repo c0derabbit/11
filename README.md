@@ -21,6 +21,8 @@ To switch between markdown and wysiwyg, click the three dots in the top right co
 
 ## List of charities we can support
 
+> If you have one to add, just edit this readme.
+
 ### Europe
 - [Scottish Mountain Rescue](https://www.scottishmountainrescue.org/) - Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 
 - [InDaHouse](https://indahousehungary.hu/) - Hungary 🇭🇺 
