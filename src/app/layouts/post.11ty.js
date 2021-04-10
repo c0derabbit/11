@@ -5,7 +5,7 @@ exports.data = {
   layout: 'base.11ty.js'
 }
 
-exports.render = ({ title, page, content, lang, className = '', location, collections }) => {
+exports.render = ({ title, page, content, lang, className = '', supportedOrg, supportedOrgLink, supportedOrgDescription, donation, location, collections }) => {
   const t = i18n(lang)
   const collection = collections[lang]
   const idx = collection.indexOf(collection.find(post => post.fileSlug === page.fileSlug))
@@ -39,6 +39,18 @@ exports.render = ({ title, page, content, lang, className = '', location, collec
         </time>
       </header>
       <div class="mt-6">
+        ${supportedOrg ? `
+          <div class="text-sm border-4 px-2 py-2 mb-6 relative">
+            <strong>${t('supportedOrg')}:</strong> <a href="${supportedOrgLink}" target="_blank" rel="noopener noreferrer">${supportedOrg}</a><br />
+            <strong>${t('donation')}:</strong> ${donation}<br />
+            <span class="block mt-2">
+              ${supportedOrgDescription}
+            </span>
+            <sup class="absolute top-0 right-0 px-1 py-2">
+              <a href="/${lang}/${t('responsibilitySlug')}">${t('whatsThis')}</a>
+            </sup>
+          </div>
+        ` : ''}
         ${lazy(content)}
       </div>
     </article>

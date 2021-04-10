@@ -3,13 +3,21 @@ const dict = {
     back: 'Vissza',
     next: 'Következő',
     previous: 'Előző',
-    dateFormat: 'YYYY.MM.DD'
+    responsibilitySlug: 'felelosseg',
+    supportedOrg: 'Támogatott szervezet',
+    donation: 'Összeg',
+    whatsThis: 'Mi ez?',
+    dateFormat: 'YYYY.MM.DD',
   },
   en: {
     back: 'Back',
     next: 'Next',
     previous: 'Previous',
-    dateFormat: 'MMMM D, YYYY'
+    responsibilitySlug: 'responsibility',
+    supportedOrg: 'Supported organisation',
+    donation: 'Donation',
+    whatsThis: 'Whatʼs this?',
+    dateFormat: 'MMMM D, YYYY',
   }
 }
 
