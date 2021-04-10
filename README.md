@@ -24,11 +24,13 @@ To switch between markdown and wysiwyg, click the three dots in the top right co
 > If you have one to add, just edit this readme.
 
 ### Europe
-- [Scottish Mountain Rescue](https://www.scottishmountainrescue.org/) - Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 
-- [InDaHouse](https://indahousehungary.hu/) - Hungary 🇭🇺 
+- [Scottish Mountain Rescue](https://www.scottishmountainrescue.org/) - Scotland
+- [Open Cages](https://opencages.org/) - UK
+- [InDaHouse](https://indahousehungary.hu/) - Hungary
+- [ClimeWorks](https://www.climeworks.com/) - Iceland
 
 ### World
-- [Skateistan](https://www.skateistan.org/) - Afghanistan 🇦🇫, Cambodia 🇰🇭, South Africa 🇿🇦 
+- [Skateistan](https://www.skateistan.org/) - Afghanistan, Cambodia, South Africa
 
 ## Technical
 
