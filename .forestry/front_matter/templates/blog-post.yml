@@ -17,6 +17,31 @@ fields:
 - type: textarea
   name: description
   label: description
+- name: supportedOrg
+  type: text
+  config:
+    required: false
+  label: Supported organisation
+- name: supportedOrgLink
+  type: text
+  config:
+    required: false
+  label: Supported organisation website
+- name: supportedOrgDescription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Supported organisation description
+- name: donation
+  type: text
+  config:
+    required: false
+  label: Donation
+  description: Please add currency too, e.g. £50 or 10.000 Ft
 pages:
 - src/blog/en/lairig-ghru.md
 - src/blog/en/loch-ericht-a-cycling-expedition.md
