@@ -1,7 +1,8 @@
 ---
 draft: false
-tite: Crossing the Cairngorms
+title: Crossing the Cairngorms
 location: Cairngorms
+country: Scotland
 date: 2021-05-01
 supportedOrg: Scottish Mountain Rescue
 supportedOrgLink: https://www.scottishmountainrescue.org/
