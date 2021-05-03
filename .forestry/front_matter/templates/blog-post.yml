@@ -48,7 +48,6 @@ fields:
   label: Donation
   description: Please add currency too, e.g. £50 or 10.000 Ft
 pages:
-- src/blog/en/crossing-the-cairngorms.md
 - src/blog/en/lairig-ghru.md
 - src/blog/en/loch-ericht-a-cycling-expedition.md
 - src/blog/hu/lairig-ghru.md
