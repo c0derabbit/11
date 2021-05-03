@@ -11,8 +11,6 @@ donation: £50
 ---
 
 
-![](https://photos.google.com/share/AF1QipMp_3K5-0tonp8oTufXILrsTLIGDv-paUErrDKvDYI_gqoJ_iXBJ0I8vztoYr5sNw/photo/AF1QipP4XFIVVx2Vu9a1YGLLuSHE2wHZTIbOq-beiNE3?key=RlRnYk9lWUR4TURYbEVEaVJrTl84OERkZ1hwNXFn)
-
 ![](https://lh3.googleusercontent.com/pw/ACtC-3capH8ytgTHUZFH1l-L2v3kCtljoL3lSHHEKpTljHGP6Y2qjdQx6fq-b5tBsGIsqUUipnTBbZHsMqTqRvSBKewSAajhfBbbS3Q1qac2Er31fUcR2O9CDAaC4uZ2oyN-8bYLC7qeZn7a59c8KMpRvxmK4w=w1184-h789-no?authuser=0)
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cp0PiqWqSUdSCI8bmX_yVJuDzXS14WZGS3JllBPcGdnmRSKL6DRybS8I2Mnlp2kLx0RZW0VaEJdvNkvENT02B-CN3sVf-mihuWmi324tYFElJf2ISZFQNcJvY99iqBzcx-ENk2UHnEMh0qAuywK9yazQ=w1184-h789-no?authuser=0)
