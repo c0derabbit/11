@@ -2,6 +2,11 @@
 label: blog post
 hide_body: false
 fields:
+- name: draft
+  type: boolean
+  label: Draft
+  description: Toggle off when you're ready to set it live
+  default: true
 - type: text
   name: location
   label: location
