@@ -39,12 +39,14 @@ We walked and walked, frequently discussing various imaginary meals we would hav
 
 At around 9.30 PM, we caught a glance of White Bridge, our goal for the day - we could hardly believe we made it there. We were exhilarated. We pitched the tent, ate a super quick and light supper (lentils with some soup and tortillas) and went to sleep. 13 hours of strenuous walking made falling asleep really easy.
 
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3fBtFN6QlhHMsduo47Wyn5LUUhqqPVaxLnBHzf8s2fAm00CvUmVsQn5AIQAIOl19EuBsku2-_0Vu-ey5ew7jCl9uddTp6LemFphHYbjdzXLT01ON0AW3wpM_C6dMvBKEkGVgMBJ894vv0AY-DaHxirkMQ=w1440-h336-no?authuser=0)
+
 The next day was less eventful but more heavily testing our endurance and patience. Wet feet, tired and aching joints in our legs and shoulders, and a lot of ground to cover.
 
 We resorted to 100 mg of caffeine to boost our strength on the last leg of the trip. This helped with our speed and alleviated some pain as well in our feet. We made it back  to Blair Atholl just in time to catch the one and only bus that day, which brought us back to Perth. We could not be more grateful and happy.
 
 
-![](https://lh3.googleusercontent.com/pw/ACtC-3fBtFN6QlhHMsduo47Wyn5LUUhqqPVaxLnBHzf8s2fAm00CvUmVsQn5AIQAIOl19EuBsku2-_0Vu-ey5ew7jCl9uddTp6LemFphHYbjdzXLT01ON0AW3wpM_C6dMvBKEkGVgMBJ894vv0AY-DaHxirkMQ=w1440-h336-no?authuser=0)
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3fcyYeGs3d4SeUufw6hjFW-nR7-m4IV8hT_T8Ev9s3irlNxyoL0IEAkQh7ZgS12-y8kbxEHyIVvvR3nvF7hCs8sdVgTuxoo9GgYKCOesBhix22OiLhVjt0gKxvRCN8Pn37nXOJZV7MZH0AKFvFbUsOd0g=w1184-h789-no?authuser=0)
 
