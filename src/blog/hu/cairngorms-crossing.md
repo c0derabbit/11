@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Crossing the Cairngorms
+title: Átszelni a Cairngormst
 location: Cairngorms
 country: Skócia
 date: 2021-05-01
@@ -10,14 +10,24 @@ supportedOrgDescription: Scottish Mountain Rescue is the community of 25 member 
 donation: £50
 ---
 
+Határainkat feszegető, kemény túra. 
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3capH8ytgTHUZFH1l-L2v3kCtljoL3lSHHEKpTljHGP6Y2qjdQx6fq-b5tBsGIsqUUipnTBbZHsMqTqRvSBKewSAajhfBbbS3Q1qac2Er31fUcR2O9CDAaC4uZ2oyN-8bYLC7qeZn7a59c8KMpRvxmK4w=w1184-h789-no?authuser=0)
 
+Szerencsés időjárás - alig esett, viszonylag kevés jégeső és hóesés. 20-30 cm hó a földön.
+
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cp0PiqWqSUdSCI8bmX_yVJuDzXS14WZGS3JllBPcGdnmRSKL6DRybS8I2Mnlp2kLx0RZW0VaEJdvNkvENT02B-CN3sVf-mihuWmi324tYFElJf2ISZFQNcJvY99iqBzcx-ENk2UHnEMh0qAuywK9yazQ=w1184-h789-no?authuser=0)
+
+Szombaton 13 óra kemény gyaloglás. Vasárnap 8 óra levezető séta.
+
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cuDe-dzc8dSOdTnA-OYTQzDEKGAFxpHTEb6nrOcM8BvaZWvWiYSyxutGcLIQHum6nnNZ9Chi_flaMk121xYy9A5rbX0ddPcq2ejp9WNM_980YZiXDf3yn0nO4wje5kDQI9e2ghBOux6D3X6jCEcDP29g=w1184-h789-no?authuser=0)
 
+A civilizációba visszaérve értékeljük a meleg takarót, a bőséges ételt és forró zuhanyt.
+
+
 ![](https://lh3.googleusercontent.com/pw/ACtC-3fJXrpnb76XTsXOfR2duEjpNY9bmdqjYkBxT4QusnzgrH5BZg8es6rBf7NXe-Yn-ne7XGj_Ytd0dwr5_e6fj_5V7kkgqrjY6IFA4vvrYR1uvGdoKNNULJurKWTEppAkHKnYkHJdo_hGLDvqpBQ5tcxb6g=w1440-h428-no?authuser=0)
+
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3fBtFN6QlhHMsduo47Wyn5LUUhqqPVaxLnBHzf8s2fAm00CvUmVsQn5AIQAIOl19EuBsku2-_0Vu-ey5ew7jCl9uddTp6LemFphHYbjdzXLT01ON0AW3wpM_C6dMvBKEkGVgMBJ894vv0AY-DaHxirkMQ=w1440-h336-no?authuser=0)
 
