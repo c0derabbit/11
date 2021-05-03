@@ -1,5 +1,5 @@
-new_post_en = src/blog/en/$(date)-$(title).md
-new_post_hu = src/blog/hu/$(date)-$(title).md
+new_post_en = src/blog/en/$(slug).md
+new_post_hu = src/blog/hu/$(slug).md
 
 define POST_TEMPLATE
 ---
