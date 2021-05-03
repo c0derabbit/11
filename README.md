@@ -11,6 +11,17 @@
 - Create new > blog.
 - When the popup asks “What type of content are you creating?”, select ‘blog post’ from the dropdown.
 
+
+#### Creating a blogpost with the make command
+
+There is a `make` command that creates the blog template for you both in the English and the Hungarian namespace. 
+
+For instance:
+
+```
+make post date="2021-05-01" loc="Cairngorms" title="Crossing the Cairngorms" org="Scottish Mountain Rescue" orglink="https://www.scottishmountainrescue.org/"  orgdescription="Scottish Mountain Rescue is the community of 25 member Mountain
+```
+
 ### Blog post editor
 To switch between markdown and wysiwyg, click the three dots in the top right corner (next to the Save button).
 
