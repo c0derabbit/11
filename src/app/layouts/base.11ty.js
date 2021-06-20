@@ -7,8 +7,8 @@ module.exports = function({
 }) {
   const countries = require('../helpers/countries')
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
-    ? ['/hu', 'magyar']
-    : ['/en', 'English']
+    ? ['/hu', 'magyar <span class="text-base">🇭🇺</span>']
+    : ['/en', 'English <span class="text-base">🇬🇧</span>']
   const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
   const safe = country => country || (lang === 'hu' ? 'világ' : 'world')
 
