@@ -5,12 +5,12 @@ module.exports = function({
   canonicalUrl,
   collections,
 }) {
-  const countries = require('../helpers/countries')
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar <span class="text-base">🇭🇺</span>']
     : ['/en', 'English <span class="text-base">🇬🇧</span>']
   const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
   const safe = country => country || (lang === 'hu' ? 'világ' : 'world')
+  const years = require('../helpers/years')
 
   return `
     <!doctype html>
@@ -51,17 +51,17 @@ module.exports = function({
           </button>
         </header>
         <div class="max-w-6xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
-          <nav id="menu" class="left-nav text-xs md:col-span-2">
+          <nav id="menu" class="left-nav text-sm md:col-span-2">
             <ul class="sticky italic" style="top: 25vh">
-              ${(countries[lang] || []).map(country => `
-                <span class="font-medium block mt-1 cursor-pointer" onclick="setCountry('${safe(country)}')">
-                  ${safe(country)}
+              ${(years).map(year => `
+                <span class="font-medium block mt-1 cursor-pointer" onclick="setCategory(${year})">
+                  ${year}
                 </span>
-                <div id="${safe(country)}" class="post-list leading-tight pl-4">
-                  ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
+                <div id="${year}" class="post-list leading-tight pl-4">
+                  ${(collections[`${lang}_${year}`] || []).map(post => `
                     <li class="mb-1">
                       <a class="hover:underline" href="${post.url}">
-                        ${post.data.title}
+                        ${post.data.location}, ${new Date(post.data.date).toLocaleDateString(lang === 'en' ? 'en-GB' : lang).replace(/ /g, '')}
                       </a>
                     </li>
                   `).join('') || '<br />'}
@@ -91,7 +91,7 @@ module.exports = function({
         <script type="text/javascript">
           (function() {
             if('serviceWorker' in navigator)
-              navigator.serviceWorker.register('/sw.js');
+              //navigator.serviceWorker.register('/sw.js');
 
             if (typeof localStorage !== 'undefined' && typeof window !== 'undefined')
               localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2));
@@ -103,19 +103,19 @@ module.exports = function({
             }
           })()
 
-          function setCountry(country) {
-            var open = localStorage.getItem('open-country');
+          function setCategory(category) {
+            var open = localStorage.getItem('open-category');
             if (open) {
               var openList = document.getElementById(open);
               if (openList) openList.classList.add('hidden');
 
-              if (open === country) {
-                localStorage.removeItem('open-country');
+              if (open === category) {
+                localStorage.removeItem('open-category');
                 return;
               }
             }
-            localStorage.setItem('open-country', country);
-            var list = document.getElementById(country);
+            localStorage.setItem('open-category', category);
+            var list = document.getElementById(category);
             list.classList.remove('hidden');
           }
 

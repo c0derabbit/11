@@ -9,6 +9,23 @@ module.exports = function(config) {
   config.addCollection('en', api => api.getFilteredByGlob('src/blog/en/*.md'))
 
   const countries = require('./src/app/helpers/countries')
+  const years = require('./src/app/helpers/years')
+
+  years.forEach(year => {
+    config.addCollection(`hu_${year}`, api =>
+      api
+        .getFilteredByGlob('src/blog/hu/*.md')
+        .filter(post => new Date(post.data.date).getFullYear() === year)
+        .reverse()
+    )
+
+    config.addCollection(`en_${year}`, api =>
+      api
+        .getFilteredByGlob('src/blog/en/*.md')
+        .filter(post => new Date(post.data.date).getFullYear() === year)
+        .reverse()
+    )
+  })
 
   countries.hu.forEach(country => {
     config.addCollection(`hu_${country || 'világ'}`, api =>
