@@ -1,6 +1,6 @@
 :root {
   @apply antialiased text-black;
-  font-size: calc(17px + (19 - 17) * ((100vw - 600px) / (1600 - 600)));
+  font-size: calc(16px + (18 - 16) * ((100vw - 600px) / (1600 - 600)));
 }
 
 h1,
