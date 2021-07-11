@@ -1,6 +1,7 @@
 ---
 draft: false
 title: Crossing the Cairngorms
+shortTitle: Crossing the Cairngorms
 location: Cairngorms
 country: Scotland
 date: 2021-05-01

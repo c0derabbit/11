@@ -4,6 +4,7 @@ module.exports = function({
   content,
   canonicalUrl,
   collections,
+  page,
 }) {
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar <span class="text-base">🇭🇺</span>']
@@ -56,14 +57,17 @@ module.exports = function({
           <nav id="menu" class="left-nav text-xs text-right md:col-span-3">
             <ul class="sticky text-gray-700" style="top: 25vh">
               ${(categories[lang]).map(category => `
-                <span class="font-semibold block mt-4 mb-1 uppercase">
+                <span
+                  class="font-semibold block mt-3 mb-1 uppercase cursor-pointer"
+                  onclick="setCategory('${slugify(category)}')"
+                >
                   ${category}
                 </span>
-                <div class="post-list text-sm leading-snug">
+                <div id="${slugify(category)}" class="post-list text-sm leading-snug">
                   ${(collections[`${lang}_${slugify(category)}`] || []).map(post => `
                     <li>
-                      <a class="hover:text-black" href="${post.url}">
-                        ${post.data.shortTitle || post.data.title + post.data.location},
+                      <a class="${page.url === post.url ? 'bg-yellow-200' : ''} hover:text-black" href="${post.url}">
+                        ${post.data.shortTitle || post.data.location || post.data.title},
                         <span class="text-xs">
                           ${new Date(post.data.date)
                             .toLocaleDateString(lang === 'en' ? 'en-GB' : lang)
@@ -103,7 +107,28 @@ module.exports = function({
 
             if (typeof localStorage !== 'undefined' && typeof window !== 'undefined')
               localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2));
+
+            var lists = Array.from(document.getElementsByClassName('post-list'));
+            var open = localStorage.getItem('open-category');
+            for (var i = 0; i < lists.length; i++) {
+              if (lists[i].id !== open) lists[i].classList.add('hidden');
+            }
           })()
+
+          function setCategory(category) {
+            var open = localStorage.getItem('open-category');
+            if (open) {
+              var openList = document.getElementById(open);
+              if (openList) openList.classList.add('hidden');
+              if (open === category) {
+                localStorage.removeItem('open-category');
+                return;
+              }
+            }
+            localStorage.setItem('open-category', category);
+            var list = document.getElementById(category);
+            list.classList.remove('hidden');
+          }
 
           var menu = document.getElementById('menu');
 

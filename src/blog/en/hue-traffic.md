@@ -1,5 +1,6 @@
 ---
 title: Coffee and traffic in Vietnam
+shortTitle: Traffic in Hue
 location: Hue
 country: Vietnam
 date: 2016-03-24

@@ -2,6 +2,7 @@
 location: Dalwhinnie
 country: Scotland
 title: 'Loch Ericht: a cycling expedition'
+shortTitle: Cycling hell in Dalwhinnie
 date: 2020-08-29T23:00:00Z
 description: ''
 

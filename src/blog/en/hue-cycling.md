@@ -1,5 +1,6 @@
 ---
 title: Tu Duc’s tomb by bicycle
+shortTitle: Cycling in Hue
 location: Hue
 country: Vietnam
 date: 2016-03-27

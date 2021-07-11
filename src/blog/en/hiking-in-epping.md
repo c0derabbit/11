@@ -2,6 +2,7 @@
 location: London
 country: England
 title: Hiking in Epping Forest
+shortTitle: Hiking in Epping
 date: 2018-01-28
 cover: the_bull_theydon_bois.jpg
 ---

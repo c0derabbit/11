@@ -1,5 +1,6 @@
 ---
 title: The End, thanks for reading!
+shortTitle: The End
 date: 2016-06-07
 country: Europe
 ---

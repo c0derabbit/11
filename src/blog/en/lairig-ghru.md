@@ -2,6 +2,7 @@
 location: Aviemore
 country: Scotland
 title: Lairig Ghru
+shortTitle: Lairig Ghru
 date: 2020-10-17T23:00:00.000+00:00
 description: ''
 ---

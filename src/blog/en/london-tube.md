@@ -2,6 +2,7 @@
 location: London
 country: England
 title: The Tube
+shortTitle: The London Tube
 date: 2018-01-21
 cover: tube_tottenham.jpg
 ---
