@@ -1,6 +1,7 @@
 ---
 title: "183"
 location: Budapest
+country: Hungary
 date: 2016-01-15
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Kínai vízum"
 location: Budapest
+country: Magyarország
 date: 2016-01-27
 ---
 

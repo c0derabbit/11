@@ -1,6 +1,7 @@
 ---
 title: The End, thanks for reading!
 date: 2016-06-07
+country: Europe
 ---
 
 From June 2nd, we continue our adventures in Europe, so this is the end of our Asian blog. If it continues, we will let you know. Here follows the best, worst, and a summary of the rest.

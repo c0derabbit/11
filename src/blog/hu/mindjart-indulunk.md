@@ -1,8 +1,8 @@
 ---
 title: "Mindjárt indulunk"
 location: Budapest
+country: Magyarország
 date: "2016-01-14T22:12:03.284Z"
-description: ""
 ---
 Nagyjából fél éve gyűjtögetjük a tennivalókat, vinnivalókat, költségeket összetett táblázatokban. A cél Ázsia, és a cél, hogy jól érezzük magunkat. Nem tanulunk, nem dolgozunk, igen, visszajövünk (legalábbis a repülőjegyünk retúr).
 

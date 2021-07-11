@@ -1,5 +1,6 @@
 ---
 title: Köszönjük a figyelmet, vége!
+country: Európa
 date: 2016-06-07
 ---
 

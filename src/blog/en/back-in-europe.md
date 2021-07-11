@@ -1,6 +1,7 @@
 ---
 title: We’re back in Europe!
 date: 2016-06-03
+country: Europe
 ---
 
 Yesterday we’ve been to India! (Well, to Delhi Airport.)

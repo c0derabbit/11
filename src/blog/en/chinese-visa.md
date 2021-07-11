@@ -1,6 +1,7 @@
 ---
 title: Getting the Chinese visa
 location: Budapest
+country: Hungary
 date: 2016-01-27
 ---
 

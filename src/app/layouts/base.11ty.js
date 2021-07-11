@@ -11,6 +11,8 @@ module.exports = function({
   const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
   const safe = country => country || (lang === 'hu' ? 'világ' : 'world')
   const years = require('../helpers/years')
+  const categories = require('../helpers/categories')
+  const slugify = require('slugify')
 
   return `
     <!doctype html>
@@ -51,17 +53,23 @@ module.exports = function({
           </button>
         </header>
         <div class="max-w-6xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
-          <nav id="menu" class="left-nav text-sm md:col-span-2">
-            <ul class="sticky italic" style="top: 25vh">
-              ${(years).map(year => `
-                <span class="font-medium block mt-1 cursor-pointer" onclick="setCategory(${year})">
-                  ${year}
+          <nav id="menu" class="left-nav text-xs text-right md:col-span-3">
+            <ul class="sticky text-gray-700" style="top: 25vh">
+              ${(categories[lang]).map(category => `
+                <span class="font-semibold block mt-4 mb-1 uppercase">
+                  ${category}
                 </span>
-                <div id="${year}" class="post-list leading-tight pl-4">
-                  ${(collections[`${lang}_${year}`] || []).map(post => `
-                    <li class="mb-1">
-                      <a class="hover:underline" href="${post.url}">
-                        ${post.data.location}, ${new Date(post.data.date).toLocaleDateString(lang === 'en' ? 'en-GB' : lang).replace(/ /g, '')}
+                <div class="post-list text-sm leading-snug">
+                  ${(collections[`${lang}_${slugify(category)}`] || []).map(post => `
+                    <li>
+                      <a class="hover:text-black" href="${post.url}">
+                        ${post.data.shortTitle || post.data.title + post.data.location},
+                        <span class="text-xs">
+                          ${new Date(post.data.date)
+                            .toLocaleDateString(lang === 'en' ? 'en-GB' : lang)
+                              .replace(/ /g, '')
+                              .substr(0, lang === 'hu' ? 10 : undefined)
+                          }
                       </a>
                     </li>
                   `).join('') || '<br />'}
@@ -69,7 +77,7 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="min-h-screen md:col-start-4 md:col-span-6">
+          <main class="min-h-screen md:col-start-5 md:col-span-6">
             ${content}
           </main>
         </div>
@@ -91,33 +99,11 @@ module.exports = function({
         <script type="text/javascript">
           (function() {
             if('serviceWorker' in navigator)
-              //navigator.serviceWorker.register('/sw.js');
+              navigator.serviceWorker.register('/sw.js');
 
             if (typeof localStorage !== 'undefined' && typeof window !== 'undefined')
               localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2));
-
-            var lists = Array.from(document.getElementsByClassName('post-list'));
-            var open = localStorage.getItem('open-country');
-            for (var i = 0; i < lists.length; i++) {
-              if (lists[i].id !== open) lists[i].classList.add('hidden');
-            }
           })()
-
-          function setCategory(category) {
-            var open = localStorage.getItem('open-category');
-            if (open) {
-              var openList = document.getElementById(open);
-              if (openList) openList.classList.add('hidden');
-
-              if (open === category) {
-                localStorage.removeItem('open-category');
-                return;
-              }
-            }
-            localStorage.setItem('open-category', category);
-            var list = document.getElementById(category);
-            list.classList.remove('hidden');
-          }
 
           var menu = document.getElementById('menu');
 
