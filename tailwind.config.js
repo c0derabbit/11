@@ -15,7 +15,7 @@ module.exports = {
   theme: {
     borderWidth: {
       ...borderWidth,
-      '40': '40px',
+      '40': '32px',
     },
     colors: {
       ...colors,

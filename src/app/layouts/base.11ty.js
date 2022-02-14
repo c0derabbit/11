@@ -9,7 +9,7 @@ module.exports = function({
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar <span class="text-base">🇭🇺</span>']
     : ['/en', 'English <span class="text-base">🇬🇧</span>']
-  const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
+  const description = 'A pair going places. We love snow, the Japanese Alps off-season, Chile, and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
   const categories = require('../helpers/categories')
   const slugify = require('slugify')
 
@@ -17,23 +17,8 @@ module.exports = function({
     const country = category.split(', ')[0]
     const colour = (() => {
       switch (country) {
-        case 'China':
-        case 'Kína':
-        case 'Japan':
-        case 'Japán':
-          return 'red'
-        case 'Scotland':
-        case 'Skócia':
-          return 'blue'
-        case 'Thailand':
-        case 'Thaiföld':
-          return 'green'
-        case 'Vietnam':
-        case 'Vietnám':
-        case 'Hong Kong':
-          return 'yellow'
         default:
-          return 'purple'
+          return 'yellow'
       }
     })()
 
@@ -80,13 +65,13 @@ module.exports = function({
             <img src="/menu.svg" alt="" class="menu-icon" />
           </button>
         </header>
-        <div class="max-w-7xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
-          <nav id="menu" class="left-nav text-xs text-right md:col-span-3">
-            <ul class="sticky" style="top: 25vh">
+        <div class="max-w-screen-xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-24">
+          <nav id="menu" class="left-nav text-xs text-right text-gray-500 md:col-span-3">
+            <ul class="sticky" style="top: 20vh">
               ${(categories[lang]).map(category => `
                 <span
                   class="
-                    font-semibold block mt-4 uppercase cursor-pointer
+                    font-semibold block mt-3 uppercase cursor-pointer
                     hover:text-${getColour(category)}-700
                     pr-1 border-r-2 border-gray-100
                   "
@@ -121,7 +106,7 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="min-h-screen md:col-span-6 md:pl-16">
+          <main class="min-h-screen md:col-span-6">
             ${content}
           </main>
         </div>

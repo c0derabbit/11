@@ -76,7 +76,8 @@ exports.render = ({ title, page, content, lang, className = '', supportedOrg, su
 
     <div
       id="modal"
-      class="hidden fixed inset-0 md:p-6 flex justify-center items-center bg-white bg-opacity-75"
+      class="opacity-0 transition-opacity duration-300 pointer-events-none fixed md:p-6 flex justify-center items-center bg-gray-800 bg-opacity-75"
+      style="top: 0; left: 0; bottom: 0; right: 0;"
     >
       <img
         id="modal-img"

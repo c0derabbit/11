@@ -1,7 +1,7 @@
 module.exports = {
   hu: [
-    'Skócia, 2019-2021',
-    'Nagy-Britannia, 2018-2019',
+    'Skócia, 2018-2021',
+    'Anglia, 2018-2019',
     'Európa, 2016',
     'Thaiföld, 2016',
     'Tajvan, 2016',
