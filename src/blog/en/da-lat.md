@@ -1,5 +1,6 @@
 ---
 title: Four days on a motorbike in Vietnam
+shortTitle: Motorbiking in Vietnam
 location: Da Lat
 country: Vietnam
 date: 2016-04-07

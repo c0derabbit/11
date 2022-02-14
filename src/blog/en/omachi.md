@@ -1,5 +1,6 @@
 ---
 title: Shinano-Omachi
+shortTitle: Shinano-Omachi
 location: Omachi
 country: Japan
 date: 2016-04-22

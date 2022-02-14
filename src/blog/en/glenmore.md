@@ -1,5 +1,6 @@
 ---
 title: Glenmore Forest and Meall a’ Bhuachaille
+shortTitle: Winter camping in Aviemore
 date: 2019-11-11T00:00:00.000Z
 country: Scotland
 location: Aviemore

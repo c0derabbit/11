@@ -1,7 +1,7 @@
 ---
 location: Barton-on-Sea
 title: Barton-on-Sea
-country: England
+country: UK
 date: 2018-03-25
 ---
 

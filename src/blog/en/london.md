@@ -1,10 +1,8 @@
 ---
 location: London
-country: England
+country: UK
 date: 2019-04-05
 title: London
-cover: london.jpg
-description: Weʼve had some visitors & snapped some photos. 📷
 ---
 
 ![london](../../img/ldn1.JPG)

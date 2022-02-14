@@ -1,6 +1,7 @@
 ---
 title: "The power of time off"
 location: Budapest
+country: Magyarország
 date: 2016-01-25
 ---
 

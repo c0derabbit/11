@@ -1,5 +1,6 @@
 ---
 title: Crisps and beer in China
+shortTitle: Crisps and beer in China
 location: Shanghai
 country: China
 date: 2016-03-08

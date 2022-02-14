@@ -1,5 +1,6 @@
 ---
 title: Hello Hong Kong!
+shortTitle: Hello Hong Kong
 country: Hong Kong
 date: 2016-03-19
 cover: hongkong.jpg

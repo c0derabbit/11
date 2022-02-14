@@ -1,5 +1,6 @@
 ---
 title: Hello from Shanghai
+shortTitle: Hello from Shanghai
 location: Shanghai
 country: China
 date: 2016-02-19

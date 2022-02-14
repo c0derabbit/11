@@ -13,7 +13,7 @@ module.exports = {
   ],
   en: [
     'Scotland',
-    'England',
+    'UK',
     'Czech Republic',
     'Japan',
     'Hong Kong',

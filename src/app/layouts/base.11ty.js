@@ -4,13 +4,54 @@ module.exports = function({
   content,
   canonicalUrl,
   collections,
+  page,
 }) {
-  const countries = require('../helpers/countries')
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar <span class="text-base">🇭🇺</span>']
     : ['/en', 'English <span class="text-base">🇬🇧</span>']
-  const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
-  const safe = country => country || (lang === 'hu' ? 'világ' : 'world')
+  const description = 'A pair going places. We love snow, the Japanese Alps off-season, Chile, and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
+  const categories = require('../helpers/categories')
+  const slugify = require('slugify')
+
+  function getColour(category) {
+    const country = category.split(', ')[0]
+    const colour = (() => {
+      switch (country) {
+        case 'Scotland':
+        case 'Skócia':
+          return 'blue'
+        case 'Anglia':
+        case 'UK':
+          return 'indigo'
+        case 'Japan':
+        case 'Japán':
+          return 'red'
+        case 'Vietnam':
+        case 'Vietnám':
+          return 'yellow'
+        case 'Hong Kong':
+          return 'green'
+        case 'Thailand':
+        case 'Thaiföld':
+          return 'pink'
+        case 'Tajvan':
+        case 'Taiwan':
+          return 'yellow'
+        case 'China':
+        case 'Kína':
+          return 'blue'
+          /*
+        case 'Európa':
+        case 'Europe':
+          return 'purple'
+          */
+        default:
+          return 'gray'
+      }
+    })()
+
+    return colour
+  }
 
   return `
     <!doctype html>
@@ -34,34 +75,58 @@ module.exports = function({
       <body>
         <header class="text-center">
           <a href="/">
-            <img src="/panda.png" class="mx-auto md:fixed top-0 md:left-0 md:m-3 w-16" />
+            <img src="/panda.png" class="w-12 md:w-16 mx-auto top-0 mt-2 md:fixed md:left-0 md:m-3" />
           </a>
           <a
             href="${langSwitchUrl}"
             class="absolute top-0 right-0 p-4 text-xs font-medium"
+            style="top: 0; right: 0"
           >
             ${langSwitchLabel}
           </a>
           <button
             class="absolute top-0 left-0 p-4 md:hidden"
+            style="top: 0; left: 0;"
             onclick="toggleMenu()"
           >
             <img src="/close.svg" alt="" class="menu-icon hidden" />
             <img src="/menu.svg" alt="" class="menu-icon" />
           </button>
         </header>
-        <div class="max-w-6xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
-          <nav id="menu" class="left-nav text-xs md:col-span-2">
-            <ul class="sticky italic" style="top: 25vh">
-              ${(countries[lang] || []).map(country => `
-                <span class="font-medium block mt-1 cursor-pointer" onclick="setCountry('${safe(country)}')">
-                  ${safe(country)}
+        <div class="max-w-screen-xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-24">
+          <nav id="menu" class="left-nav text-xs text-right text-gray-500 md:col-span-3">
+            <ul class="sticky" style="top: 20vh">
+              ${(categories[lang]).map(category => `
+                <span
+                  class="
+                    font-semibold block mt-3 uppercase cursor-pointer
+                    hover:text-${getColour(category)}-700
+                    pr-1 border-r-2 border-gray-100
+                  "
+                  onclick="setCategory('${slugify(category)}')"
+                >
+                  ${category}
                 </span>
-                <div id="${safe(country)}" class="post-list leading-tight pl-4">
-                  ${(collections[`${lang}_${safe(country)}`] || []).map(post => `
-                    <li class="mb-1">
-                      <a class="hover:underline" href="${post.url}">
-                        ${post.data.title}
+                <div
+                  id="${slugify(category)}"
+                  class="post-list text-sm font-medium border-r-2 border-gray-100 pt-1.5 pr-1 leading-relaxed"
+                >
+                  ${(collections[`${lang}_${slugify(category)}`] || []).map(post => `
+                    <li>
+                      <a
+                        href="${post.url}"
+                        class="${page.url === post.url
+                          ? `border-${getColour(category)}-600 border-r-2 pr-1 -mr-1.5 text-${getColour(category)}-700`
+                          : `hover:text-${getColour(category)}-700`
+                        }"
+                      >
+                        ${post.data.shortTitle || post.data.location || post.data.title},
+                        <span class="text-xs">
+                          ${new Date(post.data.date)
+                            .toLocaleDateString(lang === 'en' ? 'en-GB' : lang)
+                              .replace(/ /g, '')
+                              .substr(0, lang === 'hu' ? 10 : undefined)
+                          }
                       </a>
                     </li>
                   `).join('') || '<br />'}
@@ -69,25 +134,10 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="min-h-screen md:col-start-4 md:col-span-6">
+          <main class="min-h-screen md:col-span-6">
             ${content}
           </main>
         </div>
-        <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-        <script>
-        (function(f, a, t, h, o, m){
-            a[h]=a[h]||function(){
-                (a[h].q=a[h].q||[]).push(arguments)
-            };
-            o=f.createElement('script'),
-            m=f.getElementsByTagName('script')[0];
-            o.async=1; o.src=t; o.id='fathom-script';
-            m.parentNode.insertBefore(o,m)
-        })(document, window, '//stats.eszter.space/tracker.js', 'fathom');
-        fathom('set', 'siteId', 'RBNNP');
-        fathom('trackPageview');
-        </script>
-        <!-- / Fathom -->
         <script type="text/javascript">
           (function() {
             if('serviceWorker' in navigator)
@@ -97,25 +147,24 @@ module.exports = function({
               localStorage.setItem('nf-lang', window.location.pathname.substr(1, 2));
 
             var lists = Array.from(document.getElementsByClassName('post-list'));
-            var open = localStorage.getItem('open-country');
+            var open = localStorage.getItem('open-category');
             for (var i = 0; i < lists.length; i++) {
               if (lists[i].id !== open) lists[i].classList.add('hidden');
             }
           })()
 
-          function setCountry(country) {
-            var open = localStorage.getItem('open-country');
+          function setCategory(category) {
+            var open = localStorage.getItem('open-category');
             if (open) {
               var openList = document.getElementById(open);
               if (openList) openList.classList.add('hidden');
-
-              if (open === country) {
-                localStorage.removeItem('open-country');
+              if (open === category) {
+                localStorage.removeItem('open-category');
                 return;
               }
             }
-            localStorage.setItem('open-country', country);
-            var list = document.getElementById(country);
+            localStorage.setItem('open-category', category);
+            var list = document.getElementById(category);
             list.classList.remove('hidden');
           }
 

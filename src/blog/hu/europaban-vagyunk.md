@@ -1,5 +1,6 @@
 ---
 title: Európában vagyunk!
+country: Európa
 date: 2016-06-03
 ---
 

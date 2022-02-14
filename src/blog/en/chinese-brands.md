@@ -1,5 +1,6 @@
 ---
 title: Chinese brands for language geeks
+shortTitle: Weird Chinese brands
 location: Shanghai
 country: China
 date: 2016-03-11

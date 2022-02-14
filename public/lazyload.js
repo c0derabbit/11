@@ -48,7 +48,8 @@
     updateModalImg(e.target.dataset.src)
 
     var modal = document.getElementById('modal')
-    modal.classList.remove('hidden')
+    modal.classList.remove('opacity-0')
+    modal.classList.remove('pointer-events-none')
     modal.addEventListener('click', hideModal)
     window.addEventListener('keydown', handleKey)
   }
@@ -62,9 +63,12 @@
     var modal = document.getElementById('modal')
     var modalImg = document.getElementById('modal-img')
 
-    modal.classList.add('hidden')
-    modalImg.src = ''
-    modalImgIdx = null
+    modal.classList.add('opacity-0')
+    modal.classList.add('pointer-events-none')
+    setTimeout(function() {
+      modalImg.src = ''
+      modalImgIdx = null
+    }, 300)
     document.body.classList.remove('overflow-hidden')
     window.removeEventListener('keydown', handleKey)
   }

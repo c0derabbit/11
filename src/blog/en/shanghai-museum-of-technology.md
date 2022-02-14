@@ -2,6 +2,7 @@
 location: Shanghai
 country: China
 title: Shanghai Museum of Science and Technology
+shortTitle: Shanghai sci & tech
 date: 2016-02-23
 cover: sh-museum.jpg
 

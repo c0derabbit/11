@@ -2,12 +2,7 @@
 title: Beinn Dearg in three attempts
 date: 2020-03-08T00:00:00.000+00:00
 country: Scotland
-location: Blair Atholl
-description: A storm named Dennis, total whiteout, hours of plodding in virgin snow
-  all tried but couldn’t stop us from getting up there. It took us three attempts,
-  but we’ve bagged Beinn Dearg in the end — and in winter conditions.
-cover: beinn_dearg.jpg
-
+location: Beinn Dearg
 ---
 A storm named Dennis, total whiteout, hours of plodding in virgin snow all tried but couldn’t stop us from getting up there. It took us three attempts, but we’ve bagged Beinn Dearg in the end — and in winter conditions.
 

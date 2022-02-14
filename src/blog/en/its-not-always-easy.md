@@ -1,5 +1,6 @@
 ---
 title: About the hard parts, honestly
+shortTitle: About the hard parts
 location: Taipei
 country: Taiwan
 date: 2016-04-28

@@ -1,6 +1,6 @@
 ---
 location: London
-country: England
+country: UK
 title: First week in London
 cover: soho.jpg
 date: 2018-01-06

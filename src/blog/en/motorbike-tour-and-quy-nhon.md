@@ -1,5 +1,6 @@
 ---
 title: Motorbike tour and Quy Nhon
+shortTitle: Motorcycling in Quy Nhon
 location: Quy Nhon
 country: Vietnam
 date: 2016-03-30

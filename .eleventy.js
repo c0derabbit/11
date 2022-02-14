@@ -8,7 +8,43 @@ module.exports = function(config) {
   config.addCollection('hu', api => api.getFilteredByGlob('src/blog/hu/*.md'))
   config.addCollection('en', api => api.getFilteredByGlob('src/blog/en/*.md'))
 
+  const slugify = require('slugify')
   const countries = require('./src/app/helpers/countries')
+  const categories = require('./src/app/helpers/categories')
+
+  categories.hu.forEach(category => {
+    const [country, period] = category.split(', ')
+    const [fromYear, toYear] = period.split('-').map(year => parseInt(year))
+
+    config.addCollection(`hu_${slugify(category)}`, api =>
+      api
+        .getFilteredByGlob('src/blog/hu/*.md')
+        .filter(post => {
+          const postYear = new Date(post.data.date).getFullYear()
+
+          return post.data.country === country
+            && (toYear ? postYear >= fromYear && postYear <= toYear : postYear === fromYear)
+          })
+        .sort((a, b) => b.data.date - a.data.date)
+    )
+  })
+
+  categories.en.forEach(category => {
+    const [country, period] = category.split(', ')
+    const [fromYear, toYear] = period.split('-').map(year => parseInt(year))
+
+    config.addCollection(`en_${slugify(category)}`, api =>
+      api
+        .getFilteredByGlob('src/blog/en/*.md')
+        .filter(post => {
+          const postYear = new Date(post.data.date).getFullYear()
+
+          return post.data.country === country
+            && (toYear ? postYear >= fromYear && postYear <= toYear : postYear === fromYear)
+          })
+        .sort((a, b) => b.data.date - a.data.date)
+    )
+  })
 
   countries.hu.forEach(country => {
     config.addCollection(`hu_${country || 'világ'}`, api =>

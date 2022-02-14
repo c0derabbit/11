@@ -1,6 +1,8 @@
 ---
 title: We are leaving soon
+shortTitle: Leaving soon
 location: Budapest
+country: Hungary
 date: "2016-01-14T22:12:03.284Z"
 ---
 
