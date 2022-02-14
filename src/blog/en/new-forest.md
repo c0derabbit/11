@@ -1,6 +1,6 @@
 ---
 location: New Forest
-country: England
+country: UK
 title: How new is the New Forest?
 cover: newforest.jpg
 date: 2019-06-01

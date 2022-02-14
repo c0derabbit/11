@@ -1,6 +1,6 @@
 ---
 location: London
-country: England
+country: UK
 title: Snow
 date: 2018-02-28
 ---

@@ -1,6 +1,5 @@
 :root {
   @apply antialiased text-black;
-  font-size: calc(16px + (18 - 16) * ((100vw - 600px) / (1600 - 600)));
 }
 
 h1,
@@ -13,11 +12,11 @@ h6 {
 }
 
 h1 {
-  @apply text-3xl;
+  @apply text-xl md:text-3xl;
 }
 
 h2 {
-  @apply text-xl;
+  @apply text-lg md:text-xl;
 }
 
 h3 {
@@ -31,7 +30,8 @@ p {
 @media (max-width: 767px) {
   .left-nav {
     position: absolute;
-    transform: translateX(-250px);
+    width: 260px;
+    transform: translateX(-300px);
     transition: transform .3s ease;
 
     + * {
@@ -42,7 +42,7 @@ p {
       transform: none;
 
       + * {
-        transform: translateX(250px);
+        transform: translateX(300px);
       }
     }
   }

@@ -30,14 +30,18 @@ module.exports = function(config) {
   })
 
   categories.en.forEach(category => {
-    const [country, year] = category.split(', ')
+    const [country, period] = category.split(', ')
+    const [fromYear, toYear] = period.split('-').map(year => parseInt(year))
+
     config.addCollection(`en_${slugify(category)}`, api =>
       api
         .getFilteredByGlob('src/blog/en/*.md')
-        .filter(post =>
-          post.data.country === country
-          && parseInt(year) === new Date(post.data.date).getFullYear()
-        )
+        .filter(post => {
+          const postYear = new Date(post.data.date).getFullYear()
+
+          return post.data.country === country
+            && (toYear ? postYear >= fromYear && postYear <= toYear : postYear === fromYear)
+          })
         .sort((a, b) => b.data.date - a.data.date)
     )
   })

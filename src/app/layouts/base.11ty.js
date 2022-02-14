@@ -10,10 +10,35 @@ module.exports = function({
     ? ['/hu', 'magyar <span class="text-base">🇭🇺</span>']
     : ['/en', 'English <span class="text-base">🇬🇧</span>']
   const description = 'A pair going places. We love the Japanese Alps off-season, Chile (also off-season), and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
-  const safe = country => country || (lang === 'hu' ? 'világ' : 'world')
-  const years = require('../helpers/years')
   const categories = require('../helpers/categories')
   const slugify = require('slugify')
+
+  function getColour(category) {
+    const country = category.split(', ')[0]
+    const colour = (() => {
+      switch (country) {
+        case 'China':
+        case 'Kína':
+        case 'Japan':
+        case 'Japán':
+          return 'red'
+        case 'Scotland':
+        case 'Skócia':
+          return 'blue'
+        case 'Thailand':
+        case 'Thaiföld':
+          return 'green'
+        case 'Vietnam':
+        case 'Vietnám':
+        case 'Hong Kong':
+          return 'yellow'
+        default:
+          return 'purple'
+      }
+    })()
+
+    return colour
+  }
 
   return `
     <!doctype html>
@@ -37,7 +62,7 @@ module.exports = function({
       <body>
         <header class="text-center">
           <a href="/">
-            <img src="/panda.png" class="mx-auto md:fixed top-0 md:left-0 md:m-3 w-16" />
+            <img src="/panda.png" class="w-12 md:w-16 mx-auto top-0 mt-2 md:fixed md:left-0 md:m-3" />
           </a>
           <a
             href="${langSwitchUrl}"
@@ -55,18 +80,28 @@ module.exports = function({
         </header>
         <div class="max-w-6xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
           <nav id="menu" class="left-nav text-xs text-right md:col-span-3">
-            <ul class="sticky text-gray-700" style="top: 25vh">
+            <ul class="sticky" style="top: 25vh">
               ${(categories[lang]).map(category => `
                 <span
-                  class="font-semibold block mt-3 mb-1 uppercase cursor-pointer"
+                  class="
+                    font-semibold block mt-3 pb-1 uppercase cursor-pointer
+                    hover:text-${getColour(category)}-700
+                    pr-1 border-r-2 border-gray-300
+                  "
                   onclick="setCategory('${slugify(category)}')"
                 >
                   ${category}
                 </span>
-                <div id="${slugify(category)}" class="post-list text-sm leading-snug">
+                <div id="${slugify(category)}" class="post-list text-sm font-medium border-r-2 border-gray-300 pr-1">
                   ${(collections[`${lang}_${slugify(category)}`] || []).map(post => `
                     <li>
-                      <a class="${page.url === post.url ? 'bg-yellow-200' : ''} hover:text-black" href="${post.url}">
+                      <a
+                        href="${post.url}"
+                        class="${page.url === post.url
+                          ? `border-${getColour(category)}-700 text-${getColour(category)}-700`
+                          : `hover:text-${getColour(category)}-700`
+                        }"
+                      >
                         ${post.data.shortTitle || post.data.location || post.data.title},
                         <span class="text-xs">
                           ${new Date(post.data.date)
@@ -85,21 +120,6 @@ module.exports = function({
             ${content}
           </main>
         </div>
-        <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-        <script>
-        (function(f, a, t, h, o, m){
-            a[h]=a[h]||function(){
-                (a[h].q=a[h].q||[]).push(arguments)
-            };
-            o=f.createElement('script'),
-            m=f.getElementsByTagName('script')[0];
-            o.async=1; o.src=t; o.id='fathom-script';
-            m.parentNode.insertBefore(o,m)
-        })(document, window, '//stats.eszter.space/tracker.js', 'fathom');
-        fathom('set', 'siteId', 'RBNNP');
-        fathom('trackPageview');
-        </script>
-        <!-- / Fathom -->
         <script type="text/javascript">
           (function() {
             if('serviceWorker' in navigator)

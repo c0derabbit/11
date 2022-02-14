@@ -1,10 +1,9 @@
 ---
 location: London
-country: England
+country: UK
 title: Hiking in Epping Forest
 shortTitle: Hiking in Epping
 date: 2018-01-28
-cover: the_bull_theydon_bois.jpg
 ---
 
 Despite the not so great weather, we went hiking in the Epping Forest last Sunday. They say there are a lot of deer living there but we haven’t met them. However, we saw rabbits and squirrels, and there was a proper snowfall too!

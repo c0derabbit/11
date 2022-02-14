@@ -39,7 +39,7 @@ exports.render = ({ lang, pagination = {} }) => {
     <div class="text-center">
       ${previousPageHref ? `<a href="${previousPageHref}" class="mr-3">${t('previous')}</a>` : ''}
       ${hrefs.map((link, idx) => `
-        <a href="${link}" class="mx-2${pageNumber === idx ? ' font-bold' : ''}">
+        <a href="${link}" class="mx-2 ${pageNumber === idx ? ' font-bold' : ''}">
           ${idx + 1}
         </a>
       `).join('')}

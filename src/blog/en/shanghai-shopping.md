@@ -2,6 +2,7 @@
 location: Shanghai
 country: China
 title: What’s on offer in a Chinese supermarket?
+shortTitle: Shanghai supermarket
 date: 2016-02-24
 ---
 
