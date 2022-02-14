@@ -67,38 +67,43 @@ module.exports = function({
           <a
             href="${langSwitchUrl}"
             class="absolute top-0 right-0 p-4 text-xs font-medium"
+            style="top: 0; right: 0"
           >
             ${langSwitchLabel}
           </a>
           <button
             class="absolute top-0 left-0 p-4 md:hidden"
+            style="top: 0; left: 0;"
             onclick="toggleMenu()"
           >
             <img src="/close.svg" alt="" class="menu-icon hidden" />
             <img src="/menu.svg" alt="" class="menu-icon" />
           </button>
         </header>
-        <div class="max-w-6xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
+        <div class="max-w-7xl mx-auto p-4 grid gap-6 grid-cols-1 md:grid-cols-12 md:gap-2">
           <nav id="menu" class="left-nav text-xs text-right md:col-span-3">
             <ul class="sticky" style="top: 25vh">
               ${(categories[lang]).map(category => `
                 <span
                   class="
-                    font-semibold block mt-3 pb-1 uppercase cursor-pointer
+                    font-semibold block mt-4 uppercase cursor-pointer
                     hover:text-${getColour(category)}-700
-                    pr-1 border-r-2 border-gray-300
+                    pr-1 border-r-2 border-gray-100
                   "
                   onclick="setCategory('${slugify(category)}')"
                 >
                   ${category}
                 </span>
-                <div id="${slugify(category)}" class="post-list text-sm font-medium border-r-2 border-gray-300 pr-1">
+                <div
+                  id="${slugify(category)}"
+                  class="post-list text-sm font-medium border-r-2 border-gray-100 pt-1.5 pr-1 leading-relaxed"
+                >
                   ${(collections[`${lang}_${slugify(category)}`] || []).map(post => `
                     <li>
                       <a
                         href="${post.url}"
                         class="${page.url === post.url
-                          ? `border-${getColour(category)}-700 text-${getColour(category)}-700`
+                          ? `border-${getColour(category)}-600 border-r-2 pr-1 -mr-1.5 text-${getColour(category)}-700`
                           : `hover:text-${getColour(category)}-700`
                         }"
                       >
@@ -116,7 +121,7 @@ module.exports = function({
               `).join('')}
             </ul>
           </nav>
-          <main class="min-h-screen md:col-start-5 md:col-span-6">
+          <main class="min-h-screen md:col-span-6 md:pl-16">
             ${content}
           </main>
         </div>
