@@ -2,15 +2,7 @@
 
 ## Adding new blog posts
 
-- Go to [nagyfalat.com/admin/](https://nagyfalat.com/admin/)
-- Sign in (you can do it with GitHub)
-
-### To create a blog post
-- On the sidebar, click ‘blog’
-- **Navigate to /hu/ or /en/** as wished
-- Create new > blog.
-- When the popup asks “What type of content are you creating?”, select ‘blog post’ from the dropdown.
-
+The best way is good old markdown. Posts live in `blog/en/` and `blog/hu/`. You can put images into `img/`, or link from some external source.
 
 #### Creating a blogpost with the make command
 
