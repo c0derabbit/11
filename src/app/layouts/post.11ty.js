@@ -40,14 +40,16 @@ exports.render = ({ title, page, content, lang, className = '', supportedOrg, su
       </header>
       <div class="mt-6">
         ${supportedOrg ? `
-          <div class="text-sm border-4 px-2 py-2 mb-6 relative">
+          <div class="text-sm bg-gray-100 text-gray-700 p-4 mb-6 relative">
             <strong>${t('supportedOrg')}:</strong> <a href="${supportedOrgLink}" target="_blank" rel="noopener noreferrer">${supportedOrg}</a><br />
             <strong>${t('donation')}:</strong> ${donation}<br />
             <span class="block mt-2">
               ${supportedOrgDescription}
             </span>
-            <sup class="absolute top-0 right-0 px-1 py-2">
-              <a href="/${lang}/${t('responsibilitySlug')}">${t('whatsThis')}</a>
+            <sup class="absolute px-2 py-3" style="top: 0; right: 0;">
+              <a href="/${lang}/${t('responsibilitySlug')}" class="border-gray-600">
+                ${t('whatsThis')}
+              </a>
             </sup>
           </div>
         ` : ''}

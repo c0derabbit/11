@@ -17,8 +17,36 @@ module.exports = function({
     const country = category.split(', ')[0]
     const colour = (() => {
       switch (country) {
-        default:
+        case 'Scotland':
+        case 'Skócia':
+          return 'blue'
+        case 'Anglia':
+        case 'UK':
+          return 'indigo'
+        case 'Japan':
+        case 'Japán':
+          return 'red'
+        case 'Vietnam':
+        case 'Vietnám':
           return 'yellow'
+        case 'Hong Kong':
+          return 'green'
+        case 'Thailand':
+        case 'Thaiföld':
+          return 'pink'
+        case 'Tajvan':
+        case 'Taiwan':
+          return 'yellow'
+        case 'China':
+        case 'Kína':
+          return 'blue'
+          /*
+        case 'Európa':
+        case 'Europe':
+          return 'purple'
+          */
+        default:
+          return 'gray'
       }
     })()
 
