@@ -12,7 +12,7 @@ module.exports = {
     'Magyarország, 2016',
   ],
   en: [
-    'Scotland, 2019-2021',
+    'Scotland, 2018-2021',
     'UK, 2018-2019',
     'Europe, 2016',
     'Thailand, 2016',

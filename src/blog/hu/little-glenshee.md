@@ -5,7 +5,7 @@ country: Skócia
 date: 2020-03-25
 cover: little_glenshee.jpg
 description: "<p>Vadonathasznált<br />Bicaj szelíd vadonban,<br />Boldog bringázás.</p>"
-
+icon: mtb
 ---
 <video src="/img/mtb_little_glenshee.mp4" poster="/img/mtb_little_glenshee.png" autoplay loop>
 </video>

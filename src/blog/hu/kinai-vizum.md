@@ -3,6 +3,7 @@ title: "Kínai vízum"
 location: Budapest
 country: Magyarország
 date: 2016-01-27
+icon: passport
 ---
 
 Beleszülettünk egy nagyon jó világba, ahol adott a szabad mozgás minden feltétele (közlekedéstechnikai, politikai, anyagi), ahol nagyjából alanyi jogon az van az útlevelünkbe írva, hogy a világ összes országába érvényes.

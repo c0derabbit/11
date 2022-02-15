@@ -5,6 +5,7 @@ title: Hiking in the Cairngorms
 date: 2019-04-28
 cover: cairngorms.jpg
 description: We spent two and a half days hiking in the Scottish wilderness.
+icon: lamb
 ---
 
 We spent two and a half days hiking in the Scottish [wilderness](https://wilderness-society.org/european-wilderness-society-supports-mapping-project-to-reveal-europes-wilderness/).

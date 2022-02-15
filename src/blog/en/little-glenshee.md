@@ -6,7 +6,7 @@ location: Little Glenshee
 description: "<p>New used mountain bikes,<br />A day in gentle wilderness,<br />Just
   happy cycling.</p>"
 cover: "../../img/little_glenshee_5.jpg"
-
+icon: mtb
 ---
 <video src="/img/mtb_little_glenshee.mp4" poster="/img/mtb_little_glenshee.png" autoplay loop>
 </video>

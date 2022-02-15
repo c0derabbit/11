@@ -4,6 +4,7 @@ shortTitle: Getting the Chinese visa
 location: Budapest
 country: Hungary
 date: 2016-01-27
+icon: passport
 ---
 
 __We were born into a good world, where every requirement of free movement is readily available (political, technological, financial requirements), where our passport is valid for every country in the world by default.__

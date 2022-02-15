@@ -3,6 +3,7 @@ title: We’ve arrived!
 location: Shanghai
 country: China
 date: 2016-02-18
+icon: landing
 ---
 
 We have arrived in one piece.

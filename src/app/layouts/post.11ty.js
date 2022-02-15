@@ -5,7 +5,20 @@ exports.data = {
   layout: 'base.11ty.js'
 }
 
-exports.render = ({ title, page, content, lang, className = '', supportedOrg, supportedOrgLink, supportedOrgDescription, donation, location, collections }) => {
+exports.render = ({
+  title,
+  page,
+  content,
+  lang,
+  className = '',
+  supportedOrg,
+  supportedOrgLink,
+  supportedOrgDescription,
+  donation,
+  location,
+  collections,
+  icon
+}) => {
   const t = i18n(lang)
   const collection = collections[lang]
   const idx = collection.indexOf(collection.find(post => post.fileSlug === page.fileSlug))
@@ -16,7 +29,7 @@ exports.render = ({ title, page, content, lang, className = '', supportedOrg, su
     /(<img src=)(\S+)/g,
     (_, __, url) =>
       `<noscript>
-         <img src="${url}" alt="My cat" />
+         <img src="${url}" alt="" />
        </noscript>
        <img
         src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
@@ -30,9 +43,10 @@ exports.render = ({ title, page, content, lang, className = '', supportedOrg, su
   `
 
   return `
-    <article class="${className}">
+    <article class="${className} md:pt-12">
       <header class="text-center">
-        <h1 class="mt-2">${title}</h1>
+        ${icon ? `<img src="/icons/${icon}.png" alt="" class="hidden md:block icon w-16 px-1 mx-auto mb-4" />` : ''}
+        <h1 class="mt-2 font-title font-medium">${title}</h1>
         <time class="font-mono text-xs tracking-wide">
           ${location ? location + ', ' : ''}
           ${dayjs(page.date).format(t('dateFormat'))}

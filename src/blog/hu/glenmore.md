@@ -4,6 +4,7 @@ country: Skócia
 title: Glenmore Forest és Meall a’ Bhuachaille
 date: 2019-11-11
 cover: loch_m.jpg
+icon: tent
 ---
 
 <video src="/video/loch_morlich.mp4" poster="/video/loch_morlich.png" autoplay loop>

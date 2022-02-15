@@ -4,8 +4,9 @@ country: Skócia
 title: Lairig Ghru
 date: 2020-10-17T23:00:00Z
 description: ''
-
+icon: boot
 ---
+
 _“Ismét úton, gyönyörű nap”_ – írta [Maurice Wilson](https://en.wikipedia.org/wiki/Maurice_Wilson) a naplójába 1934-ben, mielőtt elhagyta sátrát a Mount Everest közelében, kb. 7000 méteren. Ez volt az utolsó naplóbejegyzése, a testét a következő évben a sátorban találta meg egy expedíció.
 
 Valószínűleg teljesen bolond volt. Úgy gondolta, a koplalás és az istenhit a megoldás a világ összes problémájára. Ettől eltekintve bátor, kalandvágyó és inspiráló jelenség lehetett. Az volt a nagy terve, hogy elrepül a Mount Everest-ig, a csúcstól nem messze kényszerleszállást hajt végre, a maradékon felmegy, így ő lesz az első ember, aki megmássza. Az, hogy se repülni nem tudott, se hegyet mászni, egyáltalán nem zavarta.

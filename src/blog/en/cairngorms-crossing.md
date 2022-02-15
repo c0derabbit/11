@@ -9,6 +9,7 @@ supportedOrg: Scottish Mountain Rescue
 supportedOrgLink: https://www.scottishmountainrescue.org/
 supportedOrgDescription: Scottish Mountain Rescue is the community of 25 member Mountain Rescue Teams. The teams deliver a world class Search and Rescue (SAR) Service and respond to requests from Police Scotland.
 donation: £50
+icon: mountains
 ---
 
 We've been wanting to do this for a long time: crossing the Cairngorms mountains. 

@@ -4,6 +4,7 @@ shortTitle: '183 days'
 location: Budapest
 country: Hungary
 date: 2016-01-15
+icon: globe
 ---
 
 We will be away for 183 days, 21 hours and 5 minutes, if the flights are on time. In other time-units, this equals to:
