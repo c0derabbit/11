@@ -2,6 +2,7 @@
 title: Európában vagyunk!
 country: Európa
 date: 2016-06-03
+icon: globe
 ---
 
 Tegnap voltunk Indiában! Az úgy volt, hogy...

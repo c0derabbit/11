@@ -2,6 +2,7 @@
 title: Köszönjük a figyelmet, vége!
 country: Európa
 date: 2016-06-07
+icon: globe
 ---
 
 Június másodikától Európában folytatjuk, ezért az ázsiai blogunkat itt befejezzük. Ha megint Keletre megyünk, szólunk.

@@ -4,6 +4,7 @@ country: Európa
 date: 2016-12-25
 title: Brno
 cover: brno.jpg
+icon: beer
 ---
 
 A Karácsonyt Bohumil Hrabal szülővárosában, Brno-ban töltöttük.
