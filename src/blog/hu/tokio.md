@@ -4,6 +4,7 @@ location: Tokió
 country: Japán
 date: 2016-04-14
 cover: tokio.jpg
+icon: totoro
 ---
 
 <video src="/video/jp_tokyo.mp4" poster="/video/jp_tokyo.png" autoplay loop>

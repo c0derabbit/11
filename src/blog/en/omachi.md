@@ -4,6 +4,7 @@ shortTitle: Shinano-Omachi
 location: Omachi
 country: Japan
 date: 2016-04-22
+icon: mountains
 ---
 
 Our journey to Omachi took us through misty mountains in the Japanese Alps. Massive, dense forests and alpine streams dominated the view.

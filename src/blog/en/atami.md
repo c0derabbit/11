@@ -4,6 +4,7 @@ location: Atami
 country: Japan
 date: 2016-04-18
 cover: atami.jpg
+icon: onsen
 ---
 
 In the seaside resort town of Atami, weʼve been pampered. We took an onsen bath three times within 16 hours. Before going into the shared bath, you have to ritually and thorougly clean yourself (along with other patrons). Nudity is the norm in the onsen, and genders are separated. The water is hotter than at home - it is tons of fun.

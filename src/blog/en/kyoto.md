@@ -4,7 +4,7 @@ location: Kyoto
 country: Japan
 date: 2016-04-20
 cover: inari.jpg
-
+icon: shrine
 ---
 We took a Shinkansen on Monday morning, and headed to Kyoto. The “Hikari” bullet-train has an average speed of 226 km/h including stops, with an estimated 276 km/h travel speed.
 

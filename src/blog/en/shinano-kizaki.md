@@ -4,6 +4,7 @@ location: Shinano-Kizaki
 country: Japan
 date: 2016-04-23
 cover: kizaki.jpg
+icon: onsen
 ---
 
 Our host, Kazuhiro, gave us a ride to Shinano-Kizaki, on the Southern tip of the lake Kizaki, a beautiful lake with clear water, cedar woods and nobody around. Perfect for a stroll.

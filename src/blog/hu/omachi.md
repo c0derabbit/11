@@ -3,6 +3,7 @@ title: Shinano-Omachi
 location: Omachi
 country: Japán
 date: 2016-04-22
+icon: mountains
 ---
 
 Ködbe burkolózó, felhő-karcoló hegyek között vonatoztunk Omachiba. Erdős, meredek hegyoldalak, hegyi patakok között száguldott a vonat — végig érdekes volt a táj.

@@ -4,7 +4,7 @@ location: Atami
 country: Japán
 date: 2016-04-18
 cover: atami.jpg
-
+icon: onsen
 ---
 ![](../../img/0418-1.jpg)
 
