@@ -3,6 +3,7 @@ location: Shanghai
 country: Kína
 title: Mi kapható egy kínai boltban?
 date: 2016-02-24
+icon: shop
 ---
 
 Tegnap elfelejtettük megírni, hogy láttunk egy kövér embert (nem kínai volt).
