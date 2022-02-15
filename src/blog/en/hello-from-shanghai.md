@@ -5,6 +5,7 @@ location: Shanghai
 country: China
 date: 2016-02-19
 cover: sh-hangulat.jpg
+icon: shanghai
 ---
 
 We’re back to report ourselves now that we had a good rest. Today we woke up both at 3am and 3pm (hello jetlag, we love you), we registered at the police station, and we ate some sugar-coated strawberries on a stick.

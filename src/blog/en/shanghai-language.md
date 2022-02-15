@@ -3,6 +3,7 @@ location: Shanghai
 country: China
 date: 2016-02-20
 title: Words from Shanghai
+icon: language
 ---
 Today we went to the market, and for a run around the park.
 

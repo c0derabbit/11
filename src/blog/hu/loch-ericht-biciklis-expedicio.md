@@ -4,8 +4,9 @@ country: Skócia
 title: 'Loch Ericht: biciklis expedíció'
 date: 2020-08-29T23:00:00Z
 description: ''
-
+icon: mtb
 ---
+
 Egyfelől: eső, szél, nehéz terep, muslicák és elkopott fékek. 
 Másfelől: gyönyörű tájak, hatalmas terek, és egy nyugodt éjszaka a Loch Ericht legvadabb részén.
 

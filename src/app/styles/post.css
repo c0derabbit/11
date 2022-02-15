@@ -11,14 +11,14 @@ article {
     @apply my-1;
   }
 
-  img {
+  img:not(.icon) {
     opacity: 0;
     transition: opacity .5s ease;
     @apply my-3 cursor-pointer;
   }
 
   p {
-    img {
+    img:not(.icon) {
       width: calc(50% - .144em);
       display: inline-block;
 
@@ -54,7 +54,7 @@ article {
   }
 
   @media (min-width: 768px) {
-    img,
+    img:not(.icon),
     video {
       max-width: calc(100% + 4rem);
       width: calc(100% + 4rem);

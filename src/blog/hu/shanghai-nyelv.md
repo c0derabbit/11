@@ -4,6 +4,7 @@ country: Kína
 date: 2016-02-20
 title: Szavak Shanghaiból
 description: Ma voltunk piacon és futni. + nyelvészet!
+icon: language
 ---
 Ma voltunk piacon és futni.
 

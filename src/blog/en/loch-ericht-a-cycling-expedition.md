@@ -5,7 +5,7 @@ title: 'Loch Ericht: a cycling expedition'
 shortTitle: Cycling hell in Dalwhinnie
 date: 2020-08-29T23:00:00Z
 description: ''
-
+icon: mtb
 ---
 In Dalwhinnie, when you get off the train, you are already almost in the middle of nowhere — a few houses and a distillery seem to warrant the existence of a train station there.
 

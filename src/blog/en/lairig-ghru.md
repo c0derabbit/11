@@ -5,6 +5,7 @@ title: Lairig Ghru
 shortTitle: Lairig Ghru
 date: 2020-10-17T23:00:00.000+00:00
 description: ''
+icon: boot
 ---
 
 _“Off again, gorgeous day”_ wrote the barking mad [Maurice Wilson](https://en.wikipedia.org/wiki/Maurice_Wilson) in his diary in 1934, before he set off from his tent somewhere near the North Col on Mount Everest. This was his last entry in his notebook, and an expedition the following year found his body in his tent, died of starvation or exhaustion.

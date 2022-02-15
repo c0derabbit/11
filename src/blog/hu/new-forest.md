@@ -4,6 +4,7 @@ country: Anglia
 title: New Forest
 cover: newforest.jpg
 date: 2019-06-01
+icon: tree
 ---
 
 Eláruljuk: ez az Új Erdő nem is annyira új. [Hódító Vilmos](https://hu.wikipedia.org/wiki/I._Vilmos_angol_kir%C3%A1ly)[^1] kezdett el itt vadászni, szóval közel ezer éves. És tele van lovakkal!

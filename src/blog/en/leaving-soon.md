@@ -3,7 +3,8 @@ title: We are leaving soon
 shortTitle: Leaving soon
 location: Budapest
 country: Hungary
-date: "2016-01-14T22:12:03.284Z"
+date: 2016-01-14
+icon: takeoff
 ---
 
 We are leaving soon. We have been gathering todos and budget plans for about six months now. Our destination is Asia, our goal is to have fun. We will not work, we will not study, we will come back (thanks for asking — our plane ticket is valid for a round-trip).

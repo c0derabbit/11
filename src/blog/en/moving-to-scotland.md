@@ -3,6 +3,7 @@ title: We’ve moved to Scotland
 location: ''
 country: Scotland
 date: 2020-02-29
+icon: scotland
 ---
 
 For a while we’ve felt that we needed a calmer environment — so we’ve left London for a small Scottish town. It’s a big change, and so far, a very positive one.

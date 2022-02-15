@@ -4,7 +4,7 @@ country: Kína
 title: Cseresznyevirágzás
 date: 2016-02-21
 cover: sh-cseresznye.jpg
-
+icon: flower
 ---
 Cseresznyevirágzás nem csak Japánban van, a kínai parkokban viszont sokkal több a beton, mint azt egy parktól megszoktuk. A Century Park Shanghaiban a legnagyobb (körbefutni 5 km), és tőlünk 10 percre van gyalog.
 

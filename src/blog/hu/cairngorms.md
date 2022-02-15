@@ -4,6 +4,7 @@ country: Skócia
 title: Túra a Cairngorms nemzeti parkban
 date: 2019-04-28
 cover: cairngorms.jpg
+icon: lamb
 ---
 
 Tél végén (tavasz elején?) összeszedtük a bátorságunkat és nekivágtunk a skót hegyeknek térképpel, sátorral, hálózsákkal.

@@ -4,6 +4,7 @@ country: Scotland
 title: Edinburgh
 date: 2018-02-10
 cover: edin9.jpg
+icon: scotland
 ---
 
 We spent a fabulous long weekend in Edinburgh.

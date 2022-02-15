@@ -32,6 +32,7 @@ module.exports = {
     fontFamily: {
       ...fontFamily,
       serif: ['"IBM Plex Serif"', ...fontFamily.serif],
+      title: ['Rowdies'],
     },
     inset: {
       ...inset,

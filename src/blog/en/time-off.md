@@ -3,6 +3,7 @@ title: The power of time off
 location: Budapest
 country: Hungary
 date: 2016-01-25
+icon: backpack2
 ---
 
 > But the thing people said most frequently, at least to my face, was: “Wow, I wish I could do that.” My response? “You actually can.”

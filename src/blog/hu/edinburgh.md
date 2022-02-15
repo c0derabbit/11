@@ -4,6 +4,7 @@ country: Skócia
 title: Edinburgh
 date: 2018-02-10
 cover: edin9.jpg
+icon: scotland
 ---
 
 Elmentünk egy hosszú hétvégére Edinburgh-ba — király volt!

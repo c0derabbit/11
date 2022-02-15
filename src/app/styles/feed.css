@@ -1,7 +1,7 @@
 .feed {
   li {
     p {
-      @apply my-2;
+      @apply my-0 py-2;
     }
   }
 }

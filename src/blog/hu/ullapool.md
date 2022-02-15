@@ -4,6 +4,7 @@ country: Skócia
 title: Biciklivel Ullapool körül
 date: 2020-10-12T22:00:00Z
 description: ''
+icon: cyclist
 ---
 
 Ullapool nagyon szép, sokat esik, de volt pár száraz napunk (extrém mázli), így a [Ben More Coigach-ot (743m)](https://www.walkhighlands.co.uk/ullapool/ben-more-coigach.shtml) is meg tudtuk mászni. Szuper hét volt, szerencsére már közben lemozogtuk a sok fish & chips-et!

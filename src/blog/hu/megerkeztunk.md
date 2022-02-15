@@ -3,6 +3,7 @@ title: Megérkeztünk!
 location: Shanghai
 country: Kína
 date: 2016-02-18
+icon: landing
 ---
 
 Megérkeztünk egyben.

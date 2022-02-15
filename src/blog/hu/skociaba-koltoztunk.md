@@ -3,6 +3,7 @@ title: Skóciába költöztünk!
 location: ''
 country: Skócia
 date: 2020-02-29
+icon: scotland
 ---
 
 Jó ideje éreztük, hogy nyugisabb környezetre van szükségünk. Egy skót kisvárosban folytatjuk — nagy (életminőségbeli) változás. Eddig teljesen pozitív, sokkal nyugodtabbak, kipihentebbek vagyunk, több energia marad a szabadidő minőségi eltöltésére (szóval nem csak munkába utazás, munka, munkából hazautazás, vacsorakészítés, alvás az élet).
