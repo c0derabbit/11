@@ -4,6 +4,7 @@ location: Quy Nhon
 country: Vietnám
 date: 2016-03-30
 cover: quy-nhon.jpg
+icon: palm
 ---
 
 Na jó, bevalljuk: voltunk egy egész napos motoros túrán. Közelebbről megismerhettük a vidéki Vietnámot (elárasztott rizsföldek, vízibivalyok, földművesek).

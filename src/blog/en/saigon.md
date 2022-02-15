@@ -3,6 +3,7 @@ title: Saigon
 location: Saigon
 country: Vietnam
 date: 2016-04-10
+icon: scooter
 ---
 
 Saigon (Ho Chi Minh City) is a buzzing metropolis, but seems suprisingly livable. Our best experience was that we met some of our good friends from Budapest here.

@@ -3,6 +3,7 @@ title: Hoi An
 location: Hoi An
 country: Vietnám
 date: 2016-03-28
+icon: crab
 ---
 
 Hoi An egy kisváros közép-Vietnámban, szép sétálóutcákkal, nem messze a tengerparttól. A város gyakorlatilag a turizmusból él. Nagy üzlet a ruhaipar is: itt olcsón lehet jó minőségű öltönyt szabatni. Minket továbbra is leginkább a kirándulás és az evés érdekel.

@@ -3,6 +3,7 @@ title: Hoi An
 location: Hoi An
 country: Vietnam
 date: 2016-03-28
+icon: crab
 ---
 
 Hoi An is a small town in central Vietnam, close to the sea. It has a nice old-quarter and residents live mostly off tourism. Clothing is a big business as well: people from the West come here to get cheap, tailor-made, quality suits. We are still more interested in food and adventures around town. 

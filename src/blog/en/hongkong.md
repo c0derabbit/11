@@ -4,6 +4,7 @@ shortTitle: Hello Hong Kong
 country: Hong Kong
 date: 2016-03-19
 cover: hongkong.jpg
+icon: skyscrapers
 ---
 
 <video src="/video/hk.mp4" poster="/video/hk.png" autoplay loop>

@@ -4,6 +4,7 @@ location: Hue
 country: Vietnám
 date: 2016-03-24
 cover: hue-kozl.jpg
+icon: scooter
 ---
 
 Vietnámban a saigoni feketekávét jéggel és sűrített tejjel tálalják üvegpohárban. Ez itt a kedvenc italunk. Ma egy folyóparti kis kávézóban kértünk ilyet, ahonnan gyerekméretű műanyagszékekben ülve nézhettük a folyami forgalmat.

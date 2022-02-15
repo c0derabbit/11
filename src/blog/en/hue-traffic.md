@@ -5,6 +5,7 @@ location: Hue
 country: Vietnam
 date: 2016-03-24
 cover: hue-kozl.jpg
+icon: scooter
 ---
 
 In Vietnam, Saigon black coffee is served on ice with condensed milk. This is our favourite beverage here. Today we enjoyed ours in a small riverside café, while watching the river traffic from tiny plastic chairs.

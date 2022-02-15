@@ -2,6 +2,7 @@
 title: Sai Kung National Park
 country: Hong Kong
 date: 2016-03-20
+icon: monkey
 ---
 
 We almost forgot to write about how we could only take 5 kg on board on the Shanghai – Hong Kong flight. Our bags are about 8 kg each, but we outsmarted the system and got our bags cabin-approved. Our coat pockets were full of our heaviest items, and we were wearing most of our clothes.

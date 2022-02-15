@@ -4,6 +4,7 @@ location: Hue
 country: Vietnám
 date: 2016-03-27
 cover: hue-tu-duc.jpg
+icon: bicycle
 ---
 
 Izgalmas volt a bringás kirándulásunk. A városból húsz perc alatt kiértünk a zöldbe, és burjánzó növényzettel benőtt temetők mellett tekertünk el.
