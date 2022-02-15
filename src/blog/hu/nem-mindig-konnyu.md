@@ -3,6 +3,7 @@ title: A nehézségekről, őszintén
 location: Taipei
 country: Tajvan
 date: 2016-04-28
+icon: iceberg
 ---
 
 A beszámolóinkat olvasva úgy tűnhet, habostorta az élet, és utazásunk folyamatos kaland és gondtalanság. Ez sokszor igaz is, és nagyon jól érezzük magunkat — de vannak nehéz menetek, és ezekről nem szoktunk írni. Most mégis egy ilyen élményt is megosztunk itt.

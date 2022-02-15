@@ -3,6 +3,7 @@ title: Taroko National Park
 location: Taroko
 country: Taiwan
 date: 2016-05-03
+icon: nationalpark
 ---
 
 Yesterday we visited the Taroko National Park. Gorges, narrow valley, canyons, huge boulders. It was really tiring (mostly due to getting there and back) but well worth it.

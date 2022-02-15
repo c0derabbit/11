@@ -4,6 +4,7 @@ location: Taipei
 country: Tajvan
 date: 2016-04-29
 cover: taipei.jpg
+icon: swimming
 ---
 
 Tegnap délután uszodába mentünk, és ez nagyon jó döntésnek bizonyult. Helyre állt a világ rendje: felfrissültünk az úszástól, gőzkamrától és szaunától, majd kiadósat vacsoráztunk.
