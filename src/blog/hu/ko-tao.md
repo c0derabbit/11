@@ -3,6 +3,7 @@ title: Ko Tao
 location: Ko Tao
 country: Thaiföld
 date: 2016-05-10
+icon: snorkel
 ---
 
 Ma kimozdultunk Samuiról, és Ko Tao környékén búvárkodtunk (a palack nélküli változat, csak pipával). Rengeteg nagy, színes hallal úszkáltunk a korallok között a kristálykék vízben. A nap ellen hosszú ujjú ruhával védekeztünk, úgyhogy Samu volt a tengerben a legelegánsabb — ingben.

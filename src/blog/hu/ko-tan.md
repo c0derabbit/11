@@ -4,6 +4,7 @@ location: Ko Tan
 country: Thaiföld
 date: 2016-05-15
 cover: ko-tan.jpg
+icon: rabbit
 ---
 
 A hétvégét egy majdnem lakatlan szigeten töltöttük. A Wikipédia szerint 20-30 ember él Ko Tan-on. Előre kiszemeltük ezt a szigetet. Az interneten nem lehetett szállást és közlekedési módot találni, de mi megkértük az egyik kirándulócsónak üzemeltetőjét, hogy tegyen ki a szigeten, és hagyjon ott egy napra. Így is lett. Bungalót béreltünk a tengerparton.

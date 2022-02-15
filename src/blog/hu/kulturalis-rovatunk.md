@@ -3,7 +3,7 @@ title: Kulturális rovatunk
 location: Ko Samui
 country: Thaiföld
 date: 2016-05-31
-excerpt_separator: <!--more-->
+icon: cinema
 ---
 
 Ilyesmikkel szórakoztatjuk magunkat mostanában:

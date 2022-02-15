@@ -3,6 +3,7 @@ title: Áramszünet
 location: Ko Samui
 country: Thaiföld
 date: 2016-05-24
+icon: storm
 ---
 
 Az utóbbi három napban nem volt internet, tegnap pedig áram sem. Az internethiány eleinte kibírható volt: olvastunk, medencéztünk, sportoltunk az edzőteremben. Három nap után viszont kifejezetten idegesítő volt, hogy nem tudtunk tanulni, kommunikálni, vagy utánanézni bárminek (pl. hogy hogy jutunk ki a szigetről hazafele).

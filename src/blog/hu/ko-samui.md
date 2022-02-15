@@ -3,6 +3,7 @@ title: Ko Samui
 location: Ko Samui
 country: Thaiföld
 date: 2016-05-09
+icon: flipflops
 ---
 
 Megérkeztünk a szezonon kívül Siófokra emlékeztető Ko Samuira. Felkapott és kissé lehasznált hely, de a következő három-négy hétre tökéletes lesz. Itt lesz a főhadiszállásunk, de bejárjuk a környező szigeteket is (Ko Tao, Ko Taen, Ko Phangan). A tenger kiábrándítóan meleg: 31.7 fok, ami nem frissítő, szóval a fürdést nem visszük túlzásba.
