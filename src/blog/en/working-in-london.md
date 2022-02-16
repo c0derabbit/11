@@ -4,6 +4,7 @@ country: UK
 title: Working in London
 date: 2018-01-20
 description: My workplace is located in an industrial area, in a street which is the home of some music studios. The office is one big space with nice wooden floors, and a high ceiling — a very cozy place to be in.
+icon: work
 ---
 
 _by Samu_

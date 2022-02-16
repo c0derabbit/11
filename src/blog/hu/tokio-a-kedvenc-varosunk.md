@@ -3,6 +3,7 @@ title: Tokió a kedvenc városunk
 location: Tokió
 country: Japán
 date: 2016-04-17
+icon: sushi
 ---
 
 Most épp Tokió a kedvenc városunk. Samu rég óta itt élő nagybátyjának köszönhetően egy kicsit helyi szemmel is betekinthetünk az itteni életbe.

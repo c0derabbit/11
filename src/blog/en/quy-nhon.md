@@ -4,6 +4,7 @@ location: Quy Nhon
 country: Vietnam
 date: 2016-04-03
 cover: quy-nhon-2.jpg
+icon: beach
 ---
 
 The South China Sea has an average surface salinity of 33 g/l, as opposed to the 38 g/l of the Mediterranean Sea, which makes post-bath itching and dryness of the skin less noticable. 

@@ -2,6 +2,7 @@
 title: Sai Kung Nemzeti Park
 country: Hong Kong
 date: 2016-03-20
+icon: monkey
 ---
 
 El is felejtettük megírni, hogy a Shanghai – Hong Kong járatra csak 5 kg kézipoggyászt lehetett felvinni. A jó hír, hogy be tudtunk pakolni 8 kg cuccot úgy, hogy a táskáink ne legyenek nehezebbek 5-nél. (Nehéz dolgok zsebbe, ruhák nagy része rajtunk...)

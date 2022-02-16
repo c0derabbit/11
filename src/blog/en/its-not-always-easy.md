@@ -4,6 +4,7 @@ shortTitle: About the hard parts
 location: Taipei
 country: Taiwan
 date: 2016-04-28
+icon: iceberg
 ---
 
 By reading these posts it may seem like travel is constant fun and adventure — and most of the time, it’s true, it is amazing. But there are some more difficult days that we usually don't write about. Now we are sharing a more tiring experience as well.

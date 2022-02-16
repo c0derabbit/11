@@ -3,6 +3,7 @@ location: London
 country: UK
 date: 2019-04-05
 title: London
+icon: camera
 ---
 
 ![london](../../img/ldn1.JPG)

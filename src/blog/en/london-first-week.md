@@ -4,6 +4,7 @@ country: UK
 title: First week in London
 cover: soho.jpg
 date: 2018-01-06
+icon: uk
 ---
 
 We have a strange feeling these days — like we happened to travel to a parallel universe which is _slightly_, almost unnoticeably, different from ours. Every item is a bit better quality than at home — a mug, a table, an office. People are a little bit friendlier, but not much. And at work, there is tea break instead of coffee break.

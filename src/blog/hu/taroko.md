@@ -3,6 +3,7 @@ title: Taroko Nemzeti Park
 location: Taroko
 country: Tajvan
 date: 2016-05-03
+icon: nationalpark
 ---
 
 Tegnap a Taroko nemzeti parkba kirándultunk. Kegyetlen szurdokok, szorosok, szakadékok, sziklák.

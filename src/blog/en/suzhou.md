@@ -4,6 +4,7 @@ location: Suzhou
 country: China
 date: 2016-03-12
 cover: suzhou.jpg
+icon: seafood
 ---
 
 Our trip to Suzhou turned out well. Our friend from the train was extremely kind to us (we still don't know her name, though). She was proud to introduce us to her family, and her parents were proud that their daugther has foreign friends. Perhaps us, young westerners represent everything that a youngster from the suburbs of Shanghai could dream of.

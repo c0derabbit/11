@@ -5,7 +5,7 @@ title: Shanghai Museum of Science and Technology
 shortTitle: Shanghai sci & tech
 date: 2016-02-23
 cover: sh-museum.jpg
-
+icon: science
 ---
 We went for a date to Starbucks last night (where the staff spoke exceptionally good English and called Samu 'Sir'), so we didn't blog yesterday. You only missed that we unfortunately saw eels at the market. Today, it will be all about Shanghai Museum of Science and Technology.
 

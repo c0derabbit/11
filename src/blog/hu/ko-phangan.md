@@ -4,6 +4,7 @@ location: Ko Phangan
 country: Thaiföld 
 date: 2016-05-30
 cover: ko-phangan.jpg
+icon: palm
 ---
 
 Tegnap korán keltünk és Phangan szigetére kirándultunk. Ez egy csendesebb hely, mint a mi lakhelyünk, és nagy része nemzeti park. A sziget északnyugati csücskén szemeltünk ki egy szép strandot, és ott töltöttük a napot.

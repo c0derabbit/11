@@ -3,6 +3,7 @@ title: Saigon
 location: Saigon
 country: Vietnám
 date: 2016-04-10
+icon: scooter
 ---
 
 Saigon (Ho Chi Minh város) nyüzsgő metropolisz, mégis egész élhetőnek tűnik. Nekünk a legjobb az volt benne, hogy találkoztunk otthoni jóbarátokkal.

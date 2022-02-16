@@ -4,6 +4,7 @@ location: Kakunodate
 country: Japan
 date: 2016-04-24
 cover: akita.jpg
+icon: landscape
 ---
 
 Our last Japanese trip was also excellent, thanks to Yoshi for the once-in-a-lifetime experience!

@@ -4,6 +4,7 @@ country: Anglia
 title: London, első hét
 cover: soho.jpg
 date: 2018-01-06
+icon: uk
 ---
 
 Van valami furcsa érzés napok óta. Mintha egy olyan párhuzamos világba érkeztünk volna, ahol apró, alig észrevehető különbségek vannak. Például minden tárgy egy _kicsit_ jobb minőségű, mint otthon — egy bögre, egy asztal, egy iroda. Mindenki egy kicsit kedvesebb, mint otthon — de nem sokkal. A munkahelyen pedig nem kávészünetre hívnak, hanem _teaszünetre_. 

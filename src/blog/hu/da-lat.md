@@ -4,6 +4,7 @@ location: Da Lat
 country: Vietnám
 date: 2016-04-07
 cover: da-lat.jpg
+icon: map
 ---
 
 <video src="/video/vn_mot.mp4" poster="/video/vn_mot.png" autoplay loop>

@@ -4,6 +4,7 @@ location: Ko Phangan
 country: Thailand
 date: 2016-05-30
 cover: ko-phangan.jpg
+icon: palm
 ---
 
 Yesterday we got up early and took a day-trip to nearby Ko Phangan. It's a more relaxed island with most of its area covered by a national park. The north-western tip of the island is connected to another tiny island by a narrow strech of sand. We spent the day there. 

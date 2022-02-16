@@ -3,6 +3,7 @@ title: Smog & a bit of Chinese for today
 location: Shanghai
 country: China
 date: 2016-03-03
+icon: language
 ---
 
 All is well, we are just getting lost in all this smog.

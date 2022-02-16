@@ -4,6 +4,7 @@ country: Europe
 date: 2016-12-25
 title: Brno
 cover: brno.jpg
+icon: beer
 ---
 
 We spent Christmas in Hrabalʼs birthplace, Brno (Czech Republic). We feasted on four different kinds of meat: chicken, beef (raw and fried), duck, pork.

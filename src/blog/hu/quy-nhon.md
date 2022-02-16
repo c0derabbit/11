@@ -4,6 +4,7 @@ location: Quy Nhon
 country: Vietnám
 date: 2016-04-03
 cover: quy-nhon-2.jpg
+icon: beach
 ---
 
 A Dél-kínai-tenger átlagos vízfelszíni sótartalma 33 g/l, szemben a Földközi-tenger 38 g/literével, így a fürdés utáni bőrszárazság és viszketés itt enyhébben érződik.

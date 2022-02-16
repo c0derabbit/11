@@ -4,7 +4,7 @@ country: Anglia
 title: A metrózásról
 date: 2018-01-21
 cover: tube_tottenham.jpg
-excerpt_separator: <!--more-->
+icon: tube
 ---
 
 A metrózás napjaink szerves része, napi nettó 2x30 percen át élvezhetjük a Central Line, illetve az Overground csúcsforgalmi komfortját. Senkinek ne legyenek illúziói, a metró itt is ugyanúgy kimarad néha, mint Budapesten (csak ami metróval 30 perc, az bármi mással minimum másfél óra).

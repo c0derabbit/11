@@ -4,6 +4,7 @@ location: Taipei
 country: Taiwan
 date: 2016-04-29
 cover: taipei.jpg
+icon: swimming
 ---
 
 Yesterday we went to a swimming pool. It was refreshing, we felt reborn after swimming, sauna and steam chamber.

@@ -4,6 +4,7 @@ location: Suzhou
 country: Kína
 date: 2016-03-12
 cover: suzhou.jpg
+icon: seafood
 ---
 
 Jól alakult a suzhoui (“szúdzsó”) kirándulásunk. A vonatról megismert lány (nevét nem tudjuk) zavarba ejtően kedves volt. Büszkén mutatott be a családjának, a szülei pedig büszkék voltak, hogy a lányuknak külföldi barátai vannak. Talán mi, nyugati fiatalok testesítjük meg mindazt, amiről egy Shanghai környéki külvárosi fiatal álmodik.

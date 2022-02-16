@@ -4,6 +4,7 @@ title: Nanjing
 country: China
 date: 2016-02-26
 cover: nanjing.jpg
+icon: rice
 ---
 
 Our Nanjing trip was quite eventful. We started off early morning with a high-speed train (300 km/h) to the "southern capital". Some fun facts for language geeks: nan “南” = south, jing 京 = capital. Beijing is the northern capital, bei 北 meaning north. Tokyo, dongjing, 东京，is the "eastern capital". There is no western capital. 

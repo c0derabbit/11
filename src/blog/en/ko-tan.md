@@ -4,6 +4,7 @@ location: Ko Tan
 country: Thailand
 date: 2016-05-15
 cover: ko-tan.jpg
+icon: rabbit
 ---
 
 We spent the weekend on an almost desert island. According to Wikipedia, Ko Tan has about 20-30 permanent residents. We have spotted this little island on the map, and we could not find much information about accomodation or transport. In the end, we managed to ask a tour operator to leave us on the island, and to pick us up the following day. So that's what happened. Once there, we rented a beachfront bungalow.

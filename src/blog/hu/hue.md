@@ -3,6 +3,7 @@ title: Megérkeztünk Vietnámba!
 location: Hue
 country: Vietnám
 date: 2016-03-22
+icon: asianhat
 ---
 
 Megérkeztünk Vietnámba, ahol kellemesen meleg és párás a levegő. A hanoi reptéren természetesen megkerestük a helyiek által használt buszt, 8000 dongba került (100 Ft).

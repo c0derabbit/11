@@ -3,6 +3,7 @@ title: Bangkok, hőség
 location: Bangkok
 country: Thaiföld
 date: 2016-05-04
+icon: heat
 ---
 
 Voltunk már életünkben meleg helyen, de ez azért tényleg durva. Szabad levegőn gyakorlatilag nem lehet megmaradni, így a kötelező elintézendő (= vonatjegy átvétele) után bemenekültünk az első utunkba eső légkondicionált kávézóba, és vacsoráig ott is maradtunk.

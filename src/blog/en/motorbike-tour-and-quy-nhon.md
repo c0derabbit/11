@@ -5,6 +5,7 @@ location: Quy Nhon
 country: Vietnam
 date: 2016-03-30
 cover: quy-nhon.jpg
+icon: palm
 ---
 
 Ok, we have to confess: weʼve been on a full day motorbike trip. We got close up to rural Vietnam (flooded rice fields, water buffalos, farmers).

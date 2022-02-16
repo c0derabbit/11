@@ -3,6 +3,7 @@ title: Szmog + egy kis kínai
 location: Shanghai
 country: Kína
 date: 2016-03-03
+icon: language
 ---
 
 Sziasztok, minden ok, csak alig látunk ki a szmogból.

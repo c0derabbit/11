@@ -5,6 +5,7 @@ location: Hue
 country: Vietnam
 date: 2016-03-27
 cover: hue-tu-duc.jpg
+icon: bicycle
 ---
 
 Our bike tour was exciting. In about twenty minutes we left the city and we were surrounded by old cemeteries and lush green vegetation.

@@ -4,6 +4,7 @@ location: Kakunodate
 country: Japán
 date: 2016-04-24
 cover: akita.jpg
+icon: landscape
 ---
 
 Utolsó japán kirándulásunk is szuper volt, köszönjük Yoshinak az életre szóló élményt!

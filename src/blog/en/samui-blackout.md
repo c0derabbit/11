@@ -3,6 +3,7 @@ title: Sorry, we had no Internet (nor electricity)
 location: Ko Samui
 country: Thailand
 date: 2016-05-24
+icon: storm
 ---
 
 We didn’t have internet in the last three days, and there was no electricity for a day as well. The lack of internet was tolerable in the beginning, we were reading, swimming in the pool, training in the gym. But after three days it’s quite upsetting that we cannot study or even look up how to escape this island.

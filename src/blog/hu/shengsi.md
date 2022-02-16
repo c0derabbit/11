@@ -4,6 +4,7 @@ location: Shengsi
 country: Kína
 date: 2016-03-16
 cover: shengsi.jpg
+icon: passport
 ---
 
 „Hétvégi” kiruccanásunk kedd-szerdára esett: a Shengsi szigetekre mentünk. Valahogy így ejtik: senkszi, ami szerintünk a Senki Szigetének rövidítése.

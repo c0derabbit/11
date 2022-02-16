@@ -4,6 +4,7 @@ country: Kína
 title: Nanjing
 date: 2016-02-26
 cover: nanjing.jpg
+icon: rice
 ---
 
 A nanjingi kiruccanásunk mozgalmasan alakult. Korán keltünk és gyorsvonattal (= 300 km/h) utaztunk a “déli fővárosba”. Ehhez kapcsolódik a napi nyelvi érdekesség: nan “南” = dél，jing 京 = főváros. Peking az északi főváros, bei “北”＝ észak. Tokyo, dongjing, 东京，a “keleti főváros”. Nyugati főváros nincs.

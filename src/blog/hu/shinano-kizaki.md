@@ -4,6 +4,7 @@ location: Shinano-Kizaki
 country: Japán
 date: 2016-04-23
 cover: kizaki.jpg
+icon: onsen
 ---
 
 Délelőtt házigazdánk autóval elvitt minket Shinano-Kizakiba, a Kizaki tó déli partjára. A tó mellett sétáltunk egyet, fotóztunk, csodáltuk a tájat és azt, hogy nincs itt senki. Gyönyörű, tiszta vízű tó, körülötte cédruserdő és gyümölcsfák.
