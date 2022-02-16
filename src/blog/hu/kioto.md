@@ -3,7 +3,7 @@ title: Kiotó
 location: Kyoto
 country: Japán
 date: 2016-04-20
-cover: inari.jpg
+cover: /img/0420-5.jpg
 icon: shrine
 ---
 Hétfő reggel Tokióból Shinkansennel utaztunk Kiotóba. A “Hikari” gyorsvonat átlagsebessége 226 km/h megállókkal együtt, a tiszta utazósebesség pedig nagyjából 276 km/h.

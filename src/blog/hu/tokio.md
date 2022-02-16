@@ -3,7 +3,7 @@ title: Tokió
 location: Tokió
 country: Japán
 date: 2016-04-14
-cover: tokio.jpg
+cover: /img/0414-3.jpg
 icon: totoro
 ---
 

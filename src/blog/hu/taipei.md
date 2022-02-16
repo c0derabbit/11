@@ -3,7 +3,6 @@ title: Taipei
 location: Taipei
 country: Tajvan
 date: 2016-04-29
-cover: taipei.jpg
 icon: swimming
 ---
 

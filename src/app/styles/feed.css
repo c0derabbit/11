@@ -1,7 +1,18 @@
 .feed {
   li {
     p {
-      @apply my-0 py-2;
+      @apply my-0 py-1.5;
+    }
+
+    img {
+      transition: transform .4s ease;
+    }
+
+    &:hover,
+    &:focus {
+      img {
+        transform: scale(1.11);
+      }
     }
   }
 }

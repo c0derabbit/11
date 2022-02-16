@@ -3,7 +3,6 @@ location: Brno
 country: Europe
 date: 2016-12-25
 title: Brno
-cover: brno.jpg
 icon: beer
 ---
 

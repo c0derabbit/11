@@ -3,7 +3,8 @@ title: Atami
 location: Atami
 country: Japan
 date: 2016-04-18
-cover: atami.jpg
+description: In the seaside resort town of Atami, weʼve been pampered. We took an onsen bath three times within 16 hours.
+cover: /img/0418-1.jpg
 icon: onsen
 ---
 

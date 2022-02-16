@@ -3,7 +3,6 @@ title: Ko Phangan
 location: Ko Phangan
 country: Thailand
 date: 2016-05-30
-cover: ko-phangan.jpg
 icon: palm
 ---
 

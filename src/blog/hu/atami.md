@@ -3,7 +3,8 @@ title: Atami
 location: Atami
 country: Japán
 date: 2016-04-18
-cover: atami.jpg
+description: A tenger mellett fekvő Atamiban el lettünk kényeztetve. Onsen-ben háromszor is fürödtünk, előtte rituális, kötelező alapos tisztálkodásban vettünk részt.
+cover: /img/0418-1.jpg
 icon: onsen
 ---
 ![](../../img/0418-1.jpg)

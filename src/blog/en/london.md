@@ -4,6 +4,7 @@ country: UK
 date: 2019-04-05
 title: London
 icon: camera
+cover: /img/ldn1.JPG
 ---
 
 ![london](../../img/ldn1.JPG)

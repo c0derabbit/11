@@ -3,7 +3,6 @@ title: Akita, és Japán legmélyebb tava
 location: Kakunodate
 country: Japán
 date: 2016-04-24
-cover: akita.jpg
 icon: landscape
 ---
 

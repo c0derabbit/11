@@ -3,7 +3,7 @@ location: London
 country: Anglia
 date: 2019-04-05
 title: London
-cover: london.jpg
+cover: /img/ldn1.JPG
 description: 'Pár kép: Angel, Islington, múzeumok…'
 icon: camera
 ---

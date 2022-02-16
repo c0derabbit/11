@@ -3,7 +3,7 @@ location: Cairngorms
 country: Scotland
 title: Hiking in the Cairngorms
 date: 2019-04-28
-cover: cairngorms.jpg
+cover: /img/cairngorms.jpg
 description: We spent two and a half days hiking in the Scottish wilderness.
 icon: lamb
 ---

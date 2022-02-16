@@ -4,7 +4,6 @@ country: UK
 title: Grabbing a bite
 shortTitle: Food in London
 date: 2018-01-14
-cover: harapni.jpg
 icon: burger
 ---
 

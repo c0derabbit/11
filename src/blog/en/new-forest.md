@@ -2,9 +2,9 @@
 location: New Forest
 country: UK
 title: How new is the New Forest?
-cover: newforest.jpg
 date: 2019-06-01
 icon: tree
+cover: /img/nf2.jpg
 ---
 
 Well… itʼs not _really_ new. [William the Conqueror](https://www.britannica.com/biography/William-I-king-of-England)[^1] used to hunt here, so it must be roughly a thousand years old. We checked it out, and itʼs a lovely area, full of horses.
