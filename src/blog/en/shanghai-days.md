@@ -4,6 +4,7 @@ location: Shanghai
 country: China
 date: 2016-03-07
 cover: sh-mindennapok.jpg
+icon: shanghai
 ---
 
 The past couple of days we were involved in the following activities:

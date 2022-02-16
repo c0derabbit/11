@@ -3,6 +3,7 @@ title: "Finom szórakoztató: nyelvészet"
 location: Shanghai
 country: Kína
 date: 2016-03-11
+icon: language
 ---
 
 Nagyon izgatottak vagyunk — holnap egy közeli városba, Suzhouba megyünk egy lány meghívására, akivel Nanjing felé találkoztunk a vonaton. Sokat próbáltunk beszélgetni, és meghívott a családjához. A lány angol szakos, bár ez nem sokat segít a kommunikációban. Majd szépen mosolygunk és használjuk azt a pár mondatot, amit tudunk kínaiul.

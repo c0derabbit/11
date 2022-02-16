@@ -4,6 +4,7 @@ shortTitle: Weird Chinese brands
 location: Shanghai
 country: China
 date: 2016-03-11
+icon: language
 ---
 
 Tomorrow we are going to Suzhou (it's 30 min by train from Shanghai) — we've been invited by a girl we met on the train on our way to Nanjing. We talked a lot (well, tried to), and she invited us to meet her family. She studies English at the university, which does not really help our communication. Anyway, we will smile and use the little Chinese we speak. 

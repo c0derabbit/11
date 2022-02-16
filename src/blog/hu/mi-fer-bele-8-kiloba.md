@@ -3,7 +3,7 @@ location: Shanghai
 title: Mi fér bele 8 kilóba?
 country: Kína
 date: 2016-02-29
-excerpt_separator: <!--more-->
+icon: backpack
 ---
 
 Hétvégén könyvtáraztunk, futottunk 10 km-t, pihegtünk, és gulyáslevest főztünk a szállásadóinknak. Ma arról lesz szó, hogy mi fér bele 8 kilóba.

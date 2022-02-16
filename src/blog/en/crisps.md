@@ -4,6 +4,7 @@ shortTitle: Crisps and beer in China
 location: Shanghai
 country: China
 date: 2016-03-08
+icon: crisps
 ---
 
 We went out last night for a dinner in McDonalds. After that, we headed to the nearest convenience store for some beer and crisps. That was all… of course, we did inspect the selection thoroughly.

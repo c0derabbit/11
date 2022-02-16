@@ -3,8 +3,8 @@ title: Mindennapok Shanghaiban
 location: Shanghai
 country: Kína
 date: 2016-03-07
-excerpt_separator: <!--more-->
 cover: sh-mindennapok.jpg
+icon: shanghai
 ---
 
 Az elmúlt napokban ilyeneket csináltunk:

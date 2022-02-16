@@ -4,6 +4,7 @@ location: Shengsi
 country: China
 date: 2016-03-16
 cover: shengsi.jpg
+icon: passport
 ---
 
 On our weekend getaway (which happened to fall on a Tuesday and Wednesday), we went to the Shengsi islands. We met a kind English teacher on the ferry, a so called “Jane”, who, despite having spent only ten days abroad in her lifetime (a recent trip to New Zealand with the class), spoke great English. She initiated the conversation and gave us plenty of advice about what to see on the island.
