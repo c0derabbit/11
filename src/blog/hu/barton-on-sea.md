@@ -3,6 +3,7 @@ location: Barton-on-Sea
 country: Anglia
 title: Barton-on-Sea
 date: 2018-03-25
+icon: boots
 ---
 
 Hétvégén voltunk vidéken, egy kis tengerparti városkában.

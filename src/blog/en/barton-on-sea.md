@@ -3,6 +3,7 @@ location: Barton-on-Sea
 title: Barton-on-Sea
 country: UK
 date: 2018-03-25
+icon: boots
 ---
 
 We went to Barton-on-Sea for the weekend.

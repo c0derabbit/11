@@ -3,7 +3,7 @@ location: London
 country: Anglia
 title: Dolgozni
 date: 2018-01-20
-excerpt_separator: <!--more-->
+icon: work
 ---
 
 Samu:
@@ -11,8 +11,6 @@ Samu:
 A munkahelyem egy ipari jellegű környéken van, egy olyan utcában, ahol zenestúdiók vannak. Az iroda egy nagy tér: szép fapadlós helyiség, nagy belmagassággal.
 
 Szeretem, hogy az emberek céltudatosak; a dolgozórészen nincs mellébeszélés, jópofizás, hanem csak munka, ellenben az ebédlőben, konyhában nem szoktunk munkáról beszélni.
-
- <!--more-->
 
 Az munkatársak befogadóak és segítőkészek, valahogy mindenki olyan, jobb szó híján: *normális*. Vannak külföldiek (litván, spanyol, mexikói, amerikai) és sok brit is. A brit akcentust még igencsak szokni kell: ha rajtam kívül csak angolok vannak, előfordul, hogy nem tudom, miről van szó. Szerencsére, ami fontos, az mind le van írva, és a lényeges technikai beszélgetések inkább írásban zajlanak. Ez azért is van, mert a cég támogatja a távolról dolgozást - van két fejlesztő Lengyelországban, egy Spanyolországban. Ha hosszabb megbeszélés szükséges, akkor videokonferenciát használnak (ami meglepően jól működik, és jó látni a távoli arcokat is).
 

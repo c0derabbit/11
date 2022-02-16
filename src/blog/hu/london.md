@@ -5,6 +5,7 @@ date: 2019-04-05
 title: London
 cover: london.jpg
 description: 'Pár kép: Angel, Islington, múzeumok…'
+icon: camera
 ---
 
 ![london](../../img/ldn1.JPG)

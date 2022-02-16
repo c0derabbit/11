@@ -5,6 +5,7 @@ title: The Tube
 shortTitle: The London Tube
 date: 2018-01-21
 cover: tube_tottenham.jpg
+icon: tube
 ---
 
 Commuting can be quite an experience in London, and we enjoy the daily thrill of rush hour of the Central Line and Overground for 2x30 minutes a day. You would think that the tube is much more reliable here that in Budapest, but that’s not necessarily the case. However, when here there is no tube, a 30 minute ride becomes a 1h30m bus + walk combo.
