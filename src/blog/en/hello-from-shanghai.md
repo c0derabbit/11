@@ -4,7 +4,7 @@ shortTitle: Hello from Shanghai
 location: Shanghai
 country: China
 date: 2016-02-19
-cover: sh-hangulat.jpg
+cover: /img/sh.png
 icon: shanghai
 ---
 

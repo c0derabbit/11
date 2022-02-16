@@ -3,7 +3,6 @@ title: Suzhou egy random kínai családdal
 location: Suzhou
 country: Kína
 date: 2016-03-12
-cover: suzhou.jpg
 icon: seafood
 ---
 

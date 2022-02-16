@@ -4,7 +4,7 @@ shortTitle: Traffic in Hue
 location: Hue
 country: Vietnam
 date: 2016-03-24
-cover: hue-kozl.jpg
+cover: /img/000005.jpg
 icon: scooter
 ---
 

@@ -1,3 +1,5 @@
+const { i18n } = require('../helpers')
+
 module.exports = function({
   lang = 'en',
   title = 'Hello, world!',
@@ -6,12 +8,15 @@ module.exports = function({
   collections,
   page,
 }) {
+  const t = i18n(lang)
   const [langSwitchUrl, langSwitchLabel] = lang === 'en'
     ? ['/hu', 'magyar <span class="text-base">🇭🇺</span>']
     : ['/en', 'English <span class="text-base">🇬🇧</span>']
   const description = 'A pair going places. We love snow, the Japanese Alps off-season, Chile, and parts of Vietnam where “hotel” does not appear in English. And, more recently, some Scottish weather.'
   const categories = require('../helpers/categories')
   const slugify = require('slugify')
+
+  console.log('FOO', t('back'), t('aboutLink'))
 
   function getColour(category) {
     const country = category.split(', ')[0]
@@ -132,6 +137,9 @@ module.exports = function({
                   `).join('') || '<br />'}
                 </div>
               `).join('')}
+              <a href="/${lang}/${t('aboutLink')}/" class="text-sm block mt-8">
+                ${t('aboutText')}
+              </a>
             </ul>
           </nav>
           <main class="min-h-screen md:col-span-6">

@@ -3,7 +3,6 @@ title: Mindennapok Shanghaiban
 location: Shanghai
 country: Kína
 date: 2016-03-07
-cover: sh-mindennapok.jpg
 icon: shanghai
 ---
 

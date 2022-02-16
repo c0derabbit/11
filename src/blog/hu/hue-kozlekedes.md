@@ -3,7 +3,7 @@ title: Közlekedés Vietnámban
 location: Hue
 country: Vietnám
 date: 2016-03-24
-cover: hue-kozl.jpg
+cover: /img/000005.jpg
 icon: scooter
 ---
 

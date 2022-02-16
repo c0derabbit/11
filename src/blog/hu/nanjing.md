@@ -3,7 +3,7 @@ location: Nanjing
 country: Kína
 title: Nanjing
 date: 2016-02-26
-cover: nanjing.jpg
+cover: /img/000034.jpg
 icon: rice
 ---
 

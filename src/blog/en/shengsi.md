@@ -3,7 +3,7 @@ title: Shengsi, an island off the coast of Shanghai
 location: Shengsi
 country: China
 date: 2016-03-16
-cover: shengsi.jpg
+cover: /img/000049.jpg
 icon: passport
 ---
 
