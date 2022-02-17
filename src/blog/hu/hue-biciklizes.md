@@ -3,7 +3,7 @@ title: Tu Duc sírja, biciklivel
 location: Hue
 country: Vietnám
 date: 2016-03-27
-cover: hue-tu-duc.jpg
+cover: /img/tuduc.png
 icon: bicycle
 ---
 

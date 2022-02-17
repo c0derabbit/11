@@ -3,7 +3,6 @@ location: London
 country: Anglia
 title: Harapni valamit
 date: 2018-01-14
-cover: harapni.jpg
 icon: burger
 ---
 

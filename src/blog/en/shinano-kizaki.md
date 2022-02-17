@@ -3,7 +3,7 @@ title: Enjoying an onsen in Shinano-Kizaki
 location: Shinano-Kizaki
 country: Japan
 date: 2016-04-23
-cover: kizaki.jpg
+cover: /img/0423-2.jpg
 icon: onsen
 ---
 

@@ -3,7 +3,6 @@ title: Akita, and Japan’s deepest lake
 location: Kakunodate
 country: Japan
 date: 2016-04-24
-cover: akita.jpg
 icon: landscape
 ---
 

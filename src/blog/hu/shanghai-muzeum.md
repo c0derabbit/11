@@ -3,7 +3,6 @@ location: Shanghai
 country: Kína
 title: Shanghai Museum of Science and Technology
 date: 2016-02-23
-cover: sh-museum.jpg
 icon: science
 ---
 Tegnap randizni voltunk a Starbucksban (ahol Samut Sir-nek szólították, és kivételesen tudtak angolul), így nem írtunk blogot, de ma sokkal inkább. Annyi maradt ki, hogy tegnap sajnos láttunk angolnát a piacon. Ma szürreális múzeumról és nagy terekről lesz szó.

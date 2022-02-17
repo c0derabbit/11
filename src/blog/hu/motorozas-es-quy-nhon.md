@@ -3,7 +3,6 @@ title: Motorozás és Quy Nhon
 location: Quy Nhon
 country: Vietnám
 date: 2016-03-30
-cover: quy-nhon.jpg
 icon: palm
 ---
 

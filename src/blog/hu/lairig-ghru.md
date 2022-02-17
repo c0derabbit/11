@@ -3,8 +3,9 @@ location: Aviemore
 country: Skócia
 title: Lairig Ghru
 date: 2020-10-17T23:00:00Z
-description: ''
+description: '“Ismét úton, gyönyörű nap” – írta Maurice Wilson a naplójába 1934-ben, mielőtt elhagyta sátrát a Mount Everest közelében.'
 icon: boot
+cover: /img/lg10.jpg
 ---
 
 _“Ismét úton, gyönyörű nap”_ – írta [Maurice Wilson](https://en.wikipedia.org/wiki/Maurice_Wilson) a naplójába 1934-ben, mielőtt elhagyta sátrát a Mount Everest közelében, kb. 7000 méteren. Ez volt az utolsó naplóbejegyzése, a testét a következő évben a sátorban találta meg egy expedíció.

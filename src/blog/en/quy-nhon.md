@@ -3,7 +3,7 @@ title: Quy Nhon
 location: Quy Nhon
 country: Vietnam
 date: 2016-04-03
-cover: quy-nhon-2.jpg
+cover: /img/000041.jpg
 icon: beach
 ---
 

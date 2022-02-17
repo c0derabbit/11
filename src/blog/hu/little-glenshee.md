@@ -3,7 +3,7 @@ title: Little Glenshee két keréken
 location: Little Glenshee
 country: Skócia
 date: 2020-03-25
-cover: little_glenshee.jpg
+cover: /img/little_glenshee_5.jpg
 description: "<p>Vadonathasznált<br />Bicaj szelíd vadonban,<br />Boldog bringázás.</p>"
 icon: mtb
 ---

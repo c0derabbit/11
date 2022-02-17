@@ -3,7 +3,8 @@ title: Ko Tan, egy majdnem lakatlan sziget
 location: Ko Tan
 country: Thaiföld
 date: 2016-05-15
-cover: ko-tan.jpg
+description: A hétvégét egy majdnem lakatlan szigeten töltöttük. A Wikipédia szerint 20-30 ember él Ko Tan-on.
+cover: /img/0515-4.jpg
 icon: rabbit
 ---
 

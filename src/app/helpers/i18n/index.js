@@ -3,6 +3,8 @@ const dict = {
     back: 'Vissza',
     next: 'Következő',
     previous: 'Előző',
+    aboutLink: 'rolunk',
+    aboutText: 'Rólunk',
     responsibilitySlug: 'felelosseg',
     supportedOrg: 'Támogatott szervezet',
     donation: 'Összeg',
@@ -18,6 +20,8 @@ const dict = {
     donation: 'Donation',
     whatsThis: 'Whatʼs this?',
     dateFormat: 'MMMM D, YYYY',
+    aboutLink: 'about',
+    aboutText: 'About us',
   }
 }
 

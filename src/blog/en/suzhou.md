@@ -3,7 +3,6 @@ title: Suzhou with a random Chinese family
 location: Suzhou
 country: China
 date: 2016-03-12
-cover: suzhou.jpg
 icon: seafood
 ---
 

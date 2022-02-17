@@ -6,7 +6,7 @@ country: Scotland
 location: Aviemore
 description: Clear skies ahead as we head out of Aviemore. The forecast had been
   downpour, but not a single drop so far.
-cover: loch_m.jpg
+cover: /img/DSCF1719.JPG
 icon: tent
 ---
 <video src="/video/loch_morlich.mp4" poster="/video/loch_morlich.png" autoplay loop>

@@ -3,7 +3,7 @@ title: Shengsi, senki szigete
 location: Shengsi
 country: Kína
 date: 2016-03-16
-cover: shengsi.jpg
+cover: /img/000049.jpg
 icon: passport
 ---
 

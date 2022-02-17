@@ -3,7 +3,6 @@ location: London
 country: Anglia
 title: A metrózásról
 date: 2018-01-21
-cover: tube_tottenham.jpg
 icon: tube
 ---
 

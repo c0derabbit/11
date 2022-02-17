@@ -2,7 +2,7 @@
 location: London
 country: Anglia
 title: London, első hét
-cover: soho.jpg
+cover: /img/soho.jpg
 date: 2018-01-06
 icon: uk
 ---

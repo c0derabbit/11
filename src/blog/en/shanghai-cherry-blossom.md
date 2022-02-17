@@ -3,7 +3,7 @@ location: Shanghai
 country: China
 title: Cherry blossom in China
 date: 2016-02-21
-cover: sh-cseresznye.jpg
+cover: /img/cherryblossom2.jpg
 icon: flower
 ---
 Japan is not the only place to see cherry blossoms. However, Chinese parks have far more concrete than we would expect from a park. Shanghai’s Century Park is its biggest (6 km to run around), and it’s 10 minutes walk from our place.

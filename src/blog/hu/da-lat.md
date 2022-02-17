@@ -3,7 +3,7 @@ title: Négy nap motorral Vietnámban
 location: Da Lat
 country: Vietnám
 date: 2016-04-07
-cover: da-lat.jpg
+cover: /img/motor.png
 icon: map
 ---
 

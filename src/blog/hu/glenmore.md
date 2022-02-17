@@ -3,7 +3,7 @@ location: Aviemore
 country: Skócia
 title: Glenmore Forest és Meall a’ Bhuachaille
 date: 2019-11-11
-cover: loch_m.jpg
+cover: /img/DSCF1719.JPG
 icon: tent
 ---
 

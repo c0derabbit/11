@@ -3,7 +3,7 @@ title: Shinano-Kizaki, japán fürdő
 location: Shinano-Kizaki
 country: Japán
 date: 2016-04-23
-cover: kizaki.jpg
+cover: /img/0423-2.jpg
 icon: onsen
 ---
 

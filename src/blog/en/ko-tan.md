@@ -3,7 +3,8 @@ title: Ko Tan, an almost desert island
 location: Ko Tan
 country: Thailand
 date: 2016-05-15
-cover: ko-tan.jpg
+description: We spent the weekend on an almost desert island. According to Wikipedia, Ko Tan has about 20-30 permanent residents.
+cover: /img/0515-4.jpg
 icon: rabbit
 ---
 

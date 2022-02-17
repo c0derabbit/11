@@ -2,9 +2,8 @@
 title: Shanghai, hangulatjelentés
 location: Shanghai
 date: 2016-02-19
-cover: sh-hangulat.jpg
+cover: /img/sh.png
 country: Kína
-description: ''
 icon: shanghai
 ---
 Kialudtuk magunkat, hangulatjelentés! Ma hajnali és délután 3-kor is felkeltünk (utóbbi végülis otthoni reggel 8), bejelentkeztünk a rendőrségen, hogy itt tartózkodunk, aztán ettünk nyársra tűzött kandírozott epret.

@@ -3,7 +3,7 @@ location: Cairngorms
 country: Skócia
 title: Túra a Cairngorms nemzeti parkban
 date: 2019-04-28
-cover: cairngorms.jpg
+cover: /img/cairngorms.jpg
 icon: lamb
 ---
 

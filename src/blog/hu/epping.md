@@ -3,7 +3,6 @@ location: London
 country: Anglia
 title: Kirándulás Eppingben
 date: 2018-01-28
-cover: the_bull_theydon_bois.jpg
 icon: tree
 ---
 

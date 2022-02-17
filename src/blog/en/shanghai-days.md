@@ -3,7 +3,6 @@ title: Our daily life in Shanghai
 location: Shanghai
 country: China
 date: 2016-03-07
-cover: sh-mindennapok.jpg
 icon: shanghai
 ---
 

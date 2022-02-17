@@ -5,7 +5,7 @@ country: Skócia
 location: Blair Atholl
 description: Ropog a hó a talpunk alatt. Álomszerű, tejfehér ködbe veszik a táj. Végre
   egy bakancs, ami vízálló.
-cover: "/img/beinn_dearg.jpg"
+cover: "/img/beinn_d_10.jpg"
 icon: snow
 ---
 Ropog a hó a talpunk alatt.  

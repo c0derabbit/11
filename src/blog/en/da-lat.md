@@ -4,7 +4,7 @@ shortTitle: Motorbiking in Vietnam
 location: Da Lat
 country: Vietnam
 date: 2016-04-07
-cover: da-lat.jpg
+cover: /img/motor.png
 icon: map
 ---
 
