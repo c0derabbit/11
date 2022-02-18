@@ -16,8 +16,6 @@ module.exports = function({
   const categories = require('../helpers/categories')
   const slugify = require('slugify')
 
-  console.log('FOO', t('back'), t('aboutLink'))
-
   function getColour(category) {
     const country = category.split(', ')[0]
     const colour = (() => {
@@ -128,10 +126,11 @@ module.exports = function({
                         ${post.data.shortTitle || post.data.location || post.data.title},
                         <span class="text-xs">
                           ${new Date(post.data.date)
-                            .toLocaleDateString(lang === 'en' ? 'en-GB' : lang)
+                            .toLocaleDateString(lang === 'hu' ? 'hu' : 'en-GB')
                               .replace(/ /g, '')
                               .substr(0, lang === 'hu' ? 10 : undefined)
                           }
+                        </span>
                       </a>
                     </li>
                   `).join('') || '<br />'}
