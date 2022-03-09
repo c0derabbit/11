@@ -1,5 +1,5 @@
 ---
-title: Repülés
+title: Flying
 location: Perth
 country: Scotland
 date: 2021-06-13
