@@ -5,7 +5,7 @@ country: Skócia
 date: 2021-06-13
 icon: pilot
 cover: ''
-description: Van menőbb egy kisrepülőt vezető nőnél? Szerintem sem! Mindig a pilótanők voltak a hőseim, Amelia Earhart, Maggie a Northern Exposure-ből, Babits Elza pilótája… és én! ✈️
+description: 'Van menőbb egy kisrepülőt vezető nőnél? Szerintem sem! Mindig a pilótanők voltak a hőseim, Amelia Earhart, Maggie a Northern Exposure-ből, Babits Elza pilótája… és én! ✈️'
 ---
 
 Van menőbb egy kisrepülőt vezető nőnél? Szerintem sem! Mindig a pilótanők voltak a hőseim, Amelia Earhart, Maggie a Northern Exposure-ből, Babits Elza pilótája… és én!

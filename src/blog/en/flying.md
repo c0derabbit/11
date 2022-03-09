@@ -5,7 +5,7 @@ country: Scotland
 date: 2021-06-13
 icon: pilot
 cover: ''
-description: Can you think of anything cooler than a woman flying a small plane? Me neither! Female pilots have always been my heroes, be it the obvious Amelia Earhart, Maggie from Northern Exposure… and now: me! ✈️
+description: 'Can you think of anything cooler than a woman flying a small plane? Me neither! Female pilots have always been my heroes, be it the obvious Amelia Earhart, Maggie from Northern Exposure… and now: me! ✈️'
 ---
 
 Can you think of anything cooler than a woman flying a small plane? Me neither! Female pilots have always been my heroes, be it the obvious Amelia Earhart, Maggie from Northern Exposure… and now: me!
