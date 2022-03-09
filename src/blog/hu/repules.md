@@ -17,7 +17,7 @@ Perthtől alig fél órára biciklivel van egy kis reptér, így beiratkoztam az
 Az oktatás 45+ (realisztikusan inkább 55) óra, ebből legalább 10 solo, azaz teljesen egyedül a gépen. Az egyik legnagyobb kihívás a _Qualifying Cross Country_, egy 150 tengeri mérföld (277 km) távú, két idegen repteret érintő út.
 
 Ezen kívül van 9 elméleti vizsga (emberi test, légiközlekedési jog – olyasmi, mint a KRESZ —, meteorológia, műszaki ismeretek stb.), egy
-gyakorlati rádiós vizsga, és maga a vizsgarepülés, ami kb. két és fél óra, navigációval, szimulált vészhelyzetekkel (pl. [átesés](https://hu.wikipedia.org/wiki/%C3%81tes%C3%A9s), kényszerleszállás).
+gyakorlati rádiós vizsga, és maga a vizsgarepülés, ami kb. két és fél óra, navigációval, szimulált vészhelyzetekkel (pl. motor leáll felszállás közben, [átesés](https://hu.wikipedia.org/wiki/%C3%81tes%C3%A9s), kényszerleszállás).
 
 ![](/img/fly7.jpeg)
 ![](/img/fly6.jpeg)
