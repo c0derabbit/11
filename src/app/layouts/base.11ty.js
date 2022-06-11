@@ -191,6 +191,7 @@ module.exports = function({
             }
           }
         </script>
+        <script src="https://cdn.usefathom.com/script.js" data-site="IAMPHIOR" defer></script>
       </body>
     </html>
   `
